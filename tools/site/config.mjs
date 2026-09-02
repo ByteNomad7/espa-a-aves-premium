@@ -2,7 +2,7 @@
  * Configuración central del sitio.
  * Cambiar SITE_URL aquí actualiza canonicals, Open Graph y sitemap.xml.
  */
-export const SITE_URL = "https://example.com"; // TODO(negocio): dominio de producción
+export const SITE_URL = ""; // Relativo: sin dominio público aún. Poner el dominio real cuando exista.
 
 export const BRAND = {
   name: "Aves del Sur", // TODO(negocio): nombre comercial real
