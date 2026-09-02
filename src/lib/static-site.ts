@@ -36,3 +36,10 @@ export function htmlResponse(pathname: string) {
 }
 
 export const allRoutes = () => Array.from(pages.keys());
+
+/** Rutas canónicas indexables (excluye páginas con robots noindex, p. ej. /404/). */
+export const indexableRoutes = () =>
+  Array.from(pages.entries())
+    .filter(([, html]) => !/name="robots"[^>]*noindex/i.test(html))
+    .map(([route]) => route)
+    .sort();
