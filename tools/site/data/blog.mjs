@@ -37,7 +37,7 @@ export const POSTS = [
 <p>Además del ave, calcula jaula, transportín, juguetes de reposición constante, alimentación fresca, revisiones veterinarias y un fondo para urgencias. La veterinaria de exóticos es especializada y su coste debe estar previsto desde el principio.</p>
 
 <h2>Siguiente paso</h2>
-<p>Cuando tengas claro el perfil, revisa el <a href="/aves/">catálogo de especies</a> y contrasta tu situación con las fichas. Si tienes dudas, escríbenos: preferimos ayudarte a descartar una especie que acompañar una decisión equivocada.</p>
+<p>Cuando tengas claro el perfil, revisa el <a href="/aves/">catálogo de especies</a> y contrasta tu situación con las fichas. Conviene además familiarizarse con la <a href="/documentacion-cites/">documentación CITES</a> que acompaña a muchas especies antes de reservar. Si tienes dudas, escríbenos: preferimos ayudarte a descartar una especie que acompañar una decisión equivocada.</p>
 `,
     related: ["que-preparar-antes-de-recibir-un-loro", "errores-comunes-al-comprar-un-loro", "cuanto-vive-un-loro"],
     species: ["ninfa", "loro-senegal", "yaco-cola-roja"],
@@ -78,7 +78,7 @@ export const POSTS = [
 <li>Carpeta para guardar la documentación entregada.</li>
 </ul>
 
-<p>Puedes ampliar información en nuestra guía de <a href="/tenencia-responsable/">tenencia responsable</a> y revisar el <a href="/como-comprar/">proceso completo de consulta y entrega</a>.</p>
+<p>Puedes ampliar información en nuestra guía de <a href="/tenencia-responsable/">tenencia responsable</a>, revisar el <a href="/como-comprar/">proceso completo de consulta y entrega</a> y comprobar qué <a href="/documentacion-cites/">documentación CITES</a> debe llegar con el ave.</p>
 `,
     related: ["como-elegir-un-loro-adecuado", "alimentacion-equilibrada-para-loros", "transportar-un-loro-de-forma-segura"],
     species: ["ninfa", "yaco-cola-roja"],
@@ -253,7 +253,7 @@ export const POSTS = [
 <p>Ubica el transportín junto a la jaula, deja que el ave salga por sí misma y reduce estímulos durante las primeras horas. Observa que come, bebe y descansa.</p>
 
 <h2>Traslados largos</h2>
-<p>Para distancias grandes conviene valorar transporte especializado en animales vivos. Consulta nuestra página de <a href="/transporte-de-aves/">transporte de aves</a> para conocer el procedimiento y las condiciones que se valoran en cada caso.</p>
+<p>Para distancias grandes conviene valorar transporte especializado en animales vivos. Consulta nuestra página de <a href="/transporte-de-aves/">transporte de aves</a> para conocer el procedimiento, y lleva contigo la <a href="/documentacion-cites/">documentación CITES</a> del ejemplar durante todo el traslado.</p>
 `,
     related: ["que-es-cites-y-como-afecta-a-los-propietarios", "que-preparar-antes-de-recibir-un-loro", "senales-de-estres-en-un-loro"],
     species: ["guacamayo-azul-amarillo", "loro-senegal"],
