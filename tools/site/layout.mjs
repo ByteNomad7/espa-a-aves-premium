@@ -44,7 +44,7 @@ function header(active) {
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="logo" href="/" aria-label="${esc(BRAND.name)} — inicio">
-      <span class="logo__mark" aria-hidden="true"></span>
+      <img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true">
       <span class="logo__text">${esc(BRAND.name)}</span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">
@@ -135,7 +135,7 @@ ${verify}
 <meta name="twitter:title" content="${esc(o.ogTitle || o.title)}">
 <meta name="twitter:description" content="${esc(o.description)}">
 <meta name="twitter:image" content="${ogImage}">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="/assets/css/site.css">

@@ -240,7 +240,7 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 }
 .site-header__inner { display: flex; align-items: center; gap: var(--s-4); min-height: 68px; }
 .logo { display: inline-flex; align-items: center; gap: var(--s-3); text-decoration: none; color: var(--c-brand); font-family: var(--f-display); font-weight: 700; font-size: 1.15rem; }
-.logo__mark { width: 26px; height: 26px; border-radius: 50% 50% 50% 4px; background: linear-gradient(140deg, var(--c-brand), var(--c-accent)); flex: none; }
+.logo__mark { width: 42px; height: 42px; object-fit: contain; flex: none; }
 .nav-toggle {
   margin-left: auto;
   display: inline-flex;
