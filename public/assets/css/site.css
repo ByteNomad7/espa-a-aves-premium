@@ -192,6 +192,7 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 .badge--tag { background: var(--c-brand-soft); color: var(--c-brand); }
 
 /* ---------- Cards ---------- */
+[hidden] { display: none !important; }
 .card {
   background: var(--c-surface);
   border: 1px solid var(--c-line);
