@@ -5,6 +5,15 @@
 (function () {
   "use strict";
 
+  /* ---------- Desactivar menú contextual y arrastre en galerías ---------- */
+  document.querySelectorAll("[data-protected-gallery]").forEach(function (gallery) {
+    ["contextmenu", "dragstart"].forEach(function (eventName) {
+      gallery.addEventListener(eventName, function (event) {
+        if (event.target.closest("img")) event.preventDefault();
+      });
+    });
+  });
+
   /* ---------- Año dinámico en el pie ---------- */
   document.querySelectorAll("[data-year]").forEach(function (el) {
     el.textContent = String(new Date().getFullYear());

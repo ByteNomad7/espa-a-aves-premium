@@ -141,11 +141,11 @@ function speciesPage(s) {
       </div>
     </div>
 
-    <div class="gallery" style="margin-top:var(--s-6)" aria-label="Galería de ${esc(s.name)}">
+    <div class="gallery" style="margin-top:var(--s-6)" aria-label="Galería de ${esc(s.name)}" data-protected-gallery>
       ${photos
         .map(
           (photo, index) =>
-            `<img src="${photo}" alt="${esc(s.name)} (${esc(s.sci)}), imagen ${index + 1}" width="600" height="450" loading="lazy" decoding="async">`,
+            `<img src="${photo}" alt="${esc(s.name)} (${esc(s.sci)}), imagen ${index + 1}" width="600" height="450" loading="lazy" decoding="async" draggable="false">`,
         )
         .join("")}
     </div>

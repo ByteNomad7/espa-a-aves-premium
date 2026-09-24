@@ -602,10 +602,9 @@ function homeGalleryItems(photos) {
     .map((photo) => {
       const src = `/assets/images/home-gallery/${photo.file}`;
       const portrait = photo.height > photo.width ? " home-gallery__item--portrait" : "";
-      return `<a class="home-gallery__item${portrait}" href="${src}" target="_blank" rel="noopener noreferrer"
-        aria-label="${esc(`Abrir ${photo.alt.toLowerCase()} en una pestaña nueva`)}">
-        <img src="${src}" alt="${esc(photo.alt)}" width="${photo.width}" height="${photo.height}" loading="lazy" decoding="async">
-      </a>`;
+      return `<div class="home-gallery__item${portrait}">
+        <img src="${src}" alt="${esc(photo.alt)}" width="${photo.width}" height="${photo.height}" loading="lazy" decoding="async" draggable="false">
+      </div>`;
     })
     .join("\n");
 }
@@ -669,7 +668,7 @@ export function home() {
   </div>
 </section>
 
-<section class="section home-gallery-section" aria-labelledby="home-gallery-title">
+<section class="section home-gallery-section" aria-labelledby="home-gallery-title" data-protected-gallery>
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Galería</p>
