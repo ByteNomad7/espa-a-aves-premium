@@ -227,7 +227,13 @@ export function orgSchema(siteUrl) {
         name: BRAND.name,
         url: siteUrl,
         email: BRAND.email,
-        areaServed: "ES",
+        areaServed: ["ES", "Europe"],
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Granadilla de Abona",
+          addressRegion: "Tenerife",
+          addressCountry: "ES",
+        },
         knowsLanguage: "es-ES",
       },
       {

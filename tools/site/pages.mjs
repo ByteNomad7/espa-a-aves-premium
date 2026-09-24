@@ -127,9 +127,9 @@ export const comoComprar = () => ({
 /* ------------------------------------------------------------------ */
 export const transporte = () => ({
   path: "/transporte-de-aves/",
-  title: "Transporte de aves en España: cómo se organiza",
+  title: "Transporte de aves en España y Europa: cómo se organiza",
   description:
-    "Cómo planificamos la recogida o la entrega de aves en España: transportín, clima, ruta, documentación y confirmación de entrega.",
+    "Cómo planificamos la recogida o la entrega de aves en España y Europa: transportín, clima, ruta, documentación y confirmación de entrega.",
   breadcrumbs: [crumbHome, { href: "/transporte-de-aves/", label: "Transporte" }],
   body: `${pageHero(
     "Transporte de aves",
@@ -171,7 +171,7 @@ export const transporte = () => ({
     <p>Antes del traslado se acuerda punto, hora y persona de contacto. Durante el trayecto se informa de cualquier incidencia y, a la llegada, se confirma la entrega y se repasan las pautas de las primeras horas.</p>
 
     <h2>Cobertura</h2>
-    <p>Trabajamos principalmente en ${esc(BRAND.coverage)}. Los destinos insulares y los traslados internacionales requieren una valoración específica y trámites adicionales.</p>
+    <p>${esc(BRAND.coverage)}, incluidas las islas. Cada traslado se valora según el destino, el bienestar del ave, el transporte disponible y la documentación o los trámites aplicables.</p>
 
     <h2>Preguntas frecuentes sobre el transporte</h2>
     ${faqList(
@@ -386,7 +386,7 @@ export const contacto = () => ({
           <li><strong>Email:</strong> <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
           <li><strong>Teléfono / WhatsApp:</strong> ${esc(BRAND.phone)}</li>
           <li><strong>Horario:</strong> ${esc(BRAND.hours)}</li>
-          <li><strong>Zona de recogida:</strong> ${esc(BRAND.address)}</li>
+          <li><strong>Ubicación:</strong> ${esc(BRAND.address)}</li>
           <li><strong>Cobertura:</strong> ${esc(BRAND.coverage)}</li>
         </ul>
         <p class="muted" style="font-size:var(--fs-xs)">Los datos marcados como pendientes se completarán con información real antes de la publicación.</p>
@@ -438,7 +438,7 @@ const FAQ_GROUPS = [
   [
     "Transporte y entrega",
     [
-      ["¿Realizáis entregas en toda España?", "Valoramos cada caso según destino, especie, clima, documentación y disponibilidad de transporte adecuado. No prometemos cobertura universal automática."],
+      ["¿Realizáis entregas en toda España y Europa?", "Sí, realizamos envíos a toda España, incluidas las islas, y a Europa. Cada traslado se planifica según el destino, la especie, el clima, la documentación y el transporte adecuado."],
       ["¿Cómo se transporta un ave?", "Mediante recogida presencial, entrega acordada o servicios especializados en animales vivos, siempre con transportín adecuado y planificación de ruta y temperatura. Ver <a href=\"/transporte-de-aves/\">transporte de aves</a>."],
       ["¿Se puede enviar por mensajería?", "No. La paquetería convencional no es un medio adecuado para el traslado de aves vivas."],
       ["¿Qué pasa si el tiempo es adverso?", "El traslado se pospone. Ninguna fecha justifica exponer al animal a riesgo térmico."],
@@ -526,7 +526,8 @@ ${legalNotice}
 <ul>
   <li>Denominación: ${esc(BRAND.legalName)}</li>
   <li>NIF/CIF: ${esc(BRAND.nif)}</li>
-  <li>Domicilio: ${esc(BRAND.address)}</li>
+  <li>Ubicación: ${esc(BRAND.address)}</li>
+  <li>Domicilio legal completo: [PENDIENTE: dirección completa del titular]</li>
   <li>Email: <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
   <li>Teléfono: ${esc(BRAND.phone)}</li>
   <li>Datos registrales: [PENDIENTE: registro mercantil u otros, si procede]</li>
@@ -764,10 +765,10 @@ export function home() {
 <section class="section">
   <div class="container split">
     <div>
-      <p class="eyebrow">España</p>
-      <h2>Entregas y recogidas en España</h2>
+      <p class="eyebrow">España y Europa</p>
+      <h2>Entregas y recogidas en España y Europa</h2>
       <p>Valoramos cada traslado de forma individual. El destino, la especie, la documentación, la previsión meteorológica y la disponibilidad de un transporte adecuado determinan si la entrega puede realizarse y en qué condiciones.</p>
-      <p>Cuando el trayecto no puede hacerse con garantías, lo posponemos o proponemos la recogida. No prometemos cobertura automática a cualquier punto del país.</p>
+      <p>Realizamos envíos a toda España, incluidas las islas, y a Europa. Cuando un trayecto no puede hacerse con garantías, lo posponemos o proponemos la recogida.</p>
       <div class="btn-row">
         <a class="btn btn--ghost" href="/transporte-de-aves/">Cómo organizamos el transporte</a>
       </div>
@@ -826,7 +827,7 @@ export function home() {
       [
         ["¿Cómo puedo saber qué aves están disponibles?", "La situación general por especie se publica en la página de <a href=\"/disponibilidad/\">disponibilidad</a>, y se confirma de forma individual al responder a tu consulta."],
         ["¿Qué documentación recibe el comprador?", "La que corresponda al ejemplar y a la especie según la normativa aplicable. Puedes ampliar en <a href=\"/documentacion-cites/\">CITES y documentación</a>."],
-        ["¿Realizáis entregas en toda España?", "Valoramos cada caso según destino, especie, clima, documentación y transporte disponible. No prometemos cobertura universal automática."],
+        ["¿Realizáis entregas en toda España y Europa?", "Sí, realizamos envíos a toda España, incluidas las islas, y a Europa. Cada traslado se planifica según el destino, la especie, el clima, la documentación y el transporte adecuado."],
         ["¿Cómo se transporta un ave?", "Con transportín adecuado, ruta planificada y control de temperatura, mediante recogida, entrega acordada o transporte especializado."],
         ["¿Puedo reservar un ave?", "Puede acordarse una reserva cuando existe un ejemplar concreto, siempre con condiciones explicadas por escrito antes de cualquier pago."],
         ["¿Qué debo preparar antes de recibirla?", "Jaula montada, el mismo alimento que consume, transportín, veterinario localizado y una casa revisada."],

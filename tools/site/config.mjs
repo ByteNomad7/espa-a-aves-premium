@@ -11,8 +11,8 @@ export const BRAND = {
   email: "info@avesdelsur.com",
   phone: "[PENDIENTE: teléfono / WhatsApp]",
   hours: "[PENDIENTE: horario de atención]",
-  coverage: "España peninsular (consultar islas y otros destinos)",
-  address: "[PENDIENTE: dirección o zona de recogida]",
+  coverage: "Envíos a toda España y Europa",
+  address: "Granadilla de Abona, Tenerife",
   social: {
     instagram: "", // vacío = no se muestra
     facebook: "",
