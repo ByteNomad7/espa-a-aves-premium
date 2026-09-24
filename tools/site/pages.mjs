@@ -1,4 +1,5 @@
 import { SPECIES } from "./data/species.mjs";
+import { HOME_GALLERY } from "./data/gallery.mjs";
 import { enquiryForm, faqList, statusLegend, ctaBand, speciesCard } from "./components.mjs";
 import { BRAND } from "./config.mjs";
 import { esc } from "./layout.mjs";
@@ -644,6 +645,19 @@ export const notFound = () => ({
 /* ------------------------------------------------------------------ */
 /* Home                                                                */
 /* ------------------------------------------------------------------ */
+function homeGalleryItems(photos) {
+  return photos
+    .map((photo) => {
+      const src = `/assets/images/home-gallery/${photo.file}`;
+      const portrait = photo.height > photo.width ? " home-gallery__item--portrait" : "";
+      return `<a class="home-gallery__item${portrait}" href="${src}" target="_blank" rel="noopener noreferrer"
+        aria-label="${esc(`Abrir ${photo.alt.toLowerCase()} en una pestaña nueva`)}">
+        <img src="${src}" alt="${esc(photo.alt)}" width="${photo.width}" height="${photo.height}" loading="lazy" decoding="async">
+      </a>`;
+    })
+    .join("\n");
+}
+
 export function home() {
   const featured = ["yaco-cola-roja", "guacamayo-azul-amarillo", "cacatua-galah", "eclectus", "conuro-del-sol", "loro-senegal"]
     .map((slug) => SPECIES.find((s) => s.slug === slug))
@@ -700,6 +714,25 @@ export function home() {
       <a class="btn btn--ghost" href="/aves/">Ver todas las especies</a>
       <a class="btn btn--ghost" href="/disponibilidad/">Consultar disponibilidad</a>
     </div>
+  </div>
+</section>
+
+<section class="section home-gallery-section" aria-labelledby="home-gallery-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Galería</p>
+      <h2 id="home-gallery-title">Aves en imágenes</h2>
+      <p class="lead">Explora una selección de ${HOME_GALLERY.length} fotografías de aves.</p>
+    </div>
+    <div class="home-gallery__grid">
+      ${homeGalleryItems(HOME_GALLERY.slice(0, 8))}
+    </div>
+    <details class="home-gallery__details">
+      <summary>Explorar la galería completa <span aria-hidden="true">↓</span></summary>
+      <div class="home-gallery__grid">
+        ${homeGalleryItems(HOME_GALLERY.slice(8))}
+      </div>
+    </details>
   </div>
 </section>
 

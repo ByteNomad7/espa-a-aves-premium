@@ -1,0 +1,20 @@
+/** Fotografías aportadas para la galería de inicio. No se atribuyen a ejemplares disponibles. */
+export const HOME_GALLERY = [
+  { file: "ave-15.webp", alt: "Dos guacamayos de colores posados juntos", width: 800, height: 600 },
+  { file: "ave-13.webp", alt: "Primer plano de un guacamayo verde y azul", width: 800, height: 600 },
+  { file: "ave-16.webp", alt: "Tucán posado entre los árboles", width: 800, height: 532 },
+  { file: "ave-01.webp", alt: "Loro verde comiendo brócoli", width: 600, height: 400 },
+  { file: "ave-17.webp", alt: "Cacatúa rosada con la cresta levantada al aire libre", width: 600, height: 449 },
+  { file: "ave-04.webp", alt: "Tucán de pico amarillo sobre una percha", width: 800, height: 600 },
+  { file: "ave-10.webp", alt: "Guacamayo verde posado sobre una mano", width: 800, height: 600 },
+  { file: "ave-03.webp", alt: "Cría de ave de plumaje claro sobre un fondo oscuro", width: 500, height: 375 },
+  { file: "ave-02.webp", alt: "Loro verde junto a un recipiente", width: 600, height: 400 },
+  { file: "ave-05.webp", alt: "Cacatúa rosada acicalándose", width: 800, height: 600 },
+  { file: "ave-06.webp", alt: "Cacatúa rosada con las plumas de la cresta erizadas", width: 800, height: 600 },
+  { file: "ave-07.webp", alt: "Cacatúa rosada alimentándose junto a una mano", width: 800, height: 532 },
+  { file: "ave-08.webp", alt: "Cacatúa rosada posada mientras come", width: 332, height: 499 },
+  { file: "ave-09.webp", alt: "Cacatúa rosada abriendo las alas", width: 375, height: 500 },
+  { file: "ave-11.webp", alt: "Cría de ave de plumaje claro", width: 800, height: 600 },
+  { file: "ave-12.webp", alt: "Cacatúa rosada sostenida con cuidado por una persona", width: 333, height: 499 },
+  { file: "ave-14.webp", alt: "Guacamayo verde y azul posado junto a juguetes", width: 800, height: 600 },
+];

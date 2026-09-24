@@ -1,14 +1,14 @@
 # Technical SEO audit
 
-Generated offline: 2026-09-24T16:52:46.974Z
+Generated offline: 2026-09-24T16:59:58.373Z
 
 ## Counts
 
 - Generated HTML pages: 48 (47 indexable, 1 noindex)
 - Sitemap URLs: 47; internal link edges: 972
 - Broken internal references: 0; orphan routes: 1; unreachable from home: 1; maximum linked depth: 2
-- Images: 176; missing alt attributes: 0; missing declared dimensions: 0; local file data verified: 176
-- Invalid JSON-LD blocks: 0; visible placeholder markers: 26
+- Images: 193; missing alt attributes: 0; missing declared dimensions: 0; local file data verified: 193
+- Invalid JSON-LD blocks: 0; visible placeholder markers: 25
 - Issue groups by severity: CRITICAL 0, HIGH 2, MEDIUM 1, LOW 0
 
 ## Prioritized findings

@@ -554,6 +554,40 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 .gallery { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 .gallery img, .gallery .gallery__ph { border-radius: var(--radius); aspect-ratio: 4/3; object-fit: cover; width: 100%; }
 .gallery__ph { background: var(--c-surface-2); display: grid; place-items: center; color: var(--c-ink-soft); font-size: var(--fs-xs); text-align: center; padding: var(--s-3); }
+.home-gallery-section { border-top: 1px solid var(--c-line); }
+.home-gallery__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--s-3); }
+.home-gallery__item {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius);
+  background: var(--c-surface-2);
+  box-shadow: var(--shadow-sm);
+}
+.home-gallery__item img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .2s ease; }
+.home-gallery__item--portrait img { object-fit: contain; }
+.home-gallery__item:hover img { transform: scale(1.035); }
+.home-gallery__item:focus-visible, .home-gallery__details summary:focus-visible { outline: 3px solid var(--c-accent); outline-offset: 3px; }
+.home-gallery__details { margin-top: var(--s-5); }
+.home-gallery__details summary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-3);
+  cursor: pointer;
+  list-style: none;
+  padding: .7rem 1.1rem;
+  border: 1px solid var(--c-brand);
+  border-radius: 999px;
+  color: var(--c-brand);
+  font-weight: 600;
+}
+.home-gallery__details summary::-webkit-details-marker { display: none; }
+.home-gallery__details summary:hover { background: var(--c-surface-2); }
+.home-gallery__details[open] summary span { transform: rotate(180deg); }
+.home-gallery__details[open] .home-gallery__grid { margin-top: var(--s-5); }
+@media (max-width: 900px) { .home-gallery__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .home-gallery__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-2); } }
+@media (prefers-reduced-motion: reduce) { .home-gallery__item img { transition: none; } }
 .topic-links a { display: grid; gap: var(--s-2); color: var(--c-ink); text-decoration: none; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
 .topic-links a:hover { transform: translateY(-2px); border-color: var(--c-accent); box-shadow: var(--shadow-sm); }
 .topic-links span { color: var(--c-ink-soft); font-size: var(--fs-sm); }
