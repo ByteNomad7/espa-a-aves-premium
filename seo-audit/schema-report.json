@@ -1,0 +1,3723 @@
+{
+  "pages": [
+    {
+      "route": "/404/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "Organization",
+        "WebSite"
+      ],
+      "urls": []
+    },
+    {
+      "route": "/aves/a-coruna/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/a-coruna/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/agapornis/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/agapornis/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/agapornis/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/alicante/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/alicante/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/amazona/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/amazona/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/amazona/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/barcelona/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/barcelona/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/bilbao/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/bilbao/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/cacatua-cresta-amarilla/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/cacatua-cresta-amarilla/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/cacatua-cresta-amarilla/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/cacatua-galah/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/cacatua-galah/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/cacatua-galah/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/caique/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/caique/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/caique/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/conuro-del-sol/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/conuro-del-sol/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/conuro-del-sol/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/eclectus/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/eclectus/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/eclectus/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/guacamayo-azul-amarillo/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/guacamayo-azul-amarillo/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/guacamayo-azul-amarillo/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/guacamayo-rojo/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/guacamayo-rojo/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/guacamayo-rojo/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "ItemList",
+            "ListItem"
+          ],
+          "urlCount": 12
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ItemList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/yaco-cola-roja/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/guacamayo-azul-amarillo/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/guacamayo-rojo/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/cacatua-galah/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/cacatua-cresta-amarilla/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/amazona/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/eclectus/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/caique/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/conuro-del-sol/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/loro-senegal/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/ninfa/"
+        },
+        {
+          "key": "url",
+          "value": "/aves/agapornis/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/loro-senegal/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/loro-senegal/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/loro-senegal/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/madrid/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/madrid/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/malaga/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/malaga/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/murcia/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/murcia/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/ninfa/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/ninfa/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/ninfa/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/sevilla/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/sevilla/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/valencia/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/valencia/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/yaco-cola-roja/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Taxon",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 3,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Article",
+        "Taxon",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/yaco-cola-roja/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/aves/yaco-cola-roja/"
+        }
+      ]
+    },
+    {
+      "route": "/aves/zaragoza/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/"
+        },
+        {
+          "key": "item",
+          "value": "/aves/zaragoza/"
+        }
+      ]
+    },
+    {
+      "route": "/aviso-legal/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/aviso-legal/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/alimentacion-equilibrada-para-loros/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/alimentacion-equilibrada-para-loros/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/alimentacion-equilibrada-para-loros/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/como-elegir-un-loro-adecuado/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/como-elegir-un-loro-adecuado/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/como-elegir-un-loro-adecuado/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/cuanto-vive-un-loro/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/cuanto-vive-un-loro/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/cuanto-vive-un-loro/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/diferencias-yaco-amazona-eclectus/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/diferencias-yaco-amazona-eclectus/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/diferencias-yaco-amazona-eclectus/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/errores-comunes-al-comprar-un-loro/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/errores-comunes-al-comprar-un-loro/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/errores-comunes-al-comprar-un-loro/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/importancia-del-enriquecimiento-ambiental/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/importancia-del-enriquecimiento-ambiental/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/senales-de-estres-en-un-loro/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/senales-de-estres-en-un-loro/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/senales-de-estres-en-un-loro/"
+        }
+      ]
+    },
+    {
+      "route": "/blog/transportar-un-loro-de-forma-segura/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 3
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Article",
+            "Organization"
+          ],
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "ListItem",
+        "Article",
+        "Organization",
+        "Organization",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/"
+        },
+        {
+          "key": "item",
+          "value": "/blog/transportar-un-loro-de-forma-segura/"
+        },
+        {
+          "key": "mainEntityOfPage",
+          "value": "/blog/transportar-un-loro-de-forma-segura/"
+        }
+      ]
+    },
+    {
+      "route": "/como-comprar/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/como-comprar/"
+        }
+      ]
+    },
+    {
+      "route": "/contacto/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/contacto/"
+        }
+      ]
+    },
+    {
+      "route": "/disponibilidad/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/disponibilidad/"
+        }
+      ]
+    },
+    {
+      "route": "/documentacion-cites/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/documentacion-cites/"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": []
+    },
+    {
+      "route": "/politica-de-cookies/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/politica-de-cookies/"
+        }
+      ]
+    },
+    {
+      "route": "/politica-de-privacidad/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/politica-de-privacidad/"
+        }
+      ]
+    },
+    {
+      "route": "/preguntas-frecuentes/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/preguntas-frecuentes/"
+        }
+      ]
+    },
+    {
+      "route": "/sobre-nosotros/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/sobre-nosotros/"
+        }
+      ]
+    },
+    {
+      "route": "/tenencia-responsable/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/tenencia-responsable/"
+        }
+      ]
+    },
+    {
+      "route": "/terminos-y-condiciones/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/terminos-y-condiciones/"
+        }
+      ]
+    },
+    {
+      "route": "/transporte-de-aves/",
+      "blocks": [
+        {
+          "index": 0,
+          "validJson": true,
+          "types": [
+            "BreadcrumbList",
+            "ListItem"
+          ],
+          "urlCount": 2
+        },
+        {
+          "index": 1,
+          "validJson": true,
+          "types": [
+            "FAQPage",
+            "Question",
+            "Answer"
+          ],
+          "urlCount": 0
+        },
+        {
+          "index": 2,
+          "validJson": true,
+          "types": [
+            "Organization",
+            "WebSite"
+          ],
+          "urlCount": 0
+        }
+      ],
+      "types": [
+        "BreadcrumbList",
+        "ListItem",
+        "ListItem",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer",
+        "Organization",
+        "WebSite"
+      ],
+      "urls": [
+        {
+          "key": "item",
+          "value": "/"
+        },
+        {
+          "key": "item",
+          "value": "/transporte-de-aves/"
+        }
+      ]
+    }
+  ],
+  "types": {
+    "Organization": 80,
+    "WebSite": 48,
+    "BreadcrumbList": 46,
+    "ListItem": 136,
+    "FAQPage": 15,
+    "Question": 41,
+    "Answer": 41,
+    "Article": 22,
+    "Taxon": 12,
+    "ItemList": 1
+  },
+  "invalidJson": [],
+  "relativeUrls": [
+    {
+      "route": "/aves/a-coruna/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/a-coruna/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/a-coruna/",
+      "key": "item",
+      "value": "/aves/a-coruna/"
+    },
+    {
+      "route": "/aves/agapornis/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/agapornis/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/agapornis/",
+      "key": "item",
+      "value": "/aves/agapornis/"
+    },
+    {
+      "route": "/aves/agapornis/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/agapornis/"
+    },
+    {
+      "route": "/aves/alicante/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/alicante/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/alicante/",
+      "key": "item",
+      "value": "/aves/alicante/"
+    },
+    {
+      "route": "/aves/amazona/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/amazona/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/amazona/",
+      "key": "item",
+      "value": "/aves/amazona/"
+    },
+    {
+      "route": "/aves/amazona/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/amazona/"
+    },
+    {
+      "route": "/aves/barcelona/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/barcelona/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/barcelona/",
+      "key": "item",
+      "value": "/aves/barcelona/"
+    },
+    {
+      "route": "/aves/bilbao/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/bilbao/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/bilbao/",
+      "key": "item",
+      "value": "/aves/bilbao/"
+    },
+    {
+      "route": "/aves/cacatua-cresta-amarilla/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/cacatua-cresta-amarilla/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/cacatua-cresta-amarilla/",
+      "key": "item",
+      "value": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "route": "/aves/cacatua-cresta-amarilla/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "route": "/aves/cacatua-galah/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/cacatua-galah/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/cacatua-galah/",
+      "key": "item",
+      "value": "/aves/cacatua-galah/"
+    },
+    {
+      "route": "/aves/cacatua-galah/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/cacatua-galah/"
+    },
+    {
+      "route": "/aves/caique/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/caique/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/caique/",
+      "key": "item",
+      "value": "/aves/caique/"
+    },
+    {
+      "route": "/aves/caique/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/caique/"
+    },
+    {
+      "route": "/aves/conuro-del-sol/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/conuro-del-sol/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/conuro-del-sol/",
+      "key": "item",
+      "value": "/aves/conuro-del-sol/"
+    },
+    {
+      "route": "/aves/conuro-del-sol/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/conuro-del-sol/"
+    },
+    {
+      "route": "/aves/eclectus/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/eclectus/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/eclectus/",
+      "key": "item",
+      "value": "/aves/eclectus/"
+    },
+    {
+      "route": "/aves/eclectus/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/eclectus/"
+    },
+    {
+      "route": "/aves/guacamayo-azul-amarillo/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/guacamayo-azul-amarillo/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/guacamayo-azul-amarillo/",
+      "key": "item",
+      "value": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "route": "/aves/guacamayo-azul-amarillo/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "route": "/aves/guacamayo-rojo/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/guacamayo-rojo/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/guacamayo-rojo/",
+      "key": "item",
+      "value": "/aves/guacamayo-rojo/"
+    },
+    {
+      "route": "/aves/guacamayo-rojo/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/guacamayo-rojo/"
+    },
+    {
+      "route": "/aves/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/yaco-cola-roja/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/guacamayo-rojo/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/cacatua-galah/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/amazona/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/eclectus/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/caique/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/conuro-del-sol/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/loro-senegal/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/ninfa/"
+    },
+    {
+      "route": "/aves/",
+      "key": "url",
+      "value": "/aves/agapornis/"
+    },
+    {
+      "route": "/aves/loro-senegal/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/loro-senegal/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/loro-senegal/",
+      "key": "item",
+      "value": "/aves/loro-senegal/"
+    },
+    {
+      "route": "/aves/loro-senegal/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/loro-senegal/"
+    },
+    {
+      "route": "/aves/madrid/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/madrid/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/madrid/",
+      "key": "item",
+      "value": "/aves/madrid/"
+    },
+    {
+      "route": "/aves/malaga/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/malaga/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/malaga/",
+      "key": "item",
+      "value": "/aves/malaga/"
+    },
+    {
+      "route": "/aves/murcia/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/murcia/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/murcia/",
+      "key": "item",
+      "value": "/aves/murcia/"
+    },
+    {
+      "route": "/aves/ninfa/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/ninfa/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/ninfa/",
+      "key": "item",
+      "value": "/aves/ninfa/"
+    },
+    {
+      "route": "/aves/ninfa/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/ninfa/"
+    },
+    {
+      "route": "/aves/sevilla/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/sevilla/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/sevilla/",
+      "key": "item",
+      "value": "/aves/sevilla/"
+    },
+    {
+      "route": "/aves/valencia/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/valencia/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/valencia/",
+      "key": "item",
+      "value": "/aves/valencia/"
+    },
+    {
+      "route": "/aves/yaco-cola-roja/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/yaco-cola-roja/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/yaco-cola-roja/",
+      "key": "item",
+      "value": "/aves/yaco-cola-roja/"
+    },
+    {
+      "route": "/aves/yaco-cola-roja/",
+      "key": "mainEntityOfPage",
+      "value": "/aves/yaco-cola-roja/"
+    },
+    {
+      "route": "/aves/zaragoza/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aves/zaragoza/",
+      "key": "item",
+      "value": "/aves/"
+    },
+    {
+      "route": "/aves/zaragoza/",
+      "key": "item",
+      "value": "/aves/zaragoza/"
+    },
+    {
+      "route": "/aviso-legal/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/aviso-legal/",
+      "key": "item",
+      "value": "/aviso-legal/"
+    },
+    {
+      "route": "/blog/alimentacion-equilibrada-para-loros/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/alimentacion-equilibrada-para-loros/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/alimentacion-equilibrada-para-loros/",
+      "key": "item",
+      "value": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "route": "/blog/alimentacion-equilibrada-para-loros/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "route": "/blog/como-elegir-un-loro-adecuado/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/como-elegir-un-loro-adecuado/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/como-elegir-un-loro-adecuado/",
+      "key": "item",
+      "value": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "route": "/blog/como-elegir-un-loro-adecuado/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "route": "/blog/cuanto-vive-un-loro/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/cuanto-vive-un-loro/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/cuanto-vive-un-loro/",
+      "key": "item",
+      "value": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "route": "/blog/cuanto-vive-un-loro/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "route": "/blog/diferencias-yaco-amazona-eclectus/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/diferencias-yaco-amazona-eclectus/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/diferencias-yaco-amazona-eclectus/",
+      "key": "item",
+      "value": "/blog/diferencias-yaco-amazona-eclectus/"
+    },
+    {
+      "route": "/blog/diferencias-yaco-amazona-eclectus/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/diferencias-yaco-amazona-eclectus/"
+    },
+    {
+      "route": "/blog/errores-comunes-al-comprar-un-loro/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/errores-comunes-al-comprar-un-loro/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/errores-comunes-al-comprar-un-loro/",
+      "key": "item",
+      "value": "/blog/errores-comunes-al-comprar-un-loro/"
+    },
+    {
+      "route": "/blog/errores-comunes-al-comprar-un-loro/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/errores-comunes-al-comprar-un-loro/"
+    },
+    {
+      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "key": "item",
+      "value": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "route": "/blog/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "key": "item",
+      "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+    },
+    {
+      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+    },
+    {
+      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "key": "item",
+      "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "route": "/blog/senales-de-estres-en-un-loro/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/senales-de-estres-en-un-loro/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/senales-de-estres-en-un-loro/",
+      "key": "item",
+      "value": "/blog/senales-de-estres-en-un-loro/"
+    },
+    {
+      "route": "/blog/senales-de-estres-en-un-loro/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/senales-de-estres-en-un-loro/"
+    },
+    {
+      "route": "/blog/transportar-un-loro-de-forma-segura/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/blog/transportar-un-loro-de-forma-segura/",
+      "key": "item",
+      "value": "/blog/"
+    },
+    {
+      "route": "/blog/transportar-un-loro-de-forma-segura/",
+      "key": "item",
+      "value": "/blog/transportar-un-loro-de-forma-segura/"
+    },
+    {
+      "route": "/blog/transportar-un-loro-de-forma-segura/",
+      "key": "mainEntityOfPage",
+      "value": "/blog/transportar-un-loro-de-forma-segura/"
+    },
+    {
+      "route": "/como-comprar/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/como-comprar/",
+      "key": "item",
+      "value": "/como-comprar/"
+    },
+    {
+      "route": "/contacto/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/contacto/",
+      "key": "item",
+      "value": "/contacto/"
+    },
+    {
+      "route": "/disponibilidad/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/disponibilidad/",
+      "key": "item",
+      "value": "/disponibilidad/"
+    },
+    {
+      "route": "/documentacion-cites/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/documentacion-cites/",
+      "key": "item",
+      "value": "/documentacion-cites/"
+    },
+    {
+      "route": "/politica-de-cookies/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/politica-de-cookies/",
+      "key": "item",
+      "value": "/politica-de-cookies/"
+    },
+    {
+      "route": "/politica-de-privacidad/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/politica-de-privacidad/",
+      "key": "item",
+      "value": "/politica-de-privacidad/"
+    },
+    {
+      "route": "/preguntas-frecuentes/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/preguntas-frecuentes/",
+      "key": "item",
+      "value": "/preguntas-frecuentes/"
+    },
+    {
+      "route": "/sobre-nosotros/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/sobre-nosotros/",
+      "key": "item",
+      "value": "/sobre-nosotros/"
+    },
+    {
+      "route": "/tenencia-responsable/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/tenencia-responsable/",
+      "key": "item",
+      "value": "/tenencia-responsable/"
+    },
+    {
+      "route": "/terminos-y-condiciones/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/terminos-y-condiciones/",
+      "key": "item",
+      "value": "/terminos-y-condiciones/"
+    },
+    {
+      "route": "/transporte-de-aves/",
+      "key": "item",
+      "value": "/"
+    },
+    {
+      "route": "/transporte-de-aves/",
+      "key": "item",
+      "value": "/transporte-de-aves/"
+    }
+  ],
+  "emptyOrganizationUrls": [
+    {
+      "route": "/404/",
+      "index": 0
+    },
+    {
+      "route": "/aves/a-coruna/",
+      "index": 1
+    },
+    {
+      "route": "/aves/agapornis/",
+      "index": 3
+    },
+    {
+      "route": "/aves/alicante/",
+      "index": 1
+    },
+    {
+      "route": "/aves/amazona/",
+      "index": 3
+    },
+    {
+      "route": "/aves/barcelona/",
+      "index": 1
+    },
+    {
+      "route": "/aves/bilbao/",
+      "index": 1
+    },
+    {
+      "route": "/aves/cacatua-cresta-amarilla/",
+      "index": 3
+    },
+    {
+      "route": "/aves/cacatua-galah/",
+      "index": 3
+    },
+    {
+      "route": "/aves/caique/",
+      "index": 3
+    },
+    {
+      "route": "/aves/conuro-del-sol/",
+      "index": 3
+    },
+    {
+      "route": "/aves/eclectus/",
+      "index": 3
+    },
+    {
+      "route": "/aves/guacamayo-azul-amarillo/",
+      "index": 3
+    },
+    {
+      "route": "/aves/guacamayo-rojo/",
+      "index": 3
+    },
+    {
+      "route": "/aves/",
+      "index": 2
+    },
+    {
+      "route": "/aves/loro-senegal/",
+      "index": 3
+    },
+    {
+      "route": "/aves/madrid/",
+      "index": 1
+    },
+    {
+      "route": "/aves/malaga/",
+      "index": 1
+    },
+    {
+      "route": "/aves/murcia/",
+      "index": 1
+    },
+    {
+      "route": "/aves/ninfa/",
+      "index": 3
+    },
+    {
+      "route": "/aves/sevilla/",
+      "index": 1
+    },
+    {
+      "route": "/aves/valencia/",
+      "index": 1
+    },
+    {
+      "route": "/aves/yaco-cola-roja/",
+      "index": 3
+    },
+    {
+      "route": "/aves/zaragoza/",
+      "index": 1
+    },
+    {
+      "route": "/aviso-legal/",
+      "index": 1
+    },
+    {
+      "route": "/blog/alimentacion-equilibrada-para-loros/",
+      "index": 2
+    },
+    {
+      "route": "/blog/como-elegir-un-loro-adecuado/",
+      "index": 2
+    },
+    {
+      "route": "/blog/cuanto-vive-un-loro/",
+      "index": 2
+    },
+    {
+      "route": "/blog/diferencias-yaco-amazona-eclectus/",
+      "index": 2
+    },
+    {
+      "route": "/blog/errores-comunes-al-comprar-un-loro/",
+      "index": 2
+    },
+    {
+      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "index": 2
+    },
+    {
+      "route": "/blog/",
+      "index": 1
+    },
+    {
+      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "index": 2
+    },
+    {
+      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "index": 2
+    },
+    {
+      "route": "/blog/senales-de-estres-en-un-loro/",
+      "index": 2
+    },
+    {
+      "route": "/blog/transportar-un-loro-de-forma-segura/",
+      "index": 2
+    },
+    {
+      "route": "/como-comprar/",
+      "index": 1
+    },
+    {
+      "route": "/contacto/",
+      "index": 1
+    },
+    {
+      "route": "/disponibilidad/",
+      "index": 1
+    },
+    {
+      "route": "/documentacion-cites/",
+      "index": 2
+    },
+    {
+      "route": "/",
+      "index": 1
+    },
+    {
+      "route": "/politica-de-cookies/",
+      "index": 1
+    },
+    {
+      "route": "/politica-de-privacidad/",
+      "index": 1
+    },
+    {
+      "route": "/preguntas-frecuentes/",
+      "index": 1
+    },
+    {
+      "route": "/sobre-nosotros/",
+      "index": 1
+    },
+    {
+      "route": "/tenencia-responsable/",
+      "index": 1
+    },
+    {
+      "route": "/terminos-y-condiciones/",
+      "index": 1
+    },
+    {
+      "route": "/transporte-de-aves/",
+      "index": 2
+    }
+  ],
+  "notes": "JSON-LD is parsed as static script text. Schema vocabulary/rich-result eligibility is not validated; URL absoluteness is unknown while SITE_URL is unset."
+}

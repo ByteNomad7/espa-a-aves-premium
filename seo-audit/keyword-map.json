@@ -1,0 +1,433 @@
+{
+  "disclaimer": "Mapeado heurístico desde títulos/nombres/topics del source; no incluye volúmenes de búsqueda, dificultad ni rendimiento/rankings.",
+  "speciesMatrix": [
+    {
+      "slug": "yaco-cola-roja",
+      "name": "Yaco de cola roja",
+      "scientificName": "Psittacus erithacus",
+      "family": "Loros africanos",
+      "route": "/aves/yaco-cola-roja/",
+      "targetTerms": [
+        "Yaco de cola roja",
+        "Psittacus erithacus",
+        "Yaco de cola roja cuidados",
+        "Yaco de cola roja carácter",
+        "Yaco de cola roja en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "guacamayo-azul-amarillo",
+      "name": "Guacamayo azul y amarillo",
+      "scientificName": "Ara ararauna",
+      "family": "Guacamayos",
+      "route": "/aves/guacamayo-azul-amarillo/",
+      "targetTerms": [
+        "Guacamayo azul y amarillo",
+        "Ara ararauna",
+        "Guacamayo azul y amarillo cuidados",
+        "Guacamayo azul y amarillo carácter",
+        "Guacamayo azul y amarillo en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "guacamayo-rojo",
+      "name": "Guacamayo rojo",
+      "scientificName": "Ara macao",
+      "family": "Guacamayos",
+      "route": "/aves/guacamayo-rojo/",
+      "targetTerms": [
+        "Guacamayo rojo",
+        "Ara macao",
+        "Guacamayo rojo cuidados",
+        "Guacamayo rojo carácter",
+        "Guacamayo rojo en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "cacatua-galah",
+      "name": "Cacatúa Galah",
+      "scientificName": "Eolophus roseicapilla",
+      "family": "Cacatúas",
+      "route": "/aves/cacatua-galah/",
+      "targetTerms": [
+        "Cacatúa Galah",
+        "Eolophus roseicapilla",
+        "Cacatúa Galah cuidados",
+        "Cacatúa Galah carácter",
+        "Cacatúa Galah en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "cacatua-cresta-amarilla",
+      "name": "Cacatúa de cresta amarilla",
+      "scientificName": "Cacatua galerita",
+      "family": "Cacatúas",
+      "route": "/aves/cacatua-cresta-amarilla/",
+      "targetTerms": [
+        "Cacatúa de cresta amarilla",
+        "Cacatua galerita",
+        "Cacatúa de cresta amarilla cuidados",
+        "Cacatúa de cresta amarilla carácter",
+        "Cacatúa de cresta amarilla en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "amazona",
+      "name": "Amazona",
+      "scientificName": "Amazona spp.",
+      "family": "Amazonas",
+      "route": "/aves/amazona/",
+      "targetTerms": [
+        "Amazona",
+        "Amazona spp.",
+        "Amazona cuidados",
+        "Amazona carácter",
+        "Amazona en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "eclectus",
+      "name": "Eclectus",
+      "scientificName": "Eclectus roratus",
+      "family": "Eclectus",
+      "route": "/aves/eclectus/",
+      "targetTerms": [
+        "Eclectus",
+        "Eclectus roratus",
+        "Eclectus cuidados",
+        "Eclectus carácter",
+        "Eclectus en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "caique",
+      "name": "Caique",
+      "scientificName": "Pionites spp.",
+      "family": "Caiques",
+      "route": "/aves/caique/",
+      "targetTerms": [
+        "Caique",
+        "Pionites spp.",
+        "Caique cuidados",
+        "Caique carácter",
+        "Caique en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "conuro-del-sol",
+      "name": "Conuro del sol",
+      "scientificName": "Aratinga solstitialis",
+      "family": "Conuros",
+      "route": "/aves/conuro-del-sol/",
+      "targetTerms": [
+        "Conuro del sol",
+        "Aratinga solstitialis",
+        "Conuro del sol cuidados",
+        "Conuro del sol carácter",
+        "Conuro del sol en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "loro-senegal",
+      "name": "Loro Senegal",
+      "scientificName": "Poicephalus senegalus",
+      "family": "Loros africanos",
+      "route": "/aves/loro-senegal/",
+      "targetTerms": [
+        "Loro Senegal",
+        "Poicephalus senegalus",
+        "Loro Senegal cuidados",
+        "Loro Senegal carácter",
+        "Loro Senegal en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "ninfa",
+      "name": "Ninfa (carolina)",
+      "scientificName": "Nymphicus hollandicus",
+      "family": "Periquitos y pequeñas psitácidas",
+      "route": "/aves/ninfa/",
+      "targetTerms": [
+        "Ninfa (carolina)",
+        "Nymphicus hollandicus",
+        "Ninfa (carolina) cuidados",
+        "Ninfa (carolina) carácter",
+        "Ninfa (carolina) en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    },
+    {
+      "slug": "agapornis",
+      "name": "Agapornis",
+      "scientificName": "Agapornis spp.",
+      "family": "Periquitos y pequeñas psitácidas",
+      "route": "/aves/agapornis/",
+      "targetTerms": [
+        "Agapornis",
+        "Agapornis spp.",
+        "Agapornis cuidados",
+        "Agapornis carácter",
+        "Agapornis en España"
+      ],
+      "source": "tools/site/data/species.mjs"
+    }
+  ],
+  "blogTopics": [
+    {
+      "route": "/blog/como-elegir-un-loro-adecuado/",
+      "title": "Cómo elegir un loro adecuado para tu hogar",
+      "tags": [
+        "Elección",
+        "Antes de comprar"
+      ],
+      "suggestedTerms": [
+        "Cómo elegir un loro adecuado para tu hogar",
+        "elección loros",
+        "antes de comprar loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "title": "Qué debes preparar antes de recibir un loro",
+      "tags": [
+        "Preparación",
+        "Bienestar"
+      ],
+      "suggestedTerms": [
+        "Qué debes preparar antes de recibir un loro",
+        "preparación loros",
+        "bienestar loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/alimentacion-equilibrada-para-loros/",
+      "title": "Alimentación equilibrada para loros",
+      "tags": [
+        "Alimentación",
+        "Salud"
+      ],
+      "suggestedTerms": [
+        "Alimentación equilibrada para loros",
+        "alimentación loros",
+        "salud loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/senales-de-estres-en-un-loro/",
+      "title": "Señales de estrés en un loro",
+      "tags": [
+        "Bienestar",
+        "Comportamiento"
+      ],
+      "suggestedTerms": [
+        "Señales de estrés en un loro",
+        "bienestar loros",
+        "comportamiento loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "title": "La importancia del enriquecimiento ambiental",
+      "tags": [
+        "Bienestar",
+        "Comportamiento"
+      ],
+      "suggestedTerms": [
+        "La importancia del enriquecimiento ambiental",
+        "bienestar loros",
+        "comportamiento loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "title": "Qué es CITES y cómo afecta a los propietarios de aves",
+      "tags": [
+        "Documentación",
+        "Normativa"
+      ],
+      "suggestedTerms": [
+        "Qué es CITES y cómo afecta a los propietarios de aves",
+        "documentación loros",
+        "normativa loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/transportar-un-loro-de-forma-segura/",
+      "title": "Cómo transportar un loro de forma segura",
+      "tags": [
+        "Transporte",
+        "Bienestar"
+      ],
+      "suggestedTerms": [
+        "Cómo transportar un loro de forma segura",
+        "transporte loros",
+        "bienestar loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/diferencias-yaco-amazona-eclectus/",
+      "title": "Diferencias entre yaco, amazona y eclectus",
+      "tags": [
+        "Elección",
+        "Comparativas"
+      ],
+      "suggestedTerms": [
+        "Diferencias entre yaco, amazona y eclectus",
+        "elección loros",
+        "comparativas loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/cuanto-vive-un-loro/",
+      "title": "¿Cuánto vive un loro?",
+      "tags": [
+        "Bienestar",
+        "Antes de comprar"
+      ],
+      "suggestedTerms": [
+        "¿Cuánto vive un loro?",
+        "bienestar loros",
+        "antes de comprar loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    },
+    {
+      "route": "/blog/errores-comunes-al-comprar-un-loro/",
+      "title": "Errores comunes al comprar un loro",
+      "tags": [
+        "Antes de comprar",
+        "Documentación"
+      ],
+      "suggestedTerms": [
+        "Errores comunes al comprar un loro",
+        "antes de comprar loros",
+        "documentación loros"
+      ],
+      "source": "tools/site/data/blog.mjs"
+    }
+  ],
+  "locations": [
+    {
+      "route": "/aves/madrid/",
+      "city": "Madrid",
+      "suggestedTerms": [
+        "aves exóticas en Madrid",
+        "loros en Madrid"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/barcelona/",
+      "city": "Barcelona",
+      "suggestedTerms": [
+        "aves exóticas en Barcelona",
+        "loros en Barcelona"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/valencia/",
+      "city": "Valencia",
+      "suggestedTerms": [
+        "aves exóticas en Valencia",
+        "loros en Valencia"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/sevilla/",
+      "city": "Sevilla",
+      "suggestedTerms": [
+        "aves exóticas en Sevilla",
+        "loros en Sevilla"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/malaga/",
+      "city": "Málaga",
+      "suggestedTerms": [
+        "aves exóticas en Málaga",
+        "loros en Málaga"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/alicante/",
+      "city": "Alicante",
+      "suggestedTerms": [
+        "aves exóticas en Alicante",
+        "loros en Alicante"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/murcia/",
+      "city": "Murcia",
+      "suggestedTerms": [
+        "aves exóticas en Murcia",
+        "loros en Murcia"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/zaragoza/",
+      "city": "Zaragoza",
+      "suggestedTerms": [
+        "aves exóticas en Zaragoza",
+        "loros en Zaragoza"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/bilbao/",
+      "city": "Bilbao",
+      "suggestedTerms": [
+        "aves exóticas en Bilbao",
+        "loros en Bilbao"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    },
+    {
+      "route": "/aves/a-coruna/",
+      "city": "A Coruña",
+      "suggestedTerms": [
+        "aves exóticas en A Coruña",
+        "loros en A Coruña"
+      ],
+      "source": "tools/site/data/locations.mjs"
+    }
+  ],
+  "overviewRoutes": [
+    {
+      "route": "/aves/",
+      "topic": "catálogo de especies de aves exóticas"
+    },
+    {
+      "route": "/disponibilidad/",
+      "topic": "disponibilidad de aves"
+    },
+    {
+      "route": "/documentacion-cites/",
+      "topic": "CITES y documentación de aves"
+    }
+  ]
+}

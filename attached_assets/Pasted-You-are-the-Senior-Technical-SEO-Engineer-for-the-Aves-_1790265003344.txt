@@ -1,0 +1,582 @@
+You are the Senior Technical SEO Engineer for the Aves Del Sur website in Spain.
+
+Your task is to perform a COMPLETE SEO AUDIT of the existing Aves Del Sur website and codebase before making any changes.
+
+IMPORTANT:
+- DO NOT redesign the website.
+- DO NOT change the visual design, layout, branding, colors, fonts, or UX.
+- DO NOT delete existing pages.
+- DO NOT rewrite large amounts of content yet.
+- DO NOT make speculative SEO changes.
+- First inspect, crawl, analyze, document findings, and create a prioritized SEO action plan.
+- Preserve all existing functionality.
+- Treat this as a production website.
+
+==================================================
+1. PROJECT DISCOVERY
+==================================================
+
+First inspect the entire repository and determine:
+
+- Framework
+- Build system
+- Rendering method
+- Routing architecture
+- Static vs dynamic pages
+- CMS/database if present
+- Public pages
+- Private/admin pages
+- API routes
+- Image handling
+- Sitemap implementation
+- robots.txt implementation
+- metadata implementation
+- canonical implementation
+- hreflang implementation
+- structured data/schema implementation
+- internal linking architecture
+- redirects
+- 404 handling
+- analytics
+- Google Search Console integration if present
+- page generation logic
+- environment configuration relevant to SEO
+
+Do NOT assume the framework or architecture. Detect it from the repository.
+
+==================================================
+2. FULL TECHNICAL SEO AUDIT
+==================================================
+
+Audit every indexable page for:
+
+CRAWLING
+- robots.txt
+- sitemap.xml
+- sitemap index if applicable
+- crawlable internal links
+- blocked resources
+- accidental noindex
+- accidental nofollow
+- canonical conflicts
+- redirect chains
+- redirect loops
+- broken URLs
+- orphan pages
+- soft 404s
+- 404 pages
+- 5xx errors
+- duplicate URLs
+- URL parameters
+- trailing slash inconsistencies
+- HTTP/HTTPS inconsistencies
+- www/non-www inconsistencies
+
+INDEXATION
+- index/noindex status
+- canonical URL
+- canonical consistency
+- duplicate content
+- near-duplicate content
+- thin pages
+- pages with no meaningful content
+- pages that should potentially be consolidated
+- pages that are indexable but should not be
+- pages that should be indexable but currently aren't
+
+==================================================
+3. ON-PAGE SEO
+==================================================
+
+For every important page check:
+
+- title tag
+- meta description
+- H1
+- H2/H3 hierarchy
+- heading duplication
+- keyword targeting
+- search intent alignment
+- content depth
+- semantic relevance
+- image alt text
+- image filenames
+- internal links
+- anchor text
+- breadcrumbs
+- canonical
+- Open Graph
+- Twitter/X metadata
+- language attributes
+- URL structure
+
+Identify:
+
+HIGH PRIORITY:
+Pages with strong commercial intent but weak SEO implementation.
+
+MEDIUM PRIORITY:
+Pages with ranking potential but incomplete optimization.
+
+LOW PRIORITY:
+Minor SEO improvements.
+
+==================================================
+4. Aves Del Sur BUSINESS / LOCAL SEO
+==================================================
+
+This is a Spanish bird/exotic-bird business.
+
+Audit local SEO specifically for Spain.
+
+Check for:
+
+- Spain-focused keyword targeting
+- city/location pages
+- breeder/aviary location signals
+- business name consistency
+- address consistency where publicly appropriate
+- telephone consistency
+- contact information
+- local business schema
+- Organization schema
+- LocalBusiness schema where appropriate
+- Breadcrumb schema
+- Product schema where appropriate
+- FAQ schema where appropriate
+- Article schema where appropriate
+- image schema where appropriate
+
+Identify opportunities around:
+
+- loros en venta
+- loros disponibles
+- comprar loros
+- criador de loros
+- criadero de loros
+- aves exóticas
+- aves exóticas en venta
+- loros criados a mano
+- yaco
+- guacamayos
+- cacatúas
+- amazonas
+- eclectus
+- conuros
+
+Do NOT blindly add these keywords everywhere.
+
+Determine the actual search intent and recommend the correct page for each keyword/topic.
+
+==================================================
+5. SPECIES SEO ARCHITECTURE
+==================================================
+
+Identify all bird/species pages.
+
+Create a matrix:
+
+Species
+↓
+Existing URL
+↓
+Title
+↓
+H1
+↓
+Primary keyword
+↓
+Search intent
+↓
+Current content quality
+↓
+Internal links
+↓
+Canonical
+↓
+Schema
+↓
+Indexability
+↓
+SEO problems
+↓
+Recommended action
+
+Look specifically for:
+
+- duplicate species pages
+- multiple pages targeting the same keyword
+- keyword cannibalization
+- missing species landing pages
+- weak species pages
+- species pages with no links to available birds
+- available bird pages with no supporting species page
+
+==================================================
+6. COMMERCIAL SEO
+==================================================
+
+Prioritize keywords that can generate actual customers.
+
+Separate keywords into:
+
+INFORMATIONAL
+- care
+- lifespan
+- diet
+- behavior
+- species information
+
+COMMERCIAL INVESTIGATION
+- price
+- cost
+- best breeder
+- where to buy
+- how to choose
+
+TRANSACTIONAL
+- comprar loro
+- loro en venta
+- yaco en venta
+- guacamayo en venta
+- cacatúa en venta
+- amazona en venta
+- eclectus en venta
+- conuro en venta
+
+For every commercial page determine:
+
+- target keyword
+- intent
+- current ranking potential
+- conversion purpose
+- missing content
+- internal links required
+- CTA requirements
+
+==================================================
+7. CONTENT AUDIT
+==================================================
+
+Analyze all indexable content.
+
+Identify:
+
+- thin content
+- duplicate content
+- near duplicate content
+- outdated content
+- generic AI-style content
+- keyword stuffing
+- unnatural wording
+- missing information
+- weak introductions
+- weak conclusions
+- missing FAQs
+- missing buyer information
+- missing trust signals
+- missing breeder information
+- missing legal/documentation information
+- missing delivery information
+
+Do not rewrite everything.
+
+Instead classify each page:
+
+KEEP
+IMPROVE
+MERGE
+REDIRECT
+NOINDEX
+CREATE NEW PAGE
+
+Explain WHY for every recommendation.
+
+==================================================
+8. INTERNAL LINKING AUDIT
+==================================================
+
+Build an internal-link graph.
+
+Identify:
+
+- orphan pages
+- pages receiving too few internal links
+- important pages buried too deeply
+- excessive links
+- irrelevant links
+- missing contextual links
+- missing breadcrumbs
+- weak anchor text
+- commercial pages without supporting informational links
+
+Create recommended internal-link relationships.
+
+Example:
+
+Species guide
+→ Species page
+→ Available birds
+→ Purchase page
+→ Contact
+
+==================================================
+9. IMAGE SEO
+==================================================
+
+Audit images for:
+
+- missing alt attributes
+- poor alt text
+- filenames
+- oversized images
+- image dimensions
+- lazy loading
+- modern formats
+- responsive images
+- CLS problems
+- unnecessary image duplication
+
+Do not replace images unless necessary.
+
+==================================================
+10. PERFORMANCE / CORE WEB VITALS
+==================================================
+
+Inspect the application for technical factors affecting:
+
+- LCP
+- INP
+- CLS
+- TTFB
+- JavaScript execution
+- render blocking resources
+- oversized images
+- unused JavaScript
+- unused CSS
+- font loading
+- third-party scripts
+- hydration problems
+- unnecessary client-side rendering
+
+Identify likely performance problems from the codebase.
+
+Do not optimize blindly.
+
+==================================================
+11. MOBILE SEO
+==================================================
+
+Audit:
+
+- responsive implementation
+- viewport
+- mobile navigation
+- clickable elements
+- text readability
+- content parity
+- mobile rendering
+- layout shifts
+- hidden SEO content
+- mobile page performance
+
+==================================================
+12. INTERNATIONAL / LANGUAGE SEO
+==================================================
+
+If the website contains multiple languages or international pages, audit:
+
+- hreflang
+- language codes
+- canonical/hreflang conflicts
+- translated URLs
+- language consistency
+- duplicate translated pages
+- incorrect language targeting
+- missing reciprocal hreflang
+- x-default where appropriate
+
+Do not add languages unless there is a strategic reason.
+
+==================================================
+13. STRUCTURED DATA
+==================================================
+
+Detect every existing JSON-LD implementation.
+
+Validate:
+
+- syntax
+- required properties
+- entity relationships
+- duplicate schema
+- incorrect schema
+- misleading schema
+- schema/page mismatch
+
+Recommend appropriate schema types only where justified.
+
+==================================================
+14. SECURITY / SEO SAFETY
+==================================================
+
+Check for SEO-related security problems:
+
+- accidental staging pages indexed
+- development routes indexed
+- test pages
+- duplicate API-rendered pages
+- exposed admin routes
+- accidental crawlable parameters
+- leaked metadata
+- development URLs
+- localhost URLs
+- temporary pages
+
+Do not expose secrets.
+
+==================================================
+15. AUTOMATED SEO TEST SUITE
+==================================================
+
+Create an automated SEO audit script inside the repository.
+
+It should be able to run repeatedly.
+
+Example:
+
+npm run seo:audit
+
+or the equivalent appropriate to this project.
+
+The audit should output:
+
+/seo-audit/
+
+technical-seo-report.json
+technical-seo-report.md
+page-seo-report.csv
+internal-links.json
+keyword-map.json
+schema-report.json
+seo-errors.json
+
+If the project already has an audit system, improve it instead of creating unnecessary duplication.
+
+==================================================
+16. PRIORITY SYSTEM
+==================================================
+
+Every detected issue must receive:
+
+Severity:
+CRITICAL
+HIGH
+MEDIUM
+LOW
+
+And:
+
+Impact:
+HIGH
+MEDIUM
+LOW
+
+And:
+
+Effort:
+HIGH
+MEDIUM
+LOW
+
+Then calculate a practical priority order.
+
+Prioritize problems that:
+
+1. prevent crawling/indexing
+2. prevent important pages from ranking
+3. cause keyword cannibalization
+4. damage commercial landing pages
+5. damage internal linking
+6. create duplicate/poor-quality pages
+7. affect Core Web Vitals
+8. reduce conversions
+
+==================================================
+17. DO NOT MAKE CHANGES YET
+==================================================
+
+At the end of the audit, DO NOT automatically implement all recommendations.
+
+First create:
+
+SEO-ACTION-PLAN.md
+
+with:
+
+1. Executive summary
+2. Current SEO architecture
+3. Critical problems
+4. High-priority problems
+5. Medium-priority problems
+6. Low-priority problems
+7. Pages to improve
+8. Pages to merge
+9. Pages to redirect
+10. Pages to create
+11. Keyword opportunities
+12. Internal-linking plan
+13. Technical SEO plan
+14. Local SEO plan
+15. Content plan
+16. Structured-data plan
+17. Performance plan
+18. Recommended implementation order
+
+==================================================
+18. FINAL REPORT
+==================================================
+
+At the end, give me a concise summary:
+
+TOTAL PAGES AUDITED:
+INDEXABLE PAGES:
+NOINDEX PAGES:
+BROKEN URLS:
+REDIRECT ISSUES:
+CANONICAL ISSUES:
+HREFLANG ISSUES:
+MISSING TITLES:
+DUPLICATE TITLES:
+MISSING META DESCRIPTIONS:
+DUPLICATE META DESCRIPTIONS:
+MISSING H1:
+DUPLICATE H1:
+ORPHAN PAGES:
+THIN CONTENT PAGES:
+SCHEMA ISSUES:
+IMAGE SEO ISSUES:
+PERFORMANCE ISSUES:
+LOCAL SEO ISSUES:
+COMMERCIAL SEO OPPORTUNITIES:
+
+Then provide the:
+
+TOP 10 SEO PROBLEMS TO FIX FIRST
+
+and
+
+TOP 20 SEO OPPORTUNITIES FOR AVES DEL SUR.
+
+IMPORTANT FINAL RULE:
+
+Do not claim that an issue exists unless you can demonstrate it from the repository, generated crawl, rendered HTML, or available data.
+
+Separate:
+- VERIFIED PROBLEMS
+- LIKELY PROBLEMS
+- RECOMMENDATIONS
+
+Do not invent search volume, rankings, traffic, conversions, or Google Search Console data if those data sources are not connected.
+
+Start by inspecting the repository now.

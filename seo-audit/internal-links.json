@@ -1,0 +1,3952 @@
+{
+  "generatedPageCount": 48,
+  "edges": [
+    {
+      "from": "/404/",
+      "to": "/"
+    },
+    {
+      "from": "/404/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/404/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/404/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/404/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/404/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/404/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/404/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/404/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/404/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/404/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/404/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/404/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/404/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/404/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/aves/madrid/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/aves/barcelona/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/a-coruna/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/agapornis/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/aves/murcia/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/aves/zaragoza/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/alicante/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/amazona/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/aves/valencia/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/aves/sevilla/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/barcelona/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/aves/a-coruna/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/aves/madrid/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/bilbao/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/aves/cacatua-galah/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/cacatua-cresta-amarilla/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/cacatua-galah/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/aves/cacatua-galah/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/caique/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/aves/agapornis/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/conuro-del-sol/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/eclectus/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/aves/guacamayo-rojo/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/guacamayo-azul-amarillo/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/guacamayo-rojo/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/guacamayo-rojo/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/cacatua-galah/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/agapornis/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/blog/diferencias-yaco-amazona-eclectus/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/madrid/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/barcelona/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/valencia/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/sevilla/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/malaga/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/alicante/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/murcia/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/zaragoza/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/bilbao/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aves/a-coruna/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/loro-senegal/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aves/barcelona/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aves/valencia/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/madrid/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/aves/alicante/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/aves/murcia/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/malaga/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/aves/zaragoza/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/aves/bilbao/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/murcia/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/aves/agapornis/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/ninfa/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/aves/malaga/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/aves/alicante/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/sevilla/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/aves/sevilla/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/aves/malaga/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/valencia/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/yaco-cola-roja/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/aves/bilbao/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/aves/a-coruna/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aves/zaragoza/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/aviso-legal/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/aves/cacatua-galah/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/blog/senales-de-estres-en-un-loro/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/alimentacion-equilibrada-para-loros/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/blog/errores-comunes-al-comprar-un-loro/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/como-elegir-un-loro-adecuado/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/blog/errores-comunes-al-comprar-un-loro/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/cuanto-vive-un-loro/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/diferencias-yaco-amazona-eclectus/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/aves/agapornis/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/errores-comunes-al-comprar-un-loro/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/aves/cacatua-galah/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/blog/senales-de-estres-en-un-loro/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/blog/diferencias-yaco-amazona-eclectus/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/senales-de-estres-en-un-loro/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/transportar-un-loro-de-forma-segura/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/diferencias-yaco-amazona-eclectus/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/blog/errores-comunes-al-comprar-un-loro/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/aves/guacamayo-rojo/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/blog/errores-comunes-al-comprar-un-loro/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/blog/transportar-un-loro-de-forma-segura/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/blog/transportar-un-loro-de-forma-segura/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/blog/errores-comunes-al-comprar-un-loro/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/senales-de-estres-en-un-loro/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/blog/senales-de-estres-en-un-loro/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/blog/transportar-un-loro-de-forma-segura/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/guacamayo-rojo/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/cacatua-galah/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/cacatua-cresta-amarilla/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/amazona/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/caique/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/ninfa/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aves/agapornis/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/disponibilidad/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/documentacion-cites/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/",
+      "to": "/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/yaco-cola-roja/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/guacamayo-azul-amarillo/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/cacatua-galah/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/eclectus/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/conuro-del-sol/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/loro-senegal/"
+    },
+    {
+      "from": "/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/madrid/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/barcelona/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/valencia/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/sevilla/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/malaga/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/alicante/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/murcia/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/zaragoza/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/bilbao/"
+    },
+    {
+      "from": "/",
+      "to": "/aves/a-coruna/"
+    },
+    {
+      "from": "/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/",
+      "to": "/blog/cuanto-vive-un-loro/"
+    },
+    {
+      "from": "/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/politica-de-cookies/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/politica-de-privacidad/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/preguntas-frecuentes/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/sobre-nosotros/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/blog/alimentacion-equilibrada-para-loros/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/blog/importancia-del-enriquecimiento-ambiental/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/blog/como-elegir-un-loro-adecuado/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/tenencia-responsable/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/terminos-y-condiciones/",
+      "to": "/terminos-y-condiciones/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/aves/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/disponibilidad/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/como-comprar/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/transporte-de-aves/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/sobre-nosotros/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/blog/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/preguntas-frecuentes/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/contacto/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/documentacion-cites/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/tenencia-responsable/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/aviso-legal/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/politica-de-privacidad/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/politica-de-cookies/"
+    },
+    {
+      "from": "/transporte-de-aves/",
+      "to": "/terminos-y-condiciones/"
+    }
+  ],
+  "inboundCounts": {
+    "/404/": 0,
+    "/aves/a-coruna/": 4,
+    "/aves/agapornis/": 5,
+    "/aves/alicante/": 4,
+    "/aves/amazona/": 9,
+    "/aves/barcelona/": 4,
+    "/aves/bilbao/": 4,
+    "/aves/cacatua-cresta-amarilla/": 8,
+    "/aves/cacatua-galah/": 7,
+    "/aves/caique/": 9,
+    "/aves/conuro-del-sol/": 8,
+    "/aves/eclectus/": 9,
+    "/aves/guacamayo-azul-amarillo/": 8,
+    "/aves/guacamayo-rojo/": 4,
+    "/aves/": 48,
+    "/aves/loro-senegal/": 9,
+    "/aves/madrid/": 4,
+    "/aves/malaga/": 4,
+    "/aves/murcia/": 4,
+    "/aves/ninfa/": 10,
+    "/aves/sevilla/": 4,
+    "/aves/valencia/": 4,
+    "/aves/yaco-cola-roja/": 13,
+    "/aves/zaragoza/": 4,
+    "/aviso-legal/": 48,
+    "/blog/alimentacion-equilibrada-para-loros/": 19,
+    "/blog/como-elegir-un-loro-adecuado/": 22,
+    "/blog/cuanto-vive-un-loro/": 18,
+    "/blog/diferencias-yaco-amazona-eclectus/": 3,
+    "/blog/errores-comunes-al-comprar-un-loro/": 5,
+    "/blog/importancia-del-enriquecimiento-ambiental/": 15,
+    "/blog/": 48,
+    "/blog/que-es-cites-y-como-afecta-a-los-propietarios/": 3,
+    "/blog/que-preparar-antes-de-recibir-un-loro/": 21,
+    "/blog/senales-de-estres-en-un-loro/": 4,
+    "/blog/transportar-un-loro-de-forma-segura/": 3,
+    "/como-comprar/": 48,
+    "/contacto/": 48,
+    "/disponibilidad/": 48,
+    "/documentacion-cites/": 48,
+    "/": 48,
+    "/politica-de-cookies/": 48,
+    "/politica-de-privacidad/": 48,
+    "/preguntas-frecuentes/": 48,
+    "/sobre-nosotros/": 48,
+    "/tenencia-responsable/": 48,
+    "/terminos-y-condiciones/": 48,
+    "/transporte-de-aves/": 48
+  },
+  "brokenReferences": [],
+  "unreachablePages": [
+    "/404/"
+  ],
+  "orphanPages": [
+    "/404/"
+  ],
+  "maximumDepth": 2,
+  "notes": "Href graph only: static <a href> links to generated page routes. Query and fragment are ignored; hash-only, external, mailto/tel/javascript/data and asset-file links are excluded. Runtime links are unknown."
+}
