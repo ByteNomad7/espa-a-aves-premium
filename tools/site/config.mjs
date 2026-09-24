@@ -6,10 +6,7 @@ export const SITE_URL = "https://avesdelsur.com";
 
 export const BRAND = {
   name: "Aves del Sur",
-  legalName: "[PENDIENTE: razón social]",
-  nif: "[PENDIENTE: NIF/CIF]",
   email: "info@avesdelsur.com",
-  phone: "[PENDIENTE: teléfono / WhatsApp]",
   coverage: "Envíos a toda España y Europa",
   address: "Granadilla de Abona, Tenerife",
   social: {

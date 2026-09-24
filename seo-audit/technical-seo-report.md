@@ -1,6 +1,6 @@
 # Technical SEO audit
 
-Generated offline: 2026-09-24T17:17:53.370Z
+Generated offline: 2026-09-24T17:23:34.562Z
 
 ## Counts
 
@@ -8,12 +8,12 @@ Generated offline: 2026-09-24T17:17:53.370Z
 - Sitemap URLs: 47; internal link edges: 971
 - Broken internal references: 0; orphan routes: 1; unreachable from home: 1; maximum linked depth: 2
 - Images: 193; missing alt attributes: 0; missing declared dimensions: 0; local file data verified: 193
-- Invalid JSON-LD blocks: 0; visible placeholder markers: 22
-- Issue groups by severity: CRITICAL 0, HIGH 1, MEDIUM 0, LOW 0
+- Invalid JSON-LD blocks: 0; visible placeholder markers: 0
+- Issue groups by severity: CRITICAL 0, HIGH 0, MEDIUM 0, LOW 0
 
 ## Prioritized findings
 
-- **P1 · HIGH · VERIFIED — Unresolved business placeholders appear in rendered HTML** (visible_placeholder; impact HIGH; effort MEDIUM). Contact and legal fields include unresolved placeholders; see per-page counts in the CSV. These need verified business details before publication. Affected pages: 5; see JSON for routes.
+No verified issues detected by the checks in scope.
 
 ## Sitemap and robots
 

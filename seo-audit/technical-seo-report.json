@@ -1,7 +1,7 @@
 {
   "title": "Technical SEO audit",
   "summary": {
-    "generatedAt": "2026-09-24T17:17:53.370Z",
+    "generatedAt": "2026-09-24T17:23:34.562Z",
     "mode": "offline static generated HTML",
     "siteUrlConfigured": true,
     "siteUrl": "https://avesdelsur.com",
@@ -19,11 +19,11 @@
     "imagesMissingDeclaredDimensions": 0,
     "imagesWithLocallyVerifiedAssets": 193,
     "invalidJsonLdBlocks": 0,
-    "visiblePlaceholderCount": 22,
-    "issueCount": 1,
+    "visiblePlaceholderCount": 0,
+    "issueCount": 0,
     "issueCountsBySeverity": {
       "CRITICAL": 0,
-      "HIGH": 1,
+      "HIGH": 0,
       "MEDIUM": 0,
       "LOW": 0
     },
@@ -406,26 +406,7 @@
       "note": "Robots directives are inspected as text only; crawler behavior, hosting precedence and status codes are not tested."
     }
   },
-  "issues": [
-    {
-      "id": "visible_placeholder",
-      "code": "visible_placeholder",
-      "severity": "HIGH",
-      "impact": "HIGH",
-      "effort": "MEDIUM",
-      "priority": "P1",
-      "status": "VERIFIED",
-      "title": "Unresolved business placeholders appear in rendered HTML",
-      "detail": "Contact and legal fields include unresolved placeholders; see per-page counts in the CSV. These need verified business details before publication.",
-      "pages": [
-        "/aviso-legal/",
-        "/politica-de-cookies/",
-        "/politica-de-privacidad/",
-        "/sobre-nosotros/",
-        "/terminos-y-condiciones/"
-      ]
-    }
-  ],
+  "issues": [],
   "pages": [
     {
       "route": "/404/",
@@ -1223,16 +1204,16 @@
       "route": "/aviso-legal/",
       "title": "Aviso legal | Aves del Sur",
       "titleCount": 1,
-      "description": "Información legal del titular del sitio web, condiciones de uso y propiedad intelectual.",
+      "description": "Información sobre el uso del sitio Aves del Sur, sus contenidos y la forma de contactar.",
       "descriptionCount": 1,
       "h1": "Aviso legal",
       "h1Count": 1,
-      "h2Count": 10,
-      "h3Count": 1,
-      "mainWords": 209,
+      "h2Count": 8,
+      "h3Count": 0,
+      "mainWords": 135,
       "lang": "es",
       "ogTitle": "Aviso legal | Aves del Sur",
-      "ogDescription": "Información legal del titular del sitio web, condiciones de uso y propiedad intelectual.",
+      "ogDescription": "Información sobre el uso del sitio Aves del Sur, sus contenidos y la forma de contactar.",
       "ogUrl": "https://avesdelsur.com/aviso-legal/",
       "twitterCard": "summary_large_image",
       "canonical": "https://avesdelsur.com/aviso-legal/",
@@ -1248,11 +1229,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 7,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/alimentacion-equilibrada-para-loros/",
@@ -1790,9 +1769,9 @@
       "descriptionCount": 1,
       "h1": "Política de cookies",
       "h1Count": 1,
-      "h2Count": 7,
-      "h3Count": 1,
-      "mainWords": 157,
+      "h2Count": 6,
+      "h3Count": 0,
+      "mainWords": 93,
       "lang": "es",
       "ogTitle": "Política de cookies | Aves del Sur",
       "ogDescription": "Qué cookies utiliza este sitio web, con qué finalidad y cómo gestionar el consentimiento.",
@@ -1811,11 +1790,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 1,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/politica-de-privacidad/",
@@ -1825,9 +1802,9 @@
       "descriptionCount": 1,
       "h1": "Política de privacidad",
       "h1Count": 1,
-      "h2Count": 11,
-      "h3Count": 1,
-      "mainWords": 208,
+      "h2Count": 8,
+      "h3Count": 0,
+      "mainWords": 166,
       "lang": "es",
       "ogTitle": "Política de privacidad | Aves del Sur",
       "ogDescription": "Cómo se tratan los datos personales enviados por correo electrónico para consultas sobre aves.",
@@ -1846,11 +1823,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 5,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/preguntas-frecuentes/",
@@ -1889,16 +1864,16 @@
       "route": "/sobre-nosotros/",
       "title": "Sobre nosotros | Aves del Sur",
       "titleCount": 1,
-      "description": "Quiénes somos, cómo trabajamos y qué principios seguimos en la cría, el asesoramiento y la entrega de aves exóticas en España.",
+      "description": "Conoce cómo ayudamos a elegir un ave exótica, resolver dudas sobre sus cuidados y valorar la disponibilidad y el traslado.",
       "descriptionCount": 1,
       "h1": "Sobre nosotros",
       "h1Count": 1,
-      "h2Count": 9,
-      "h3Count": 1,
-      "mainWords": 269,
+      "h2Count": 8,
+      "h3Count": 0,
+      "mainWords": 223,
       "lang": "es",
       "ogTitle": "Sobre nosotros | Aves del Sur",
-      "ogDescription": "Quiénes somos, cómo trabajamos y qué principios seguimos en la cría, el asesoramiento y la entrega de aves exóticas en España.",
+      "ogDescription": "Conoce cómo ayudamos a elegir un ave exótica, resolver dudas sobre sus cuidados y valorar la disponibilidad y el traslado.",
       "ogUrl": "https://avesdelsur.com/sobre-nosotros/",
       "twitterCard": "summary_large_image",
       "canonical": "https://avesdelsur.com/sobre-nosotros/",
@@ -1914,11 +1889,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 5,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/tenencia-responsable/",
@@ -1961,9 +1934,9 @@
       "descriptionCount": 1,
       "h1": "Términos y condiciones",
       "h1Count": 1,
-      "h2Count": 11,
-      "h3Count": 1,
-      "mainWords": 187,
+      "h2Count": 10,
+      "h3Count": 0,
+      "mainWords": 192,
       "lang": "es",
       "ogTitle": "Términos y condiciones | Aves del Sur",
       "ogDescription": "Condiciones aplicables a las consultas, reservas, entregas y responsabilidades relacionadas con las aves.",
@@ -1982,11 +1955,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 4,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/transporte-de-aves/",

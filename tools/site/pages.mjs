@@ -311,48 +311,28 @@ export const sobreNosotros = () => ({
   path: "/sobre-nosotros/",
   title: `Sobre nosotros | ${BRAND.name}`,
   description:
-    "Quiénes somos, cómo trabajamos y qué principios seguimos en la cría, el asesoramiento y la entrega de aves exóticas en España.",
+    "Conoce cómo ayudamos a elegir un ave exótica, resolver dudas sobre sus cuidados y valorar la disponibilidad y el traslado.",
   breadcrumbs: [crumbHome, { href: "/sobre-nosotros/", label: "Sobre nosotros" }],
   body: `${pageHero(
     "Sobre nosotros",
-    "Trabajamos con aves exóticas priorizando el bienestar animal, la información honesta y el acompañamiento posterior a la entrega.",
+    "Elegir un ave implica conocer sus necesidades y pensar en la convivencia a largo plazo. Queremos ayudarte a tomar esa decisión con información clara.",
   )}
 <section class="section">
   <div class="container prose">
-    <div class="alert alert--warn">
-      <h3>Información pendiente de completar</h3>
-      <p>Los datos identificativos de la empresa aún no se han incorporado. Los campos marcados como <strong>[PENDIENTE]</strong> deben sustituirse por información real y verificable antes de publicar el sitio. No incluimos años de experiencia, registros, licencias, premios ni cifras de clientes que no podamos acreditar.</p>
-    </div>
+    <h2>Antes de elegir</h2>
+    <p>Cada especie tiene necesidades distintas de espacio, compañía, alimentación y actividad. En nuestras <a href="/aves/">fichas de aves</a> encontrarás información para comparar esas necesidades con tu vivienda y tu rutina, sin convertir una guía de cuidados en una promesa de disponibilidad.</p>
 
-    <h2>Cómo trabajamos</h2>
-    <p>Cada consulta se atiende de forma individual. Antes de hablar de disponibilidad o de precio, dedicamos tiempo a entender el hogar de destino: espacio, rutina, convivientes y expectativas. Si concluimos que una especie no encaja, lo decimos.</p>
+    <h2>Una consulta individual</h2>
+    <p>Si te interesa una especie, cuéntanos cómo es tu hogar y qué experiencia tienes con aves. Revisamos la situación de cada consulta por separado: la disponibilidad, el precio y la posibilidad de trasladar un ejemplar se confirman antes de avanzar. <a href="/como-comprar/">Así funciona el proceso</a>.</p>
 
-    <h2>Principios</h2>
+    <h2>Lo que importa en la convivencia</h2>
     <ul>
-      <li><strong>Bienestar primero.</strong> Ninguna entrega se acelera por conveniencia comercial.</li>
-      <li><strong>Información verificable.</strong> No publicamos datos que no podamos sostener.</li>
-      <li><strong>Sin presión.</strong> Nada de contadores, escasez artificial ni ofertas con caducidad.</li>
-      <li><strong>Acompañamiento.</strong> El seguimiento posterior forma parte del servicio.</li>
+      <li>Preparar un espacio seguro y una rutina diaria adecuada para el ave.</li>
+      <li>Conocer el ruido, la longevidad y las necesidades sociales de la especie.</li>
+      <li>Revisar la documentación aplicable antes de acordar una entrega.</li>
+      <li>Planificar el transporte según el destino, el clima y el bienestar del animal.</li>
     </ul>
-
-    <h2>Datos de la actividad</h2>
-    <div class="table-wrap">
-      <table class="facts">
-        <caption class="visually-hidden">Datos identificativos pendientes de aportar</caption>
-        <tbody>
-          <tr><th scope="row">Nombre comercial</th><td>${esc(BRAND.name)} <em>(pendiente de confirmar)</em></td></tr>
-          <tr><th scope="row">Razón social</th><td>${esc(BRAND.legalName)}</td></tr>
-          <tr><th scope="row">NIF/CIF</th><td>${esc(BRAND.nif)}</td></tr>
-          <tr><th scope="row">Núcleo zoológico / registro</th><td>[PENDIENTE: número de registro si procede]</td></tr>
-          <tr><th scope="row">Ubicación</th><td>${esc(BRAND.address)}</td></tr>
-          <tr><th scope="row">Cobertura</th><td>${esc(BRAND.coverage)}</td></tr>
-          <tr><th scope="row">Atención veterinaria</th><td>[PENDIENTE: indicar si existe colaboración veterinaria estable]</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h2>Qué puedes esperar de nosotros</h2>
-    <p>Respuestas concretas, plazos realistas y explicaciones comprensibles sobre documentación, transporte y cuidados. Y una recomendación sincera cuando la mejor decisión sea esperar o elegir otra especie.</p>
+    <p>Consulta nuestras guías de <a href="/tenencia-responsable/">tenencia responsable</a> y <a href="/transporte-de-aves/">transporte</a>, o <a href="/contacto/">escríbenos</a> si tienes una situación concreta que valorar.</p>
   </div>
 </section>
 ${ctaBand({ title: "¿Hablamos?", secondary: { href: "/preguntas-frecuentes/", label: "Ver preguntas frecuentes" } })}`,
@@ -382,8 +362,7 @@ export const contacto = () => ({
       <div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Datos de contacto</h2>
         <ul style="list-style:none;padding:0;font-size:var(--fs-sm)">
-          <li><strong>Email:</strong> <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>${BRAND.phone && !BRAND.phone.includes("[PENDIENTE") ? `
-          <li><strong>Teléfono / WhatsApp:</strong> ${esc(BRAND.phone)}</li>` : ""}
+          <li><strong>Email:</strong> <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
           <li><strong>Ubicación:</strong> ${esc(BRAND.address)}</li>
           <li><strong>Cobertura:</strong> ${esc(BRAND.coverage)}</li>
         </ul>
@@ -506,39 +485,21 @@ export function slugify(s) {
 /* ------------------------------------------------------------------ */
 /* Páginas legales                                                     */
 /* ------------------------------------------------------------------ */
-const legalNotice = `<div class="alert alert--warn">
-  <h3>Plantilla pendiente de completar</h3>
-  <p>Este texto es una plantilla. Los campos <strong>[PENDIENTE]</strong> deben sustituirse por los datos reales del titular y revisarse por un profesional antes de la publicación.</p>
-</div>`;
-
 export const avisoLegal = () => ({
   path: "/aviso-legal/",
   title: "Aviso legal",
-  description: "Información legal del titular del sitio web, condiciones de uso y propiedad intelectual.",
+  description: "Información sobre el uso del sitio Aves del Sur, sus contenidos y la forma de contactar.",
   breadcrumbs: [crumbHome, { href: "/aviso-legal/", label: "Aviso legal" }],
-  body: `${pageHero("Aviso legal", "Información sobre el titular del sitio y las condiciones de uso.")}
+  body: `${pageHero("Aviso legal", "Información sobre el uso de este sitio y sus contenidos.")}
 <section class="section"><div class="container container--narrow prose">
-${legalNotice}
-<h2>Titular del sitio web</h2>
-<ul>
-  <li>Denominación: ${esc(BRAND.legalName)}</li>
-  <li>NIF/CIF: ${esc(BRAND.nif)}</li>
-  <li>Ubicación: ${esc(BRAND.address)}</li>
-  <li>Domicilio legal completo: [PENDIENTE: dirección completa del titular]</li>
-  <li>Email: <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
-  <li>Teléfono: ${esc(BRAND.phone)}</li>
-  <li>Datos registrales: [PENDIENTE: registro mercantil u otros, si procede]</li>
-</ul>
-<h2>Objeto</h2>
-<p>Este sitio ofrece información sobre especies de aves exóticas, su cuidado y el proceso de consulta previo a una posible adquisición. El acceso y la navegación implican la aceptación de las condiciones recogidas en este aviso.</p>
+<h2>Sobre este sitio</h2>
+<p>Aves del Sur publica información sobre especies de aves, cuidados y el proceso de consulta previo a una posible adquisición. Las fichas de especies son orientativas: no son anuncios de ejemplares disponibles ni ofertas de venta.</p>
 <h2>Uso del sitio</h2>
-<p>La persona usuaria se compromete a utilizar el sitio conforme a la ley y a no realizar actividades que puedan dañar, sobrecargar o impedir su normal funcionamiento.</p>
-<h2>Propiedad intelectual</h2>
-<p>Los textos, imágenes y elementos de diseño pertenecen al titular o se utilizan con autorización. No se permite su reproducción sin consentimiento previo por escrito.</p>
-<h2>Responsabilidad</h2>
-<p>La información sobre cuidados, documentación y normativa tiene carácter divulgativo y no sustituye el asesoramiento veterinario o jurídico profesional.</p>
-<h2>Legislación aplicable</h2>
-<p>Estas condiciones se rigen por la legislación española. [PENDIENTE: fuero aplicable].</p>
+<p>Utiliza la información de manera responsable y no emplees el sitio para actividades que impidan su funcionamiento o vulneren los derechos de otras personas.</p>
+<h2>Contenidos</h2>
+<p>Los textos, fotografías y demás elementos de esta web pueden estar protegidos por derechos de autor. La información sobre salud animal o normativa es divulgativa y no sustituye el consejo de un veterinario de aves ni el asesoramiento jurídico para un caso concreto.</p>
+<h2>Contacto</h2>
+<p>Para consultas sobre la web o sus contenidos, escribe a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>.</p>
 </div></section>`,
 });
 
@@ -547,23 +508,16 @@ export const privacidad = () => ({
   title: "Política de privacidad",
   description: "Cómo se tratan los datos personales enviados por correo electrónico para consultas sobre aves.",
   breadcrumbs: [crumbHome, { href: "/politica-de-privacidad/", label: "Política de privacidad" }],
-  body: `${pageHero("Política de privacidad", "Información sobre el tratamiento de los datos personales facilitados en el sitio.")}
+  body: `${pageHero("Política de privacidad", "Información sobre las consultas enviadas por correo electrónico.")}
 <section class="section"><div class="container container--narrow prose">
-${legalNotice}
-<h2>Responsable del tratamiento</h2>
-<p>${esc(BRAND.legalName)} — NIF ${esc(BRAND.nif)} — <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>.</p>
-<h2>Finalidad</h2>
-<p>Los datos facilitados por correo electrónico se utilizan para responder a la solicitud, valorar la idoneidad y, en su caso, gestionar el proceso posterior. Este sitio no ofrece una suscripción a contenidos informativos.</p>
-<h2>Base jurídica</h2>
-<p>El consentimiento de la persona interesada y, en su caso, la aplicación de medidas precontractuales solicitadas por ella.</p>
+<h2>Qué datos compartes</h2>
+<p>Si escribes a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>, recibimos la dirección desde la que envías el mensaje y la información que decides incluir. No hay un formulario de envío ni una suscripción a comunicaciones comerciales en este sitio.</p>
+<h2>Para qué se utilizan</h2>
+<p>Usamos los datos de tu mensaje para responder a la consulta y, si lo solicitas, tratar los pasos relacionados con la disponibilidad, la documentación o el traslado. No incluyas información sensible que no sea necesaria para tu consulta.</p>
 <h2>Conservación</h2>
-<p>Los datos se conservan mientras dure la relación y, posteriormente, durante los plazos legales de prescripción aplicables. [PENDIENTE: plazos concretos].</p>
-<h2>Destinatarios</h2>
-<p>No se ceden datos a terceros con fines publicitarios. [PENDIENTE: proveedores de correo y alojamiento que actúen como encargados del tratamiento].</p>
+<p>Los mensajes se conservan durante el tiempo necesario para atender la consulta y, cuando corresponda, durante los plazos exigidos por la normativa aplicable. El intercambio de mensajes utiliza los servicios de correo electrónico de las partes.</p>
 <h2>Derechos</h2>
-<p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>, así como presentar una reclamación ante la autoridad de control competente.</p>
-<h2>Seguridad</h2>
-<p>Este sitio no ofrece un formulario de envío. Para consultas puedes escribir directamente al email indicado. No se solicitan contraseñas ni datos bancarios por correo.</p>
+<p>Para consultar, acceder, rectificar o solicitar la supresión de tus datos, escríbenos a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>. También puedes ejercer los demás derechos reconocidos por la normativa de protección de datos y reclamar ante la autoridad de control competente.</p>
 </div></section>`,
 });
 
@@ -574,9 +528,8 @@ export const cookies = () => ({
   breadcrumbs: [crumbHome, { href: "/politica-de-cookies/", label: "Política de cookies" }],
   body: `${pageHero("Política de cookies", "Uso de cookies y almacenamiento local en este sitio web.")}
 <section class="section"><div class="container container--narrow prose">
-${legalNotice}
-<h2>Situación actual</h2>
-<p>Este sitio no carga por defecto herramientas de medición ni de publicidad. Únicamente se emplea almacenamiento local del navegador para recordar tu decisión sobre el aviso de cookies.</p>
+<h2>Qué se almacena</h2>
+<p>Este sitio no carga herramientas de medición ni de publicidad. Utiliza almacenamiento local del navegador para recordar tu elección en el aviso de cookies.</p>
 <div class="table-wrap"><table class="facts">
   <caption class="visually-hidden">Almacenamiento utilizado</caption>
   <thead><tr><th scope="col">Nombre</th><th scope="col">Tipo</th><th scope="col">Finalidad</th></tr></thead>
@@ -584,8 +537,6 @@ ${legalNotice}
     <tr><th scope="row">consentimiento-cookies</th><td>Almacenamiento local, técnico</td><td>Recordar si has aceptado o rechazado las cookies no necesarias.</td></tr>
   </tbody>
 </table></div>
-<h2>Si en el futuro se activa la analítica</h2>
-<p>Las herramientas de medición sólo se cargarán después de obtener tu consentimiento expreso. Mientras no se acepte, no se descargará ningún script de terceros.</p>
 <h2>Cómo revocar el consentimiento</h2>
 <p>Puedes borrar el almacenamiento local desde la configuración de tu navegador para que el aviso vuelva a mostrarse, o modificar la configuración de cookies de tu navegador en cualquier momento.</p>
 </div></section>`,
@@ -598,21 +549,18 @@ export const terminos = () => ({
   breadcrumbs: [crumbHome, { href: "/terminos-y-condiciones/", label: "Términos y condiciones" }],
   body: `${pageHero("Términos y condiciones", "Marco general del proceso de consulta, reserva y entrega.")}
 <section class="section"><div class="container container--narrow prose">
-${legalNotice}
 <h2>Naturaleza del servicio</h2>
-<p>Este sitio no permite la compra inmediata de animales. Las consultas enviadas no constituyen un contrato ni reservan ningún ejemplar.</p>
+<p>Este sitio no permite la compra inmediata de animales. Una consulta por correo no reserva un ejemplar ni supone una compra.</p>
 <h2>Confirmación de disponibilidad</h2>
-<p>La disponibilidad se confirma de forma manual e individual. La información publicada por especie es orientativa y puede variar.</p>
+<p>La disponibilidad y el precio se confirman de forma individual. Las fichas de especies describen cuidados y características generales; no muestran inventario confirmado.</p>
 <h2>Reservas y pagos</h2>
-<p>Las condiciones de reserva, importes, plazos y consecuencias de una cancelación se comunican por escrito antes de cualquier abono. [PENDIENTE: condiciones concretas].</p>
+<p>Si existe un ejemplar concreto y ambas partes desean avanzar, el precio y las condiciones aplicables a una posible reserva se comunicarán por escrito antes de cualquier pago. No hay reservas ni pagos automáticos en esta web.</p>
 <h2>Entrega</h2>
-<p>La entrega se realiza mediante recogida o transporte adecuado y puede posponerse por motivos de salud del animal, meteorología o documentación pendiente.</p>
+<p>La recogida o el transporte se valora según el ejemplar, el destino, la meteorología y la documentación aplicable. Si no puede realizarse en condiciones adecuadas, la entrega deberá posponerse o replantearse.</p>
 <h2>Bienestar animal</h2>
-<p>Nos reservamos la posibilidad de no completar una operación si existen indicios razonables de que el animal no recibirá los cuidados adecuados.</p>
-<h2>Responsabilidad</h2>
-<p>La información divulgativa del sitio no sustituye al asesoramiento veterinario ni jurídico. [PENDIENTE: garantías legales aplicables y procedimiento de reclamación].</p>
-<h2>Legislación y jurisdicción</h2>
-<p>Legislación española. [PENDIENTE: fuero aplicable].</p>
+<p>La idoneidad del hogar y las necesidades del ave forman parte de cada conversación. Si la especie no parece adecuada para esa situación, es preferible no seguir adelante.</p>
+<h2>Consultas y derechos</h2>
+<p>Para cualquier pregunta sobre el proceso, escribe a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>. Esta información general no limita los derechos que te correspondan conforme a la legislación aplicable.</p>
 </div></section>`,
 });
 
