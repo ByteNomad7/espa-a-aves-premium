@@ -10,14 +10,35 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
         "Organization",
         "WebSite"
       ],
-      "urls": []
+      "urls": [
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        }
+      ]
     },
     {
       "route": "/aves/a-coruna/",
@@ -38,7 +59,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -52,15 +73,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/a-coruna/"
+          "value": "https://avesdelsur.com/aves/a-coruna/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -103,7 +144,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -125,19 +166,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/agapornis/"
+          "value": "https://avesdelsur.com/aves/agapornis/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/agapornis/"
+          "value": "https://avesdelsur.com/aves/agapornis/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -160,7 +221,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -174,15 +235,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/alicante/"
+          "value": "https://avesdelsur.com/aves/alicante/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -225,7 +306,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -247,19 +328,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/amazona/"
+          "value": "https://avesdelsur.com/aves/amazona/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/amazona/"
+          "value": "https://avesdelsur.com/aves/amazona/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -282,7 +383,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -296,15 +397,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/barcelona/"
+          "value": "https://avesdelsur.com/aves/barcelona/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -327,7 +448,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -341,15 +462,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/bilbao/"
+          "value": "https://avesdelsur.com/aves/bilbao/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -392,7 +533,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -414,19 +555,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/cacatua-cresta-amarilla/"
+          "value": "https://avesdelsur.com/aves/cacatua-cresta-amarilla/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/cacatua-cresta-amarilla/"
+          "value": "https://avesdelsur.com/aves/cacatua-cresta-amarilla/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -469,7 +630,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -491,19 +652,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/cacatua-galah/"
+          "value": "https://avesdelsur.com/aves/cacatua-galah/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/cacatua-galah/"
+          "value": "https://avesdelsur.com/aves/cacatua-galah/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -546,7 +727,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -568,19 +749,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/caique/"
+          "value": "https://avesdelsur.com/aves/caique/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/caique/"
+          "value": "https://avesdelsur.com/aves/caique/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -623,7 +824,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -645,19 +846,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/conuro-del-sol/"
+          "value": "https://avesdelsur.com/aves/conuro-del-sol/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/conuro-del-sol/"
+          "value": "https://avesdelsur.com/aves/conuro-del-sol/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -700,7 +921,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -722,19 +943,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/eclectus/"
+          "value": "https://avesdelsur.com/aves/eclectus/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/eclectus/"
+          "value": "https://avesdelsur.com/aves/eclectus/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -777,7 +1018,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -801,19 +1042,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/guacamayo-azul-amarillo/"
+          "value": "https://avesdelsur.com/aves/guacamayo-azul-amarillo/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/guacamayo-azul-amarillo/"
+          "value": "https://avesdelsur.com/aves/guacamayo-azul-amarillo/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -856,7 +1117,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -878,19 +1139,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/guacamayo-rojo/"
+          "value": "https://avesdelsur.com/aves/guacamayo-rojo/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/guacamayo-rojo/"
+          "value": "https://avesdelsur.com/aves/guacamayo-rojo/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -922,7 +1203,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -948,59 +1229,79 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "url",
-          "value": "/aves/yaco-cola-roja/"
+          "value": "https://avesdelsur.com/aves/yaco-cola-roja/"
         },
         {
           "key": "url",
-          "value": "/aves/guacamayo-azul-amarillo/"
+          "value": "https://avesdelsur.com/aves/guacamayo-azul-amarillo/"
         },
         {
           "key": "url",
-          "value": "/aves/guacamayo-rojo/"
+          "value": "https://avesdelsur.com/aves/guacamayo-rojo/"
         },
         {
           "key": "url",
-          "value": "/aves/cacatua-galah/"
+          "value": "https://avesdelsur.com/aves/cacatua-galah/"
         },
         {
           "key": "url",
-          "value": "/aves/cacatua-cresta-amarilla/"
+          "value": "https://avesdelsur.com/aves/cacatua-cresta-amarilla/"
         },
         {
           "key": "url",
-          "value": "/aves/amazona/"
+          "value": "https://avesdelsur.com/aves/amazona/"
         },
         {
           "key": "url",
-          "value": "/aves/eclectus/"
+          "value": "https://avesdelsur.com/aves/eclectus/"
         },
         {
           "key": "url",
-          "value": "/aves/caique/"
+          "value": "https://avesdelsur.com/aves/caique/"
         },
         {
           "key": "url",
-          "value": "/aves/conuro-del-sol/"
+          "value": "https://avesdelsur.com/aves/conuro-del-sol/"
         },
         {
           "key": "url",
-          "value": "/aves/loro-senegal/"
+          "value": "https://avesdelsur.com/aves/loro-senegal/"
         },
         {
           "key": "url",
-          "value": "/aves/ninfa/"
+          "value": "https://avesdelsur.com/aves/ninfa/"
         },
         {
           "key": "url",
-          "value": "/aves/agapornis/"
+          "value": "https://avesdelsur.com/aves/agapornis/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1043,7 +1344,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1065,19 +1366,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/loro-senegal/"
+          "value": "https://avesdelsur.com/aves/loro-senegal/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/loro-senegal/"
+          "value": "https://avesdelsur.com/aves/loro-senegal/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1100,7 +1421,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1114,15 +1435,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/madrid/"
+          "value": "https://avesdelsur.com/aves/madrid/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1145,7 +1486,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1159,15 +1500,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/malaga/"
+          "value": "https://avesdelsur.com/aves/malaga/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1190,7 +1551,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1204,15 +1565,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/murcia/"
+          "value": "https://avesdelsur.com/aves/murcia/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1255,7 +1636,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1277,19 +1658,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/ninfa/"
+          "value": "https://avesdelsur.com/aves/ninfa/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/ninfa/"
+          "value": "https://avesdelsur.com/aves/ninfa/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1312,7 +1713,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1326,15 +1727,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/sevilla/"
+          "value": "https://avesdelsur.com/aves/sevilla/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1357,7 +1778,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1371,15 +1792,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/valencia/"
+          "value": "https://avesdelsur.com/aves/valencia/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1422,7 +1863,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1446,19 +1887,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/yaco-cola-roja/"
+          "value": "https://avesdelsur.com/aves/yaco-cola-roja/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/aves/yaco-cola-roja/"
+          "value": "https://avesdelsur.com/aves/yaco-cola-roja/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1481,7 +1942,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1495,15 +1956,35 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aves/"
+          "value": "https://avesdelsur.com/aves/"
         },
         {
           "key": "item",
-          "value": "/aves/zaragoza/"
+          "value": "https://avesdelsur.com/aves/zaragoza/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1526,7 +2007,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1539,11 +2020,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/aviso-legal/"
+          "value": "https://avesdelsur.com/aviso-legal/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1575,7 +2076,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1592,19 +2093,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/alimentacion-equilibrada-para-loros/"
+          "value": "https://avesdelsur.com/blog/alimentacion-equilibrada-para-loros/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/alimentacion-equilibrada-para-loros/"
+          "value": "https://avesdelsur.com/blog/alimentacion-equilibrada-para-loros/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1636,7 +2157,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1653,19 +2174,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/como-elegir-un-loro-adecuado/"
+          "value": "https://avesdelsur.com/blog/como-elegir-un-loro-adecuado/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/como-elegir-un-loro-adecuado/"
+          "value": "https://avesdelsur.com/blog/como-elegir-un-loro-adecuado/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1697,7 +2238,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1714,19 +2255,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/cuanto-vive-un-loro/"
+          "value": "https://avesdelsur.com/blog/cuanto-vive-un-loro/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/cuanto-vive-un-loro/"
+          "value": "https://avesdelsur.com/blog/cuanto-vive-un-loro/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1758,7 +2319,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1775,19 +2336,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/diferencias-yaco-amazona-eclectus/"
+          "value": "https://avesdelsur.com/blog/diferencias-yaco-amazona-eclectus/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/diferencias-yaco-amazona-eclectus/"
+          "value": "https://avesdelsur.com/blog/diferencias-yaco-amazona-eclectus/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1819,7 +2400,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1836,19 +2417,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/errores-comunes-al-comprar-un-loro/"
+          "value": "https://avesdelsur.com/blog/errores-comunes-al-comprar-un-loro/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/errores-comunes-al-comprar-un-loro/"
+          "value": "https://avesdelsur.com/blog/errores-comunes-al-comprar-un-loro/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1880,7 +2481,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1897,19 +2498,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/importancia-del-enriquecimiento-ambiental/"
+          "value": "https://avesdelsur.com/blog/importancia-del-enriquecimiento-ambiental/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/importancia-del-enriquecimiento-ambiental/"
+          "value": "https://avesdelsur.com/blog/importancia-del-enriquecimiento-ambiental/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1932,7 +2553,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1945,11 +2566,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -1981,7 +2622,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -1998,19 +2639,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+          "value": "https://avesdelsur.com/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+          "value": "https://avesdelsur.com/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2042,7 +2703,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2059,19 +2720,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
+          "value": "https://avesdelsur.com/blog/que-preparar-antes-de-recibir-un-loro/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
+          "value": "https://avesdelsur.com/blog/que-preparar-antes-de-recibir-un-loro/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2103,7 +2784,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2120,19 +2801,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/senales-de-estres-en-un-loro/"
+          "value": "https://avesdelsur.com/blog/senales-de-estres-en-un-loro/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/senales-de-estres-en-un-loro/"
+          "value": "https://avesdelsur.com/blog/senales-de-estres-en-un-loro/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2164,7 +2865,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2181,19 +2882,39 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/blog/"
+          "value": "https://avesdelsur.com/blog/"
         },
         {
           "key": "item",
-          "value": "/blog/transportar-un-loro-de-forma-segura/"
+          "value": "https://avesdelsur.com/blog/transportar-un-loro-de-forma-segura/"
         },
         {
           "key": "mainEntityOfPage",
-          "value": "/blog/transportar-un-loro-de-forma-segura/"
+          "value": "https://avesdelsur.com/blog/transportar-un-loro-de-forma-segura/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2216,7 +2937,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2229,11 +2950,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/como-comprar/"
+          "value": "https://avesdelsur.com/como-comprar/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2256,7 +2997,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2269,11 +3010,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/contacto/"
+          "value": "https://avesdelsur.com/contacto/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2296,7 +3057,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2309,11 +3070,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/disponibilidad/"
+          "value": "https://avesdelsur.com/disponibilidad/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2346,7 +3127,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2366,11 +3147,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/documentacion-cites/"
+          "value": "https://avesdelsur.com/documentacion-cites/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2394,7 +3195,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2418,7 +3219,28 @@
         "Organization",
         "WebSite"
       ],
-      "urls": []
+      "urls": [
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        }
+      ]
     },
     {
       "route": "/politica-de-cookies/",
@@ -2439,7 +3261,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2452,11 +3274,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/politica-de-cookies/"
+          "value": "https://avesdelsur.com/politica-de-cookies/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2479,7 +3321,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2492,11 +3334,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/politica-de-privacidad/"
+          "value": "https://avesdelsur.com/politica-de-privacidad/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2519,7 +3381,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2532,11 +3394,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/preguntas-frecuentes/"
+          "value": "https://avesdelsur.com/preguntas-frecuentes/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2559,7 +3441,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2572,11 +3454,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/sobre-nosotros/"
+          "value": "https://avesdelsur.com/sobre-nosotros/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2599,7 +3501,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2612,11 +3514,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/tenencia-responsable/"
+          "value": "https://avesdelsur.com/tenencia-responsable/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2639,7 +3561,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2652,11 +3574,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/terminos-y-condiciones/"
+          "value": "https://avesdelsur.com/terminos-y-condiciones/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     },
@@ -2689,7 +3631,7 @@
             "Organization",
             "WebSite"
           ],
-          "urlCount": 0
+          "urlCount": 5
         }
       ],
       "types": [
@@ -2711,11 +3653,31 @@
       "urls": [
         {
           "key": "item",
-          "value": "/"
+          "value": "https://avesdelsur.com/"
         },
         {
           "key": "item",
-          "value": "/transporte-de-aves/"
+          "value": "https://avesdelsur.com/transporte-de-aves/"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#sitio"
+        },
+        {
+          "key": "url",
+          "value": "https://avesdelsur.com"
+        },
+        {
+          "key": "@id",
+          "value": "https://avesdelsur.com#organizacion"
         }
       ]
     }
@@ -2733,991 +3695,7 @@
     "ItemList": 1
   },
   "invalidJson": [],
-  "relativeUrls": [
-    {
-      "route": "/aves/a-coruna/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/a-coruna/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/a-coruna/",
-      "key": "item",
-      "value": "/aves/a-coruna/"
-    },
-    {
-      "route": "/aves/agapornis/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/agapornis/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/agapornis/",
-      "key": "item",
-      "value": "/aves/agapornis/"
-    },
-    {
-      "route": "/aves/agapornis/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/agapornis/"
-    },
-    {
-      "route": "/aves/alicante/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/alicante/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/alicante/",
-      "key": "item",
-      "value": "/aves/alicante/"
-    },
-    {
-      "route": "/aves/amazona/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/amazona/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/amazona/",
-      "key": "item",
-      "value": "/aves/amazona/"
-    },
-    {
-      "route": "/aves/amazona/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/amazona/"
-    },
-    {
-      "route": "/aves/barcelona/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/barcelona/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/barcelona/",
-      "key": "item",
-      "value": "/aves/barcelona/"
-    },
-    {
-      "route": "/aves/bilbao/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/bilbao/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/bilbao/",
-      "key": "item",
-      "value": "/aves/bilbao/"
-    },
-    {
-      "route": "/aves/cacatua-cresta-amarilla/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/cacatua-cresta-amarilla/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/cacatua-cresta-amarilla/",
-      "key": "item",
-      "value": "/aves/cacatua-cresta-amarilla/"
-    },
-    {
-      "route": "/aves/cacatua-cresta-amarilla/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/cacatua-cresta-amarilla/"
-    },
-    {
-      "route": "/aves/cacatua-galah/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/cacatua-galah/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/cacatua-galah/",
-      "key": "item",
-      "value": "/aves/cacatua-galah/"
-    },
-    {
-      "route": "/aves/cacatua-galah/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/cacatua-galah/"
-    },
-    {
-      "route": "/aves/caique/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/caique/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/caique/",
-      "key": "item",
-      "value": "/aves/caique/"
-    },
-    {
-      "route": "/aves/caique/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/caique/"
-    },
-    {
-      "route": "/aves/conuro-del-sol/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/conuro-del-sol/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/conuro-del-sol/",
-      "key": "item",
-      "value": "/aves/conuro-del-sol/"
-    },
-    {
-      "route": "/aves/conuro-del-sol/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/conuro-del-sol/"
-    },
-    {
-      "route": "/aves/eclectus/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/eclectus/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/eclectus/",
-      "key": "item",
-      "value": "/aves/eclectus/"
-    },
-    {
-      "route": "/aves/eclectus/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/eclectus/"
-    },
-    {
-      "route": "/aves/guacamayo-azul-amarillo/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/guacamayo-azul-amarillo/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/guacamayo-azul-amarillo/",
-      "key": "item",
-      "value": "/aves/guacamayo-azul-amarillo/"
-    },
-    {
-      "route": "/aves/guacamayo-azul-amarillo/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/guacamayo-azul-amarillo/"
-    },
-    {
-      "route": "/aves/guacamayo-rojo/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/guacamayo-rojo/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/guacamayo-rojo/",
-      "key": "item",
-      "value": "/aves/guacamayo-rojo/"
-    },
-    {
-      "route": "/aves/guacamayo-rojo/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/guacamayo-rojo/"
-    },
-    {
-      "route": "/aves/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/yaco-cola-roja/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/guacamayo-azul-amarillo/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/guacamayo-rojo/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/cacatua-galah/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/cacatua-cresta-amarilla/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/amazona/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/eclectus/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/caique/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/conuro-del-sol/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/loro-senegal/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/ninfa/"
-    },
-    {
-      "route": "/aves/",
-      "key": "url",
-      "value": "/aves/agapornis/"
-    },
-    {
-      "route": "/aves/loro-senegal/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/loro-senegal/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/loro-senegal/",
-      "key": "item",
-      "value": "/aves/loro-senegal/"
-    },
-    {
-      "route": "/aves/loro-senegal/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/loro-senegal/"
-    },
-    {
-      "route": "/aves/madrid/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/madrid/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/madrid/",
-      "key": "item",
-      "value": "/aves/madrid/"
-    },
-    {
-      "route": "/aves/malaga/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/malaga/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/malaga/",
-      "key": "item",
-      "value": "/aves/malaga/"
-    },
-    {
-      "route": "/aves/murcia/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/murcia/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/murcia/",
-      "key": "item",
-      "value": "/aves/murcia/"
-    },
-    {
-      "route": "/aves/ninfa/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/ninfa/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/ninfa/",
-      "key": "item",
-      "value": "/aves/ninfa/"
-    },
-    {
-      "route": "/aves/ninfa/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/ninfa/"
-    },
-    {
-      "route": "/aves/sevilla/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/sevilla/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/sevilla/",
-      "key": "item",
-      "value": "/aves/sevilla/"
-    },
-    {
-      "route": "/aves/valencia/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/valencia/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/valencia/",
-      "key": "item",
-      "value": "/aves/valencia/"
-    },
-    {
-      "route": "/aves/yaco-cola-roja/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/yaco-cola-roja/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/yaco-cola-roja/",
-      "key": "item",
-      "value": "/aves/yaco-cola-roja/"
-    },
-    {
-      "route": "/aves/yaco-cola-roja/",
-      "key": "mainEntityOfPage",
-      "value": "/aves/yaco-cola-roja/"
-    },
-    {
-      "route": "/aves/zaragoza/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aves/zaragoza/",
-      "key": "item",
-      "value": "/aves/"
-    },
-    {
-      "route": "/aves/zaragoza/",
-      "key": "item",
-      "value": "/aves/zaragoza/"
-    },
-    {
-      "route": "/aviso-legal/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/aviso-legal/",
-      "key": "item",
-      "value": "/aviso-legal/"
-    },
-    {
-      "route": "/blog/alimentacion-equilibrada-para-loros/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/alimentacion-equilibrada-para-loros/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/alimentacion-equilibrada-para-loros/",
-      "key": "item",
-      "value": "/blog/alimentacion-equilibrada-para-loros/"
-    },
-    {
-      "route": "/blog/alimentacion-equilibrada-para-loros/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/alimentacion-equilibrada-para-loros/"
-    },
-    {
-      "route": "/blog/como-elegir-un-loro-adecuado/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/como-elegir-un-loro-adecuado/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/como-elegir-un-loro-adecuado/",
-      "key": "item",
-      "value": "/blog/como-elegir-un-loro-adecuado/"
-    },
-    {
-      "route": "/blog/como-elegir-un-loro-adecuado/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/como-elegir-un-loro-adecuado/"
-    },
-    {
-      "route": "/blog/cuanto-vive-un-loro/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/cuanto-vive-un-loro/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/cuanto-vive-un-loro/",
-      "key": "item",
-      "value": "/blog/cuanto-vive-un-loro/"
-    },
-    {
-      "route": "/blog/cuanto-vive-un-loro/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/cuanto-vive-un-loro/"
-    },
-    {
-      "route": "/blog/diferencias-yaco-amazona-eclectus/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/diferencias-yaco-amazona-eclectus/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/diferencias-yaco-amazona-eclectus/",
-      "key": "item",
-      "value": "/blog/diferencias-yaco-amazona-eclectus/"
-    },
-    {
-      "route": "/blog/diferencias-yaco-amazona-eclectus/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/diferencias-yaco-amazona-eclectus/"
-    },
-    {
-      "route": "/blog/errores-comunes-al-comprar-un-loro/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/errores-comunes-al-comprar-un-loro/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/errores-comunes-al-comprar-un-loro/",
-      "key": "item",
-      "value": "/blog/errores-comunes-al-comprar-un-loro/"
-    },
-    {
-      "route": "/blog/errores-comunes-al-comprar-un-loro/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/errores-comunes-al-comprar-un-loro/"
-    },
-    {
-      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
-      "key": "item",
-      "value": "/blog/importancia-del-enriquecimiento-ambiental/"
-    },
-    {
-      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/importancia-del-enriquecimiento-ambiental/"
-    },
-    {
-      "route": "/blog/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-      "key": "item",
-      "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
-    },
-    {
-      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/"
-    },
-    {
-      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
-      "key": "item",
-      "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
-    },
-    {
-      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/que-preparar-antes-de-recibir-un-loro/"
-    },
-    {
-      "route": "/blog/senales-de-estres-en-un-loro/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/senales-de-estres-en-un-loro/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/senales-de-estres-en-un-loro/",
-      "key": "item",
-      "value": "/blog/senales-de-estres-en-un-loro/"
-    },
-    {
-      "route": "/blog/senales-de-estres-en-un-loro/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/senales-de-estres-en-un-loro/"
-    },
-    {
-      "route": "/blog/transportar-un-loro-de-forma-segura/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/blog/transportar-un-loro-de-forma-segura/",
-      "key": "item",
-      "value": "/blog/"
-    },
-    {
-      "route": "/blog/transportar-un-loro-de-forma-segura/",
-      "key": "item",
-      "value": "/blog/transportar-un-loro-de-forma-segura/"
-    },
-    {
-      "route": "/blog/transportar-un-loro-de-forma-segura/",
-      "key": "mainEntityOfPage",
-      "value": "/blog/transportar-un-loro-de-forma-segura/"
-    },
-    {
-      "route": "/como-comprar/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/como-comprar/",
-      "key": "item",
-      "value": "/como-comprar/"
-    },
-    {
-      "route": "/contacto/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/contacto/",
-      "key": "item",
-      "value": "/contacto/"
-    },
-    {
-      "route": "/disponibilidad/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/disponibilidad/",
-      "key": "item",
-      "value": "/disponibilidad/"
-    },
-    {
-      "route": "/documentacion-cites/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/documentacion-cites/",
-      "key": "item",
-      "value": "/documentacion-cites/"
-    },
-    {
-      "route": "/politica-de-cookies/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/politica-de-cookies/",
-      "key": "item",
-      "value": "/politica-de-cookies/"
-    },
-    {
-      "route": "/politica-de-privacidad/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/politica-de-privacidad/",
-      "key": "item",
-      "value": "/politica-de-privacidad/"
-    },
-    {
-      "route": "/preguntas-frecuentes/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/preguntas-frecuentes/",
-      "key": "item",
-      "value": "/preguntas-frecuentes/"
-    },
-    {
-      "route": "/sobre-nosotros/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/sobre-nosotros/",
-      "key": "item",
-      "value": "/sobre-nosotros/"
-    },
-    {
-      "route": "/tenencia-responsable/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/tenencia-responsable/",
-      "key": "item",
-      "value": "/tenencia-responsable/"
-    },
-    {
-      "route": "/terminos-y-condiciones/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/terminos-y-condiciones/",
-      "key": "item",
-      "value": "/terminos-y-condiciones/"
-    },
-    {
-      "route": "/transporte-de-aves/",
-      "key": "item",
-      "value": "/"
-    },
-    {
-      "route": "/transporte-de-aves/",
-      "key": "item",
-      "value": "/transporte-de-aves/"
-    }
-  ],
-  "emptyOrganizationUrls": [
-    {
-      "route": "/404/",
-      "index": 0
-    },
-    {
-      "route": "/aves/a-coruna/",
-      "index": 1
-    },
-    {
-      "route": "/aves/agapornis/",
-      "index": 3
-    },
-    {
-      "route": "/aves/alicante/",
-      "index": 1
-    },
-    {
-      "route": "/aves/amazona/",
-      "index": 3
-    },
-    {
-      "route": "/aves/barcelona/",
-      "index": 1
-    },
-    {
-      "route": "/aves/bilbao/",
-      "index": 1
-    },
-    {
-      "route": "/aves/cacatua-cresta-amarilla/",
-      "index": 3
-    },
-    {
-      "route": "/aves/cacatua-galah/",
-      "index": 3
-    },
-    {
-      "route": "/aves/caique/",
-      "index": 3
-    },
-    {
-      "route": "/aves/conuro-del-sol/",
-      "index": 3
-    },
-    {
-      "route": "/aves/eclectus/",
-      "index": 3
-    },
-    {
-      "route": "/aves/guacamayo-azul-amarillo/",
-      "index": 3
-    },
-    {
-      "route": "/aves/guacamayo-rojo/",
-      "index": 3
-    },
-    {
-      "route": "/aves/",
-      "index": 2
-    },
-    {
-      "route": "/aves/loro-senegal/",
-      "index": 3
-    },
-    {
-      "route": "/aves/madrid/",
-      "index": 1
-    },
-    {
-      "route": "/aves/malaga/",
-      "index": 1
-    },
-    {
-      "route": "/aves/murcia/",
-      "index": 1
-    },
-    {
-      "route": "/aves/ninfa/",
-      "index": 3
-    },
-    {
-      "route": "/aves/sevilla/",
-      "index": 1
-    },
-    {
-      "route": "/aves/valencia/",
-      "index": 1
-    },
-    {
-      "route": "/aves/yaco-cola-roja/",
-      "index": 3
-    },
-    {
-      "route": "/aves/zaragoza/",
-      "index": 1
-    },
-    {
-      "route": "/aviso-legal/",
-      "index": 1
-    },
-    {
-      "route": "/blog/alimentacion-equilibrada-para-loros/",
-      "index": 2
-    },
-    {
-      "route": "/blog/como-elegir-un-loro-adecuado/",
-      "index": 2
-    },
-    {
-      "route": "/blog/cuanto-vive-un-loro/",
-      "index": 2
-    },
-    {
-      "route": "/blog/diferencias-yaco-amazona-eclectus/",
-      "index": 2
-    },
-    {
-      "route": "/blog/errores-comunes-al-comprar-un-loro/",
-      "index": 2
-    },
-    {
-      "route": "/blog/importancia-del-enriquecimiento-ambiental/",
-      "index": 2
-    },
-    {
-      "route": "/blog/",
-      "index": 1
-    },
-    {
-      "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-      "index": 2
-    },
-    {
-      "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
-      "index": 2
-    },
-    {
-      "route": "/blog/senales-de-estres-en-un-loro/",
-      "index": 2
-    },
-    {
-      "route": "/blog/transportar-un-loro-de-forma-segura/",
-      "index": 2
-    },
-    {
-      "route": "/como-comprar/",
-      "index": 1
-    },
-    {
-      "route": "/contacto/",
-      "index": 1
-    },
-    {
-      "route": "/disponibilidad/",
-      "index": 1
-    },
-    {
-      "route": "/documentacion-cites/",
-      "index": 2
-    },
-    {
-      "route": "/",
-      "index": 1
-    },
-    {
-      "route": "/politica-de-cookies/",
-      "index": 1
-    },
-    {
-      "route": "/politica-de-privacidad/",
-      "index": 1
-    },
-    {
-      "route": "/preguntas-frecuentes/",
-      "index": 1
-    },
-    {
-      "route": "/sobre-nosotros/",
-      "index": 1
-    },
-    {
-      "route": "/tenencia-responsable/",
-      "index": 1
-    },
-    {
-      "route": "/terminos-y-condiciones/",
-      "index": 1
-    },
-    {
-      "route": "/transporte-de-aves/",
-      "index": 2
-    }
-  ],
+  "relativeUrls": [],
+  "emptyOrganizationUrls": [],
   "notes": "JSON-LD is parsed as static script text. Schema vocabulary/rich-result eligibility is not validated; URL absoluteness is unknown while SITE_URL is unset."
 }

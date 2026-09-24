@@ -1,5 +1,7 @@
 # Aves del Sur — SEO audit and action plan
 
+> Historical audit snapshot (before production-domain wiring). `SITE_URL`, email, sitemap and robots have since been updated in code. See [AVES-DEL-SUR-WIRING-REPORT.md](AVES-DEL-SUR-WIRING-REPORT.md) and rerun `bun run seo:audit` for current findings; the original priority table below records what was observed at the time.
+
 Audit date: 24 September 2026. **This is an audit, not an implementation authorization.** No site content, design, URLs, or indexation directives were changed. Run `bun run seo:audit` to regenerate the seven reports in [`seo-audit/`](seo-audit/); the per-page inventory is [`page-seo-report.csv`](seo-audit/page-seo-report.csv). The script analyzes generated HTML without network calls. Separately, the 48 generated routes were requested through the running **development** preview: all returned HTML with the expected H1 and HTTP 200. This does **not** establish production indexation or live search performance.
 
 ## 1. Executive summary

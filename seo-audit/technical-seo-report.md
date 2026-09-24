@@ -1,6 +1,6 @@
 # Technical SEO audit
 
-Generated offline: 2026-09-24T16:00:35.520Z
+Generated offline: 2026-09-24T16:16:40.493Z
 
 ## Counts
 
@@ -8,23 +8,19 @@ Generated offline: 2026-09-24T16:00:35.520Z
 - Sitemap URLs: 47; internal link edges: 972
 - Broken internal references: 0; orphan routes: 1; unreachable from home: 1; maximum linked depth: 2
 - Images: 176; missing alt attributes: 0; missing declared dimensions: 0; local file data verified: 176
-- Invalid JSON-LD blocks: 0; visible placeholder markers: 176
-- Issue groups by severity: CRITICAL 0, HIGH 2, MEDIUM 3, LOW 2
+- Invalid JSON-LD blocks: 0; visible placeholder markers: 124
+- Issue groups by severity: CRITICAL 0, HIGH 2, MEDIUM 1, LOW 0
 
 ## Prioritized findings
 
 - **P1 · HIGH · VERIFIED — Contact form has no configured submission endpoint** (unconfigured_enquiry_form; impact HIGH; effort MEDIUM). The rendered contact form has data-endpoint=""; public/assets/js/site.js shows an error rather than sending when this is empty. Affected pages: 1; see JSON for routes.
 - **P1 · HIGH · VERIFIED — Unresolved business placeholders appear in rendered HTML** (visible_placeholder; impact HIGH; effort MEDIUM). Contact and legal fields include unresolved placeholders; see per-page counts in the CSV. These need verified business details before publication. Affected pages: 48; see JSON for routes.
 - **P2 · MEDIUM · VERIFIED — Large logo asset used on every page** (oversized_logo; impact MEDIUM; effort LOW). logo-mark.png is 1024×1024 and 678,150 bytes but is declared 42×42 in the shared header; potential payload/LCP impact requires measurement. Affected pages: 48; see JSON for routes.
-- **P2 · MEDIUM · VERIFIED — Organization schema has an empty URL** (empty_organization_url; impact MEDIUM; effort LOW). The shared Organization entity declares url as an empty string. Identify the real public origin before setting an absolute business URL. Affected pages: 48; see JSON for routes.
-- **P2 · MEDIUM · RECOMMENDATION — Generated sitemap contains relative loc entries** (offline_sitemap_relative_loc; impact MEDIUM; effort LOW). site/sitemap.xml contains relative URLs; the observed development /sitemap.xml route generates absolute URLs instead, so check the actual deployed sitemap separately.
-- **P3 · LOW · VERIFIED — Robots files differ in sitemap declaration** (robots_variants_differ; impact LOW; effort LOW). site/robots.txt and public/robots.txt expose different sitemap declaration states; confirm which file is deployed.
-- **P3 · LOW · RECOMMENDATION — Relative canonical URL** (relative_canonical; impact LOW; effort LOW). Canonical is path-relative/relative because no absolute SITE_URL is configured; absolute production canonical behavior cannot be verified. Affected pages: 48; see JSON for routes.
 
 ## Sitemap and robots
 
 - Sitemap: 47 URLs (urlset); pages missing: 0; noindex listed: 0; sitemap routes with no HTML: 0.
-- site/robots.txt: present; sitemap directive: /sitemap.xml. public/robots.txt: present; sitemap directive: none.
+- site/robots.txt: present; sitemap directive: https://avesdelsur.com/sitemap.xml. public/robots.txt: present; sitemap directive: https://avesdelsur.com/sitemap.xml.
 
 ## Limits
 

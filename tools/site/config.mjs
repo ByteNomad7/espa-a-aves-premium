@@ -1,14 +1,14 @@
 /**
  * Configuración central del sitio.
- * Cambiar SITE_URL aquí actualiza canonicals, Open Graph y sitemap.xml.
+ * URL pública canónica (sin barra final); también alimenta el sitemap servido.
  */
-export const SITE_URL = ""; // Relativo: sin dominio público aún. Poner el dominio real cuando exista.
+export const SITE_URL = "https://avesdelsur.com";
 
 export const BRAND = {
-  name: "Aves del Sur", // TODO(negocio): nombre comercial real
+  name: "Aves del Sur",
   legalName: "[PENDIENTE: razón social]",
   nif: "[PENDIENTE: NIF/CIF]",
-  email: "[PENDIENTE: email de contacto]",
+  email: "info@avesdelsur.com",
   phone: "[PENDIENTE: teléfono / WhatsApp]",
   hours: "[PENDIENTE: horario de atención]",
   coverage: "España peninsular (consultar islas y otros destinos)",

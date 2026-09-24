@@ -1,0 +1,401 @@
+You are working on the Aves del Sur website.
+
+PRODUCTION DOMAIN:
+https://avesdelsur.com/
+
+BUSINESS EMAIL:
+info@avesdelsur.com
+
+Your task is to properly wire the existing website to the production domain and business identity.
+
+IMPORTANT:
+- Do NOT redesign the website.
+- Do NOT change the existing visual design.
+- Do NOT replace existing content unnecessarily.
+- Do NOT break existing routes or functionality.
+- Do NOT expose API keys, passwords, SMTP credentials, or environment secrets.
+- Do NOT hardcode private credentials into the repository.
+- Use environment variables for any credentials or external service configuration.
+- Before making changes, inspect the existing project architecture.
+
+==================================================
+1. PRODUCTION DOMAIN
+==================================================
+
+Configure the application so that:
+
+https://avesdelsur.com/
+
+is treated as the canonical production URL.
+
+Audit and configure:
+
+- BASE_URL
+- SITE_URL
+- canonical URLs
+- Open Graph URL
+- sitemap URLs
+- robots.txt
+- structured data URLs
+- internal absolute URLs
+- redirects
+- favicon URLs
+- social metadata
+- image absolute URLs where required
+
+The canonical domain must be:
+
+https://avesdelsur.com/
+
+If www.avesdelsur.com exists or is configured, determine the current setup and ensure there is ONE canonical hostname.
+
+Do not create redirect loops.
+
+==================================================
+2. HTTPS
+==================================================
+
+Verify that the production site uses HTTPS.
+
+Check:
+
+https://avesdelsur.com/
+
+Check for:
+
+- HTTP → HTTPS redirect
+- www → non-www or non-www → www consistency
+- mixed-content URLs
+- insecure image URLs
+- insecure script URLs
+- insecure stylesheet URLs
+- canonical HTTPS URLs
+
+Do not change DNS blindly.
+
+If DNS/hosting configuration cannot be changed from Replit, document exactly what needs to be configured externally.
+
+==================================================
+3. BUSINESS IDENTITY
+==================================================
+
+Configure the website's business identity consistently as:
+
+Business name:
+Aves del Sur
+
+Website:
+https://avesdelsur.com/
+
+Email:
+info@avesdelsur.com
+
+Search the repository for existing business names, emails and URLs.
+
+Identify inconsistencies such as:
+
+- old business names
+- placeholder email addresses
+- localhost URLs
+- example.com URLs
+- incorrect domains
+- incorrect contact emails
+- development URLs
+
+Replace ONLY clearly incorrect placeholders or outdated production references.
+
+Do not overwrite legitimate existing information without confirming it.
+
+==================================================
+4. CONTACT INFORMATION
+==================================================
+
+Ensure the main contact pathways use:
+
+info@avesdelsur.com
+
+Audit:
+
+- contact page
+- footer
+- header
+- contact forms
+- mailto links
+- structured data
+- social/profile links if present
+- privacy/terms pages where appropriate
+
+Use:
+
+mailto:info@avesdelsur.com
+
+where a direct email link is appropriate.
+
+Do not expose any email credentials.
+
+==================================================
+5. CONTACT FORM
+==================================================
+
+Inspect the existing contact form.
+
+Determine how form submissions currently work.
+
+If an email service/provider already exists:
+
+- preserve it
+- verify configuration
+- ensure submissions are routed to info@avesdelsur.com
+- use environment variables for credentials
+- verify error handling
+- verify success messages
+- prevent accidental exposure of credentials
+
+If there is no email provider configured, DO NOT invent SMTP credentials.
+
+Instead create a clear configuration requirement in:
+
+EMAIL-SETUP.md
+
+Document:
+
+- required environment variables
+- provider expected
+- destination email
+- local development requirements
+- production configuration requirements
+
+Do not pretend email delivery is working unless it has actually been configured and tested.
+
+==================================================
+6. SEO CANONICAL CONFIGURATION
+==================================================
+
+Set the site-wide canonical base to:
+
+https://avesdelsur.com/
+
+Audit all pages for:
+
+- canonical tags
+- Open Graph URL
+- Twitter/X URL metadata
+- JSON-LD URLs
+- breadcrumbs
+- sitemap URLs
+
+No page should accidentally generate:
+
+http://avesdelsur.com/
+
+www URLs
+
+localhost URLs
+
+127.0.0.1 URLs
+
+or development URLs.
+
+==================================================
+7. ROBOTS.TXT
+==================================================
+
+Ensure robots.txt references the correct production sitemap:
+
+https://avesdelsur.com/sitemap.xml
+
+Do not block:
+
+- important pages
+- species pages
+- category pages
+- commercial pages
+- images required for SEO
+
+Do block private/admin routes where appropriate.
+
+==================================================
+8. XML SITEMAP
+==================================================
+
+Ensure sitemap.xml:
+
+- uses https://avesdelsur.com/
+- contains only canonical URLs
+- contains only indexable URLs
+- contains no localhost URLs
+- contains no development URLs
+- contains no redirects
+- contains no 404 URLs
+
+If the application generates the sitemap dynamically, inspect the implementation and correct it if necessary.
+
+==================================================
+9. STRUCTURED DATA
+==================================================
+
+Audit all JSON-LD.
+
+Where appropriate, ensure the business identity consistently references:
+
+Aves del Sur
+https://avesdelsur.com/
+info@avesdelsur.com
+
+Check:
+
+- Organization
+- LocalBusiness where appropriate
+- WebSite
+- WebPage
+- BreadcrumbList
+- Product
+- Article
+
+Do NOT invent:
+
+- address
+- telephone number
+- opening hours
+- ratings
+- reviews
+- social profiles
+- certifications
+
+Only include information actually present in the project or explicitly configured.
+
+==================================================
+10. EMAIL LINKS
+==================================================
+
+Search the entire repository for:
+
+@example.com
+test@
+hello@
+contact@
+info@
+localhost
+127.0.0.1
+avesdelsur
+http://
+www.avesdelsur.com
+
+Identify all occurrences.
+
+Create a report:
+
+BUSINESS-IDENTITY-AUDIT.md
+
+containing:
+
+- Current domain references
+- Incorrect domain references
+- Current email references
+- Incorrect/placeholder emails
+- Contact form destination
+- Canonical problems
+- Sitemap problems
+- robots.txt problems
+- Structured-data problems
+- Remaining configuration requiring manual action
+
+==================================================
+11. ENVIRONMENT VARIABLES
+==================================================
+
+Inspect existing environment configuration.
+
+If needed, create/update:
+
+.env.example
+
+Use placeholders only.
+
+For example:
+
+SITE_URL=https://avesdelsur.com
+CONTACT_EMAIL=info@avesdelsur.com
+
+Do NOT put real secrets into .env.example.
+
+Do NOT commit .env files containing credentials.
+
+==================================================
+12. PRODUCTION BUILD
+==================================================
+
+Run the appropriate project checks:
+
+- install dependencies if required
+- lint
+- typecheck
+- build
+- existing tests
+- SEO audit if already available
+
+Fix only issues caused by the domain/email configuration.
+
+Do not introduce unrelated changes.
+
+==================================================
+13. VERIFY
+==================================================
+
+After implementation, verify:
+
+https://avesdelsur.com/
+
+and confirm:
+
+[ ] HTTPS works
+[ ] canonical domain is correct
+[ ] no localhost URLs
+[ ] no incorrect production URLs
+[ ] robots.txt works
+[ ] sitemap.xml works
+[ ] canonical tags work
+[ ] Open Graph URLs work
+[ ] JSON-LD URLs work
+[ ] contact email is info@avesdelsur.com
+[ ] contact links work
+[ ] contact form configuration is documented
+[ ] no secrets are exposed
+[ ] production build succeeds
+[ ] existing functionality remains intact
+
+==================================================
+14. FINAL REPORT
+==================================================
+
+Create:
+
+AVES-DEL-SUR-WIRING-REPORT.md
+
+Include:
+
+1. Domain configuration
+2. Email configuration
+3. SEO configuration
+4. Sitemap configuration
+5. Robots configuration
+6. Structured-data configuration
+7. Contact-form status
+8. Environment variables added/changed
+9. Files modified
+10. Tests performed
+11. Issues that still require manual DNS/hosting/email-provider configuration
+
+IMPORTANT:
+
+If Replit cannot directly configure DNS, SSL, DNS records, MX records, SPF, DKIM, or DMARC, DO NOT pretend that it has.
+
+Clearly tell me exactly what remains to be configured externally.
+
+START NOW:
+1. Inspect the repository.
+2. Identify the current domain/email configuration.
+3. Make the minimum required changes.
+4. Run the build/tests.
+5. Generate the two reports.
+6. Summarize exactly what was completed and what still requires manual configuration.

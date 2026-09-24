@@ -1,10 +1,10 @@
 {
   "title": "Technical SEO audit",
   "summary": {
-    "generatedAt": "2026-09-24T16:00:35.520Z",
+    "generatedAt": "2026-09-24T16:16:40.493Z",
     "mode": "offline static generated HTML",
-    "siteUrlConfigured": false,
-    "siteUrl": null,
+    "siteUrlConfigured": true,
+    "siteUrl": "https://avesdelsur.com",
     "generatedPages": 48,
     "indexablePages": 47,
     "noindexPages": 1,
@@ -19,13 +19,13 @@
     "imagesMissingDeclaredDimensions": 0,
     "imagesWithLocallyVerifiedAssets": 176,
     "invalidJsonLdBlocks": 0,
-    "visiblePlaceholderCount": 176,
-    "issueCount": 7,
+    "visiblePlaceholderCount": 124,
+    "issueCount": 3,
     "issueCountsBySeverity": {
       "CRITICAL": 0,
       "HIGH": 2,
-      "MEDIUM": 3,
-      "LOW": 2
+      "MEDIUM": 1,
+      "LOW": 0
     },
     "measurementLimits": [
       "No web calls or live status checks.",
@@ -394,12 +394,12 @@
     "robots": {
       "site": {
         "present": true,
-        "sitemapDirective": "/sitemap.xml",
+        "sitemapDirective": "https://avesdelsur.com/sitemap.xml",
         "disallowAll": false
       },
       "public": {
         "present": true,
-        "sitemapDirective": null,
+        "sitemapDirective": "https://avesdelsur.com/sitemap.xml",
         "disallowAll": false
       },
       "sitemapFilePresent": true,
@@ -542,152 +542,6 @@
         "/terminos-y-condiciones/",
         "/transporte-de-aves/"
       ]
-    },
-    {
-      "id": "empty_organization_url",
-      "code": "empty_organization_url",
-      "severity": "MEDIUM",
-      "impact": "MEDIUM",
-      "effort": "LOW",
-      "priority": "P2",
-      "status": "VERIFIED",
-      "title": "Organization schema has an empty URL",
-      "detail": "The shared Organization entity declares url as an empty string. Identify the real public origin before setting an absolute business URL.",
-      "pages": [
-        "/404/",
-        "/aves/a-coruna/",
-        "/aves/agapornis/",
-        "/aves/alicante/",
-        "/aves/amazona/",
-        "/aves/barcelona/",
-        "/aves/bilbao/",
-        "/aves/cacatua-cresta-amarilla/",
-        "/aves/cacatua-galah/",
-        "/aves/caique/",
-        "/aves/conuro-del-sol/",
-        "/aves/eclectus/",
-        "/aves/guacamayo-azul-amarillo/",
-        "/aves/guacamayo-rojo/",
-        "/aves/",
-        "/aves/loro-senegal/",
-        "/aves/madrid/",
-        "/aves/malaga/",
-        "/aves/murcia/",
-        "/aves/ninfa/",
-        "/aves/sevilla/",
-        "/aves/valencia/",
-        "/aves/yaco-cola-roja/",
-        "/aves/zaragoza/",
-        "/aviso-legal/",
-        "/blog/alimentacion-equilibrada-para-loros/",
-        "/blog/como-elegir-un-loro-adecuado/",
-        "/blog/cuanto-vive-un-loro/",
-        "/blog/diferencias-yaco-amazona-eclectus/",
-        "/blog/errores-comunes-al-comprar-un-loro/",
-        "/blog/importancia-del-enriquecimiento-ambiental/",
-        "/blog/",
-        "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-        "/blog/que-preparar-antes-de-recibir-un-loro/",
-        "/blog/senales-de-estres-en-un-loro/",
-        "/blog/transportar-un-loro-de-forma-segura/",
-        "/como-comprar/",
-        "/contacto/",
-        "/disponibilidad/",
-        "/documentacion-cites/",
-        "/",
-        "/politica-de-cookies/",
-        "/politica-de-privacidad/",
-        "/preguntas-frecuentes/",
-        "/sobre-nosotros/",
-        "/tenencia-responsable/",
-        "/terminos-y-condiciones/",
-        "/transporte-de-aves/"
-      ]
-    },
-    {
-      "id": "offline_sitemap_relative_loc",
-      "code": "offline_sitemap_relative_loc",
-      "severity": "MEDIUM",
-      "impact": "MEDIUM",
-      "effort": "LOW",
-      "priority": "P2",
-      "status": "RECOMMENDATION",
-      "title": "Generated sitemap contains relative loc entries",
-      "detail": "site/sitemap.xml contains relative URLs; the observed development /sitemap.xml route generates absolute URLs instead, so check the actual deployed sitemap separately.",
-      "pages": []
-    },
-    {
-      "id": "robots_variants_differ",
-      "code": "robots_variants_differ",
-      "severity": "LOW",
-      "impact": "LOW",
-      "effort": "LOW",
-      "priority": "P3",
-      "status": "VERIFIED",
-      "title": "Robots files differ in sitemap declaration",
-      "detail": "site/robots.txt and public/robots.txt expose different sitemap declaration states; confirm which file is deployed.",
-      "pages": []
-    },
-    {
-      "id": "relative_canonical",
-      "code": "relative_canonical",
-      "severity": "LOW",
-      "impact": "LOW",
-      "effort": "LOW",
-      "priority": "P3",
-      "status": "RECOMMENDATION",
-      "title": "Relative canonical URL",
-      "detail": "Canonical is path-relative/relative because no absolute SITE_URL is configured; absolute production canonical behavior cannot be verified.",
-      "pages": [
-        "/404/",
-        "/aves/a-coruna/",
-        "/aves/agapornis/",
-        "/aves/alicante/",
-        "/aves/amazona/",
-        "/aves/barcelona/",
-        "/aves/bilbao/",
-        "/aves/cacatua-cresta-amarilla/",
-        "/aves/cacatua-galah/",
-        "/aves/caique/",
-        "/aves/conuro-del-sol/",
-        "/aves/eclectus/",
-        "/aves/guacamayo-azul-amarillo/",
-        "/aves/guacamayo-rojo/",
-        "/aves/",
-        "/aves/loro-senegal/",
-        "/aves/madrid/",
-        "/aves/malaga/",
-        "/aves/murcia/",
-        "/aves/ninfa/",
-        "/aves/sevilla/",
-        "/aves/valencia/",
-        "/aves/yaco-cola-roja/",
-        "/aves/zaragoza/",
-        "/aviso-legal/",
-        "/blog/alimentacion-equilibrada-para-loros/",
-        "/blog/como-elegir-un-loro-adecuado/",
-        "/blog/cuanto-vive-un-loro/",
-        "/blog/diferencias-yaco-amazona-eclectus/",
-        "/blog/errores-comunes-al-comprar-un-loro/",
-        "/blog/importancia-del-enriquecimiento-ambiental/",
-        "/blog/",
-        "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-        "/blog/que-preparar-antes-de-recibir-un-loro/",
-        "/blog/senales-de-estres-en-un-loro/",
-        "/blog/transportar-un-loro-de-forma-segura/",
-        "/como-comprar/",
-        "/contacto/",
-        "/disponibilidad/",
-        "/documentacion-cites/",
-        "/",
-        "/politica-de-cookies/",
-        "/politica-de-privacidad/",
-        "/preguntas-frecuentes/",
-        "/sobre-nosotros/",
-        "/tenencia-responsable/",
-        "/terminos-y-condiciones/",
-        "/transporte-de-aves/"
-      ]
     }
   ],
   "pages": [
@@ -705,9 +559,9 @@
       "lang": "es",
       "ogTitle": "Página no encontrada (404) | Aves del Sur",
       "ogDescription": "La página solicitada no existe o ha cambiado de dirección.",
-      "ogUrl": "/404/",
+      "ogUrl": "https://avesdelsur.com/404/",
       "twitterCard": "summary_large_image",
-      "canonical": "/404/",
+      "canonical": "https://avesdelsur.com/404/",
       "canonicalCount": 1,
       "robots": "noindex, follow",
       "indexable": false,
@@ -720,11 +574,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 1,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -741,9 +594,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en A Coruña: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en A Coruña: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/a-coruna/",
+      "ogUrl": "https://avesdelsur.com/aves/a-coruna/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/a-coruna/",
+      "canonical": "https://avesdelsur.com/aves/a-coruna/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -756,11 +609,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -777,9 +629,9 @@
       "lang": "es",
       "ogTitle": "Agapornis: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del agapornis: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/agapornis/",
+      "ogUrl": "https://avesdelsur.com/aves/agapornis/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/agapornis/",
+      "canonical": "https://avesdelsur.com/aves/agapornis/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -792,11 +644,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -813,9 +664,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Alicante: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Alicante: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/alicante/",
+      "ogUrl": "https://avesdelsur.com/aves/alicante/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/alicante/",
+      "canonical": "https://avesdelsur.com/aves/alicante/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -828,11 +679,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -849,9 +699,9 @@
       "lang": "es",
       "ogTitle": "Amazona: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del amazona: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/amazona/",
+      "ogUrl": "https://avesdelsur.com/aves/amazona/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/amazona/",
+      "canonical": "https://avesdelsur.com/aves/amazona/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -864,11 +714,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -885,9 +734,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Barcelona: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Barcelona: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/barcelona/",
+      "ogUrl": "https://avesdelsur.com/aves/barcelona/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/barcelona/",
+      "canonical": "https://avesdelsur.com/aves/barcelona/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -900,11 +749,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -921,9 +769,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Bilbao: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Bilbao: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/bilbao/",
+      "ogUrl": "https://avesdelsur.com/aves/bilbao/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/bilbao/",
+      "canonical": "https://avesdelsur.com/aves/bilbao/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -936,11 +784,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -957,9 +804,9 @@
       "lang": "es",
       "ogTitle": "Cacatúa de cresta amarilla: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del cacatúa de cresta amarilla: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/cacatua-cresta-amarilla/",
+      "ogUrl": "https://avesdelsur.com/aves/cacatua-cresta-amarilla/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/cacatua-cresta-amarilla/",
+      "canonical": "https://avesdelsur.com/aves/cacatua-cresta-amarilla/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -972,11 +819,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -993,9 +839,9 @@
       "lang": "es",
       "ogTitle": "Cacatúa Galah: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del cacatúa galah: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/cacatua-galah/",
+      "ogUrl": "https://avesdelsur.com/aves/cacatua-galah/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/cacatua-galah/",
+      "canonical": "https://avesdelsur.com/aves/cacatua-galah/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1008,11 +854,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1029,9 +874,9 @@
       "lang": "es",
       "ogTitle": "Caique: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del caique: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/caique/",
+      "ogUrl": "https://avesdelsur.com/aves/caique/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/caique/",
+      "canonical": "https://avesdelsur.com/aves/caique/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1044,11 +889,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1065,9 +909,9 @@
       "lang": "es",
       "ogTitle": "Conuro del sol: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del conuro del sol: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/conuro-del-sol/",
+      "ogUrl": "https://avesdelsur.com/aves/conuro-del-sol/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/conuro-del-sol/",
+      "canonical": "https://avesdelsur.com/aves/conuro-del-sol/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1080,11 +924,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1101,9 +944,9 @@
       "lang": "es",
       "ogTitle": "Eclectus: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del eclectus: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/eclectus/",
+      "ogUrl": "https://avesdelsur.com/aves/eclectus/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/eclectus/",
+      "canonical": "https://avesdelsur.com/aves/eclectus/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1116,11 +959,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1137,9 +979,9 @@
       "lang": "es",
       "ogTitle": "Guacamayo azul y amarillo: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del guacamayo azul y amarillo: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/guacamayo-azul-amarillo/",
+      "ogUrl": "https://avesdelsur.com/aves/guacamayo-azul-amarillo/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/guacamayo-azul-amarillo/",
+      "canonical": "https://avesdelsur.com/aves/guacamayo-azul-amarillo/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1152,11 +994,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1173,9 +1014,9 @@
       "lang": "es",
       "ogTitle": "Guacamayo rojo: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del guacamayo rojo: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/guacamayo-rojo/",
+      "ogUrl": "https://avesdelsur.com/aves/guacamayo-rojo/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/guacamayo-rojo/",
+      "canonical": "https://avesdelsur.com/aves/guacamayo-rojo/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1188,11 +1029,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1209,9 +1049,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas: especies, carácter y cuidados | Aves del Sur",
       "ogDescription": "Compara 12 especies de loros y psitácidas por carácter, tamaño, longevidad, ruido, cuidados y experiencia antes de elegir la más adecuada.",
-      "ogUrl": "/aves/",
+      "ogUrl": "https://avesdelsur.com/aves/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/",
+      "canonical": "https://avesdelsur.com/aves/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1224,11 +1064,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 13,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1245,9 +1084,9 @@
       "lang": "es",
       "ogTitle": "Loro Senegal: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del loro senegal: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/loro-senegal/",
+      "ogUrl": "https://avesdelsur.com/aves/loro-senegal/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/loro-senegal/",
+      "canonical": "https://avesdelsur.com/aves/loro-senegal/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1260,11 +1099,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1281,9 +1119,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Madrid: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Madrid: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/madrid/",
+      "ogUrl": "https://avesdelsur.com/aves/madrid/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/madrid/",
+      "canonical": "https://avesdelsur.com/aves/madrid/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1296,11 +1134,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1317,9 +1154,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Málaga: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Málaga: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/malaga/",
+      "ogUrl": "https://avesdelsur.com/aves/malaga/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/malaga/",
+      "canonical": "https://avesdelsur.com/aves/malaga/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1332,11 +1169,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1353,9 +1189,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Murcia: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Murcia: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/murcia/",
+      "ogUrl": "https://avesdelsur.com/aves/murcia/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/murcia/",
+      "canonical": "https://avesdelsur.com/aves/murcia/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1368,11 +1204,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1389,9 +1224,9 @@
       "lang": "es",
       "ogTitle": "Ninfa (carolina): carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del ninfa (carolina): carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/ninfa/",
+      "ogUrl": "https://avesdelsur.com/aves/ninfa/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/ninfa/",
+      "canonical": "https://avesdelsur.com/aves/ninfa/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1404,11 +1239,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1425,9 +1259,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Sevilla: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Sevilla: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/sevilla/",
+      "ogUrl": "https://avesdelsur.com/aves/sevilla/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/sevilla/",
+      "canonical": "https://avesdelsur.com/aves/sevilla/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1440,11 +1274,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1461,9 +1294,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Valencia: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Valencia: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/valencia/",
+      "ogUrl": "https://avesdelsur.com/aves/valencia/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/valencia/",
+      "canonical": "https://avesdelsur.com/aves/valencia/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1476,11 +1309,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1497,9 +1329,9 @@
       "lang": "es",
       "ogTitle": "Yaco de cola roja: carácter, cuidados y convivencia | Aves del Sur",
       "ogDescription": "Guía del yaco de cola roja: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.",
-      "ogUrl": "/aves/yaco-cola-roja/",
+      "ogUrl": "https://avesdelsur.com/aves/yaco-cola-roja/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/yaco-cola-roja/",
+      "canonical": "https://avesdelsur.com/aves/yaco-cola-roja/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1512,11 +1344,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 4,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1533,9 +1364,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas en Zaragoza: cuidados y traslado | Aves del Sur",
       "ogDescription": "Guía para convivir con loros en Zaragoza: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.",
-      "ogUrl": "/aves/zaragoza/",
+      "ogUrl": "https://avesdelsur.com/aves/zaragoza/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aves/zaragoza/",
+      "canonical": "https://avesdelsur.com/aves/zaragoza/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1548,11 +1379,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1565,13 +1395,13 @@
       "h1Count": 1,
       "h2Count": 10,
       "h3Count": 1,
-      "mainWords": 206,
+      "mainWords": 203,
       "lang": "es",
       "ogTitle": "Aviso legal | Aves del Sur",
       "ogDescription": "Información legal del titular del sitio web, condiciones de uso y propiedad intelectual.",
-      "ogUrl": "/aviso-legal/",
+      "ogUrl": "https://avesdelsur.com/aviso-legal/",
       "twitterCard": "summary_large_image",
-      "canonical": "/aviso-legal/",
+      "canonical": "https://avesdelsur.com/aviso-legal/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1584,11 +1414,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 11,
+      "placeholderCount": 9,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1605,9 +1434,9 @@
       "lang": "es",
       "ogTitle": "Alimentación equilibrada para loros | Blog | Aves del Sur",
       "ogDescription": "Cómo estructurar una dieta variada para psitácidas: base, verdura fresca, fruta, grasas y alimentos que deben evitarse.",
-      "ogUrl": "/blog/alimentacion-equilibrada-para-loros/",
+      "ogUrl": "https://avesdelsur.com/blog/alimentacion-equilibrada-para-loros/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/alimentacion-equilibrada-para-loros/",
+      "canonical": "https://avesdelsur.com/blog/alimentacion-equilibrada-para-loros/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1620,11 +1449,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 4,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1641,9 +1469,9 @@
       "lang": "es",
       "ogTitle": "Cómo elegir un loro adecuado para tu hogar | Blog | Aves del Sur",
       "ogDescription": "Guía práctica para valorar espacio, ruido, tiempo disponible y experiencia antes de elegir especie de loro en España.",
-      "ogUrl": "/blog/como-elegir-un-loro-adecuado/",
+      "ogUrl": "https://avesdelsur.com/blog/como-elegir-un-loro-adecuado/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/como-elegir-un-loro-adecuado/",
+      "canonical": "https://avesdelsur.com/blog/como-elegir-un-loro-adecuado/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1656,11 +1484,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 4,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1677,9 +1504,9 @@
       "lang": "es",
       "ogTitle": "¿Cuánto vive un loro? | Blog | Aves del Sur",
       "ogDescription": "Esperanza de vida orientativa de las psitácidas más habituales y qué implica su longevidad para quien las adopta.",
-      "ogUrl": "/blog/cuanto-vive-un-loro/",
+      "ogUrl": "https://avesdelsur.com/blog/cuanto-vive-un-loro/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/cuanto-vive-un-loro/",
+      "canonical": "https://avesdelsur.com/blog/cuanto-vive-un-loro/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1692,11 +1519,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1713,9 +1539,9 @@
       "lang": "es",
       "ogTitle": "Diferencias entre yaco, amazona y eclectus | Blog | Aves del Sur",
       "ogDescription": "Comparativa práctica de tres psitácidas medianas populares: carácter, ruido, cuidados, dieta y tipo de hogar adecuado.",
-      "ogUrl": "/blog/diferencias-yaco-amazona-eclectus/",
+      "ogUrl": "https://avesdelsur.com/blog/diferencias-yaco-amazona-eclectus/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/diferencias-yaco-amazona-eclectus/",
+      "canonical": "https://avesdelsur.com/blog/diferencias-yaco-amazona-eclectus/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1728,11 +1554,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 4,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1749,9 +1574,9 @@
       "lang": "es",
       "ogTitle": "Errores comunes al comprar un loro | Blog | Aves del Sur",
       "ogDescription": "Los fallos más habituales al adquirir una psitácida y cómo evitarlos: prisas, falta de documentación y expectativas irreales.",
-      "ogUrl": "/blog/errores-comunes-al-comprar-un-loro/",
+      "ogUrl": "https://avesdelsur.com/blog/errores-comunes-al-comprar-un-loro/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/errores-comunes-al-comprar-un-loro/",
+      "canonical": "https://avesdelsur.com/blog/errores-comunes-al-comprar-un-loro/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1764,11 +1589,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1785,9 +1609,9 @@
       "lang": "es",
       "ogTitle": "La importancia del enriquecimiento ambiental | Blog | Aves del Sur",
       "ogDescription": "Qué es el enriquecimiento ambiental en loros y cómo aplicarlo con forrajeo, juguetes, entrenamiento y variación del entorno.",
-      "ogUrl": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "ogUrl": "https://avesdelsur.com/blog/importancia-del-enriquecimiento-ambiental/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/importancia-del-enriquecimiento-ambiental/",
+      "canonical": "https://avesdelsur.com/blog/importancia-del-enriquecimiento-ambiental/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1800,11 +1624,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1821,9 +1644,9 @@
       "lang": "es",
       "ogTitle": "Guías sobre loros: cuidados, elección y CITES | Aves del Sur",
       "ogDescription": "Artículos prácticos sobre elección de especie, alimentación, enriquecimiento, transporte, documentación CITES y bienestar de las psitácidas.",
-      "ogUrl": "/blog/",
+      "ogUrl": "https://avesdelsur.com/blog/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/",
+      "canonical": "https://avesdelsur.com/blog/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1836,11 +1659,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1857,9 +1679,9 @@
       "lang": "es",
       "ogTitle": "Qué es CITES y cómo afecta a los propietarios de aves | Blog | Aves del Sur",
       "ogDescription": "Explicación divulgativa de CITES, por qué se regulan ciertas especies de aves y qué implica para quien convive con ellas.",
-      "ogUrl": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "ogUrl": "https://avesdelsur.com/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
+      "canonical": "https://avesdelsur.com/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1872,11 +1694,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1893,9 +1714,9 @@
       "lang": "es",
       "ogTitle": "Qué debes preparar antes de recibir un loro | Blog | Aves del Sur",
       "ogDescription": "Lista de comprobación para preparar jaula, alimentación, veterinario y entorno seguro antes de la llegada de un loro a casa.",
-      "ogUrl": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "ogUrl": "https://avesdelsur.com/blog/que-preparar-antes-de-recibir-un-loro/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/que-preparar-antes-de-recibir-un-loro/",
+      "canonical": "https://avesdelsur.com/blog/que-preparar-antes-de-recibir-un-loro/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1908,11 +1729,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1929,9 +1749,9 @@
       "lang": "es",
       "ogTitle": "Señales de estrés en un loro | Blog | Aves del Sur",
       "ogDescription": "Cómo identificar signos de estrés en psitácidas: cambios de conducta, plumaje, alimentación y vocalización, y qué hacer.",
-      "ogUrl": "/blog/senales-de-estres-en-un-loro/",
+      "ogUrl": "https://avesdelsur.com/blog/senales-de-estres-en-un-loro/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/senales-de-estres-en-un-loro/",
+      "canonical": "https://avesdelsur.com/blog/senales-de-estres-en-un-loro/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1944,11 +1764,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1965,9 +1784,9 @@
       "lang": "es",
       "ogTitle": "Cómo transportar un loro de forma segura | Blog | Aves del Sur",
       "ogDescription": "Buenas prácticas para trasladar aves: transportín adecuado, temperatura, ruta, paradas y reducción del estrés.",
-      "ogUrl": "/blog/transportar-un-loro-de-forma-segura/",
+      "ogUrl": "https://avesdelsur.com/blog/transportar-un-loro-de-forma-segura/",
       "twitterCard": "summary_large_image",
-      "canonical": "/blog/transportar-un-loro-de-forma-segura/",
+      "canonical": "https://avesdelsur.com/blog/transportar-un-loro-de-forma-segura/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -1980,11 +1799,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -1997,13 +1815,13 @@
       "h1Count": 1,
       "h2Count": 8,
       "h3Count": 9,
-      "mainWords": 536,
+      "mainWords": 556,
       "lang": "es",
       "ogTitle": "Cómo comprar un ave: proceso paso a paso | Aves del Sur",
       "ogDescription": "Explicación del proceso de consulta, confirmación de disponibilidad, documentación, transporte y seguimiento posterior a la entrega.",
-      "ogUrl": "/como-comprar/",
+      "ogUrl": "https://avesdelsur.com/como-comprar/",
       "twitterCard": "summary_large_image",
-      "canonical": "/como-comprar/",
+      "canonical": "https://avesdelsur.com/como-comprar/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2016,11 +1834,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 4,
+      "placeholderCount": 3,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2033,13 +1850,13 @@
       "h1Count": 1,
       "h2Count": 6,
       "h3Count": 1,
-      "mainWords": 273,
+      "mainWords": 290,
       "lang": "es",
       "ogTitle": "Contacto y consulta de disponibilidad | Aves del Sur",
       "ogDescription": "Envía tu consulta sobre especies, disponibilidad, documentación o transporte de aves en España. Respuesta personalizada y sin compromiso.",
-      "ogUrl": "/contacto/",
+      "ogUrl": "https://avesdelsur.com/contacto/",
       "twitterCard": "summary_large_image",
-      "canonical": "/contacto/",
+      "canonical": "https://avesdelsur.com/contacto/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2052,11 +1869,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 7,
+      "placeholderCount": 5,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder",
-        "relative_canonical",
         "unconfigured_enquiry_form"
       ]
     },
@@ -2074,9 +1890,9 @@
       "lang": "es",
       "ogTitle": "Disponibilidad de aves | Estados actualizados | Aves del Sur",
       "ogDescription": "Consulta cómo funcionan los estados de disponibilidad de nuestras aves en España y qué significa cada uno antes de enviar una consulta.",
-      "ogUrl": "/disponibilidad/",
+      "ogUrl": "https://avesdelsur.com/disponibilidad/",
       "twitterCard": "summary_large_image",
-      "canonical": "/disponibilidad/",
+      "canonical": "https://avesdelsur.com/disponibilidad/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2089,11 +1905,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2110,9 +1925,9 @@
       "lang": "es",
       "ogTitle": "CITES y documentación de aves: guía informativa | Aves del Sur",
       "ogDescription": "Qué es CITES, por qué se regulan ciertas especies de aves y qué documentación puede acompañar a un ejemplar según su origen.",
-      "ogUrl": "/documentacion-cites/",
+      "ogUrl": "https://avesdelsur.com/documentacion-cites/",
       "twitterCard": "summary_large_image",
-      "canonical": "/documentacion-cites/",
+      "canonical": "https://avesdelsur.com/documentacion-cites/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2125,11 +1940,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2146,9 +1960,9 @@
       "lang": "es",
       "ogTitle": "Aves exóticas criadas con responsabilidad en España | Aves del Sur",
       "ogDescription": "Información transparente sobre especies de loros, disponibilidad, documentación y transporte responsable en España. Consulta sin compromiso.",
-      "ogUrl": "/",
+      "ogUrl": "https://avesdelsur.com/",
       "twitterCard": "summary_large_image",
-      "canonical": "/",
+      "canonical": "https://avesdelsur.com/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2161,11 +1975,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 10,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2182,9 +1995,9 @@
       "lang": "es",
       "ogTitle": "Política de cookies | Aves del Sur",
       "ogDescription": "Qué cookies utiliza este sitio web, con qué finalidad y cómo gestionar el consentimiento.",
-      "ogUrl": "/politica-de-cookies/",
+      "ogUrl": "https://avesdelsur.com/politica-de-cookies/",
       "twitterCard": "summary_large_image",
-      "canonical": "/politica-de-cookies/",
+      "canonical": "https://avesdelsur.com/politica-de-cookies/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2197,11 +2010,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 4,
+      "placeholderCount": 3,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2214,13 +2026,13 @@
       "h1Count": 1,
       "h2Count": 11,
       "h3Count": 1,
-      "mainWords": 221,
+      "mainWords": 224,
       "lang": "es",
       "ogTitle": "Política de privacidad | Aves del Sur",
       "ogDescription": "Cómo se tratan los datos personales facilitados a través de los formularios de este sitio web.",
-      "ogUrl": "/politica-de-privacidad/",
+      "ogUrl": "https://avesdelsur.com/politica-de-privacidad/",
       "twitterCard": "summary_large_image",
-      "canonical": "/politica-de-privacidad/",
+      "canonical": "https://avesdelsur.com/politica-de-privacidad/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2233,11 +2045,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 10,
+      "placeholderCount": 7,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2254,9 +2065,9 @@
       "lang": "es",
       "ogTitle": "Preguntas frecuentes sobre compra y cuidado de aves | Aves del Sur",
       "ogDescription": "Respuestas sobre disponibilidad, reservas, pagos, documentación CITES, transporte, cuidados e idoneidad de las aves exóticas en España.",
-      "ogUrl": "/preguntas-frecuentes/",
+      "ogUrl": "https://avesdelsur.com/preguntas-frecuentes/",
       "twitterCard": "summary_large_image",
-      "canonical": "/preguntas-frecuentes/",
+      "canonical": "https://avesdelsur.com/preguntas-frecuentes/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2269,11 +2080,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 4,
+      "placeholderCount": 3,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2290,9 +2100,9 @@
       "lang": "es",
       "ogTitle": "Sobre nosotros | Aves del Sur",
       "ogDescription": "Quiénes somos, cómo trabajamos y qué principios seguimos en la cría, el asesoramiento y la entrega de aves exóticas en España.",
-      "ogUrl": "/sobre-nosotros/",
+      "ogUrl": "https://avesdelsur.com/sobre-nosotros/",
       "twitterCard": "summary_large_image",
-      "canonical": "/sobre-nosotros/",
+      "canonical": "https://avesdelsur.com/sobre-nosotros/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2305,11 +2115,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 9,
+      "placeholderCount": 8,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2326,9 +2135,9 @@
       "lang": "es",
       "ogTitle": "Tenencia responsable de loros: guía completa | Aves del Sur",
       "ogDescription": "Guía sobre lo que implica convivir con un loro: espacio, ruido, dieta, enriquecimiento, veterinario, longevidad y convivencia familiar.",
-      "ogUrl": "/tenencia-responsable/",
+      "ogUrl": "https://avesdelsur.com/tenencia-responsable/",
       "twitterCard": "summary_large_image",
-      "canonical": "/tenencia-responsable/",
+      "canonical": "https://avesdelsur.com/tenencia-responsable/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2341,11 +2150,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2362,9 +2170,9 @@
       "lang": "es",
       "ogTitle": "Términos y condiciones | Aves del Sur",
       "ogDescription": "Condiciones aplicables a las consultas, reservas, entregas y responsabilidades relacionadas con las aves.",
-      "ogUrl": "/terminos-y-condiciones/",
+      "ogUrl": "https://avesdelsur.com/terminos-y-condiciones/",
       "twitterCard": "summary_large_image",
-      "canonical": "/terminos-y-condiciones/",
+      "canonical": "https://avesdelsur.com/terminos-y-condiciones/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2377,11 +2185,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 7,
+      "placeholderCount": 6,
       "schemaBlockCount": 2,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     },
     {
@@ -2398,9 +2205,9 @@
       "lang": "es",
       "ogTitle": "Transporte de aves en España: cómo se organiza | Aves del Sur",
       "ogDescription": "Cómo planificamos la recogida o la entrega de aves en España: transportín, clima, ruta, documentación y confirmación de entrega.",
-      "ogUrl": "/transporte-de-aves/",
+      "ogUrl": "https://avesdelsur.com/transporte-de-aves/",
       "twitterCard": "summary_large_image",
-      "canonical": "/transporte-de-aves/",
+      "canonical": "https://avesdelsur.com/transporte-de-aves/",
       "canonicalCount": 1,
       "robots": "index, follow, max-image-preview:large",
       "indexable": true,
@@ -2413,11 +2220,10 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 2,
       "schemaBlockCount": 3,
       "problems": [
-        "visible_placeholder",
-        "relative_canonical"
+        "visible_placeholder"
       ]
     }
   ]

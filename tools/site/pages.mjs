@@ -383,7 +383,7 @@ export const contacto = () => ({
       <div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Datos de contacto</h2>
         <ul style="list-style:none;padding:0;font-size:var(--fs-sm)">
-          <li><strong>Email:</strong> ${esc(BRAND.email)}</li>
+          <li><strong>Email:</strong> <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
           <li><strong>Teléfono / WhatsApp:</strong> ${esc(BRAND.phone)}</li>
           <li><strong>Horario:</strong> ${esc(BRAND.hours)}</li>
           <li><strong>Zona de recogida:</strong> ${esc(BRAND.address)}</li>
@@ -527,7 +527,7 @@ ${legalNotice}
   <li>Denominación: ${esc(BRAND.legalName)}</li>
   <li>NIF/CIF: ${esc(BRAND.nif)}</li>
   <li>Domicilio: ${esc(BRAND.address)}</li>
-  <li>Email: ${esc(BRAND.email)}</li>
+  <li>Email: <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
   <li>Teléfono: ${esc(BRAND.phone)}</li>
   <li>Datos registrales: [PENDIENTE: registro mercantil u otros, si procede]</li>
 </ul>
@@ -553,7 +553,7 @@ export const privacidad = () => ({
 <section class="section"><div class="container container--narrow prose">
 ${legalNotice}
 <h2>Responsable del tratamiento</h2>
-<p>${esc(BRAND.legalName)} — NIF ${esc(BRAND.nif)} — ${esc(BRAND.email)}.</p>
+<p>${esc(BRAND.legalName)} — NIF ${esc(BRAND.nif)} — <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>.</p>
 <h2>Finalidad</h2>
 <p>Los datos facilitados en el formulario de consulta se utilizan exclusivamente para responder a la solicitud, valorar la idoneidad y, en su caso, gestionar el proceso posterior. Si se marca la casilla correspondiente, también para el envío de contenidos informativos.</p>
 <h2>Base jurídica</h2>
@@ -563,9 +563,9 @@ ${legalNotice}
 <h2>Destinatarios</h2>
 <p>No se ceden datos a terceros con fines publicitarios. [PENDIENTE: proveedores de correo, alojamiento o gestión de formularios que actúen como encargados del tratamiento].</p>
 <h2>Derechos</h2>
-<p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a ${esc(BRAND.email)}, así como presentar una reclamación ante la autoridad de control competente.</p>
+<p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>, así como presentar una reclamación ante la autoridad de control competente.</p>
 <h2>Seguridad</h2>
-<p>Se aplican medidas técnicas y organizativas razonables. Los formularios se procesan en servidor y este sitio no almacena credenciales ni claves en el navegador.</p>
+<p>Este formulario no transmite datos hasta que se configure un servicio de correo. Para consultas puedes escribir directamente al email indicado. Este sitio no almacena credenciales ni claves en el navegador.</p>
 </div></section>`,
 });
 

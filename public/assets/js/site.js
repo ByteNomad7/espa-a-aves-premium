@@ -184,7 +184,7 @@
         // Sin backend configurado todavía: no se simula un envío correcto.
         statusEl.setAttribute("data-state", "error");
         statusEl.textContent =
-          "El envío automático aún no está configurado. Escríbenos por email o WhatsApp con los datos del formulario y te responderemos.";
+          "El envío automático aún no está configurado. Escríbenos directamente a info@avesdelsur.com.";
         return;
       }
 

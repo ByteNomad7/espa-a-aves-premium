@@ -75,6 +75,7 @@ export function enquiryForm(speciesOptions, { id = "consulta" } = {}) {
   return `<form class="form" id="${id}" data-enquiry-form novalidate
   action="/como-comprar/" method="post" data-endpoint="">
   <p class="muted" style="font-size:var(--fs-sm)">Los campos marcados con * son obligatorios. Enviar una consulta no supone una compra confirmada.</p>
+  <p class="muted" style="font-size:var(--fs-sm)">El envío automático todavía no está configurado. Puedes escribirnos directamente a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>.</p>
 
   <div class="form__row form__row--2">
     <div class="field">
@@ -175,8 +176,8 @@ export function enquiryForm(speciesOptions, { id = "consulta" } = {}) {
 
   <p class="form__status" data-form-status hidden role="status" aria-live="polite"></p>
   <p class="muted" style="font-size:var(--fs-xs)">
-    Ningún dato se comparte con terceros con fines publicitarios. El envío se procesa en servidor;
-    esta página no contiene claves ni credenciales.
+    Ningún dato se comparte con terceros con fines publicitarios. Este formulario no envía datos
+    hasta que se configure un servicio de correo; esta página no contiene claves ni credenciales.
   </p>
 </form>`;
 }
@@ -225,6 +226,7 @@ export function orgSchema(siteUrl) {
         "@id": siteUrl + "#organizacion",
         name: BRAND.name,
         url: siteUrl,
+        email: BRAND.email,
         areaServed: "ES",
         knowsLanguage: "es-ES",
       },
