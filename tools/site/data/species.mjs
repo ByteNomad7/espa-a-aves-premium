@@ -27,7 +27,12 @@ export const SPECIES = [
     family: "loros-africanos",
     status: "consultar",
     price: null,
-    image: "/assets/images/yaco-cola-roja.jpg",
+    image: "/assets/images/species/yaco-cola-roja-1.jpg",
+    photos: [
+      "/assets/images/species/yaco-cola-roja-1.jpg",
+      "/assets/images/species/yaco-cola-roja-2.jpg",
+      "/assets/images/species/yaco-cola-roja-3.jpg",
+    ],
     alt: "Yaco de cola roja (Psittacus erithacus) posado sobre una rama de madera natural",
     intro:
       "El yaco es uno de los loros más estudiados por su capacidad cognitiva y su facilidad para reproducir sonidos. Es un ave sensible que necesita rutinas estables y una convivencia previsible.",
@@ -78,7 +83,12 @@ export const SPECIES = [
     family: "guacamayos",
     status: "consultar",
     price: null,
-    image: "/assets/images/guacamayo-azul-amarillo.jpg",
+    image: "/assets/images/species/guacamayo-azul-amarillo-1.jpg",
+    photos: [
+      "/assets/images/species/guacamayo-azul-amarillo-1.jpg",
+      "/assets/images/species/guacamayo-azul-amarillo-2.jpg",
+      "/assets/images/species/guacamayo-azul-amarillo-3.jpg",
+    ],
     alt: "Guacamayo azul y amarillo (Ara ararauna) con las alas parcialmente extendidas",
     intro:
       "Un guacamayo grande, sociable y muy expresivo. Su tamaño, su voz y su necesidad de espacio condicionan por completo el tipo de hogar en el que puede vivir bien.",
@@ -129,7 +139,12 @@ export const SPECIES = [
     family: "guacamayos",
     status: "consultar",
     price: null,
-    image: "/assets/images/guacamayo-rojo.jpg",
+    image: "/assets/images/species/guacamayo-rojo-1.jpg",
+    photos: [
+      "/assets/images/species/guacamayo-rojo-1.jpg",
+      "/assets/images/species/guacamayo-rojo-2.jpg",
+      "/assets/images/species/guacamayo-rojo-3.jpg",
+    ],
     alt: "Guacamayo rojo (Ara macao) de plumaje escarlata posado en una rama",
     intro:
       "Uno de los loros más llamativos del continente americano. Es enérgico, inteligente y exigente: necesita estructura, entrenamiento y un entorno preparado para su intensidad.",
@@ -179,7 +194,12 @@ export const SPECIES = [
     family: "cacatuas",
     status: "consultar",
     price: null,
-    image: "/assets/images/cacatua-galah.jpg",
+    image: "/assets/images/species/cacatua-galah-1.jpg",
+    photos: [
+      "/assets/images/species/cacatua-galah-1.jpg",
+      "/assets/images/species/cacatua-galah-2.jpg",
+      "/assets/images/species/cacatua-galah-3.jpg",
+    ],
     alt: "Cacatúa Galah de pecho rosado y dorso gris sobre una rama",
     intro:
       "También conocida como cacatúa de pecho rosa. Es activa, juguetona y algo más manejable que otras cacatúas, pero comparte con ellas una fuerte necesidad de compañía.",
@@ -229,7 +249,12 @@ export const SPECIES = [
     family: "cacatuas",
     status: "consultar",
     price: null,
-    image: "/assets/images/cacatua-cresta-amarilla.jpg",
+    image: "/assets/images/species/cacatua-cresta-amarilla-1.jpg",
+    photos: [
+      "/assets/images/species/cacatua-cresta-amarilla-1.jpg",
+      "/assets/images/species/cacatua-cresta-amarilla-2.jpg",
+      "/assets/images/species/cacatua-cresta-amarilla-3.jpg",
+    ],
     alt: "Cacatúa de cresta amarilla con la cresta desplegada",
     intro:
       "Una cacatúa grande, inteligente y enormemente demandante. Es una de las especies con mayor tasa de abandono cuando se adquiere sin conocer sus necesidades reales.",
@@ -279,7 +304,12 @@ export const SPECIES = [
     family: "amazonas",
     status: "consultar",
     price: null,
-    image: "/assets/images/amazona.jpg",
+    image: "/assets/images/species/amazona-1.jpg",
+    photos: [
+      "/assets/images/species/amazona-1.jpg",
+      "/assets/images/species/amazona-2.jpg",
+      "/assets/images/species/amazona-3.jpg",
+    ],
     alt: "Loro amazona de plumaje verde con detalles amarillos en la cabeza",
     intro:
       "Bajo el nombre de amazona se agrupan varias especies de loros americanos de tamaño medio, robustos, vocales y con mucho carácter.",
@@ -329,7 +359,12 @@ export const SPECIES = [
     family: "eclectus",
     status: "consultar",
     price: null,
-    image: "/assets/images/eclectus.jpg",
+    image: "/assets/images/species/eclectus-1.jpg",
+    photos: [
+      "/assets/images/species/eclectus-1.jpg",
+      "/assets/images/species/eclectus-2.jpg",
+      "/assets/images/species/eclectus-3.jpg",
+    ],
     alt: "Loro eclectus macho de plumaje verde intenso",
     intro:
       "El eclectus destaca por un dimorfismo sexual muy marcado y por unas necesidades dietéticas particulares. Suele ser más tranquilo que otras psitácidas de tamaño similar.",
@@ -379,7 +414,12 @@ export const SPECIES = [
     family: "caiques",
     status: "consultar",
     price: null,
-    image: "/assets/images/caique.jpg",
+    image: "/assets/images/species/caique-1.jpg",
+    photos: [
+      "/assets/images/species/caique-1.jpg",
+      "/assets/images/species/caique-2.jpg",
+      "/assets/images/species/caique-3.jpg",
+    ],
     alt: "Caique de cabeza negra y pecho blanco sobre una rama",
     intro:
       "Pequeño, atlético y extraordinariamente juguetón. El caique es un torbellino de energía en un cuerpo compacto.",
@@ -429,7 +469,12 @@ export const SPECIES = [
     family: "conuros",
     status: "consultar",
     price: null,
-    image: "/assets/images/conuro-del-sol.jpg",
+    image: "/assets/images/species/conuro-del-sol-1.jpg",
+    photos: [
+      "/assets/images/species/conuro-del-sol-1.jpg",
+      "/assets/images/species/conuro-del-sol-2.jpg",
+      "/assets/images/species/conuro-del-sol-3.jpg",
+    ],
     alt: "Conuro del sol de plumaje amarillo y naranja",
     intro:
       "Colorido, cariñoso y muy sociable. Su principal condicionante es el volumen: es un ave pequeña con una voz desproporcionadamente potente.",
@@ -479,7 +524,12 @@ export const SPECIES = [
     family: "loros-africanos",
     status: "consultar",
     price: null,
-    image: "/assets/images/loro-senegal.jpg",
+    image: "/assets/images/species/loro-senegal-1.jpg",
+    photos: [
+      "/assets/images/species/loro-senegal-1.jpg",
+      "/assets/images/species/loro-senegal-2.jpg",
+      "/assets/images/species/loro-senegal-3.jpg",
+    ],
     alt: "Loro Senegal de cabeza gris y vientre amarillo",
     intro:
       "Un loro africano de tamaño medio-pequeño, tranquilo y de volumen contenido. Suele considerarse una de las psitácidas más manejables para hogares urbanos.",
@@ -529,7 +579,12 @@ export const SPECIES = [
     family: "pequenas-psitacidas",
     status: "consultar",
     price: null,
-    image: "/assets/images/ninfa.jpg",
+    image: "/assets/images/species/ninfa-1.jpg",
+    photos: [
+      "/assets/images/species/ninfa-1.jpg",
+      "/assets/images/species/ninfa-2.jpg",
+      "/assets/images/species/ninfa-3.jpg",
+    ],
     alt: "Ninfa gris con mejillas anaranjadas y cresta levantada",
     intro:
       "Una de las psitácidas más extendidas como ave de compañía: dócil, de tamaño manejable y con necesidades más asumibles que las de los grandes loros.",
@@ -579,7 +634,12 @@ export const SPECIES = [
     family: "pequenas-psitacidas",
     status: "consultar",
     price: null,
-    image: "/assets/images/agapornis.jpg",
+    image: "/assets/images/species/agapornis-1.jpg",
+    photos: [
+      "/assets/images/species/agapornis-1.jpg",
+      "/assets/images/species/agapornis-2.jpg",
+      "/assets/images/species/agapornis-3.jpg",
+    ],
     alt: "Pareja de agapornis de colores vivos sobre una percha",
     intro:
       "Pequeños, enérgicos y de carácter fuerte. Los agapornis concentran mucha personalidad en un tamaño reducido.",

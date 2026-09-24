@@ -147,6 +147,22 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
   .layout-aside { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: var(--s-7); align-items: start; }
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-4);
+}
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  background: var(--c-surface-2);
+}
+@media (min-width: 700px) {
+  .gallery { grid-template-columns: repeat(3, 1fr); }
+}
+
 /* ---------- Botones ---------- */
 .btn {
   display: inline-flex;

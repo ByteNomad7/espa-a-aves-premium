@@ -127,10 +127,13 @@ function speciesPage(s) {
       </div>
     </div>
 
-    <div class="gallery" style="margin-top:var(--s-6)">
-      <img src="${s.image}" alt="${esc(s.alt)}" width="600" height="450" loading="lazy" decoding="async">
-      <div class="gallery__ph">Espacio reservado para fotografías reales de ejemplares</div>
-      <div class="gallery__ph">Espacio reservado para fotografías del alojamiento</div>
+    <div class="gallery" style="margin-top:var(--s-6)" aria-label="Galería de ${esc(s.name)}">
+      ${(s.photos || [s.image])
+        .map(
+          (photo, index) =>
+            `<img src="${photo}" alt="${esc(s.name)}, fotografía real ${index + 1}" width="600" height="450" loading="lazy" decoding="async">`,
+        )
+        .join("")}
     </div>
   </div>
 </section>
