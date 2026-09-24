@@ -469,11 +469,6 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 .accordion__body { padding: 0 var(--s-5) var(--s-5); color: var(--c-ink-soft); font-size: var(--fs-sm); }
 .accordion__body p:last-child { margin-bottom: 0; }
 
-/* ---------- Testimonios ---------- */
-.testimonial { background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-lg); padding: var(--s-5); }
-.testimonial blockquote { margin: 0 0 var(--s-3); font-size: var(--fs-lg); font-family: var(--f-display); }
-.testimonial figcaption { font-size: var(--fs-xs); color: var(--c-ink-soft); }
-
 /* ---------- Formularios ---------- */
 .form { display: grid; gap: var(--s-4); }
 .form__row { display: grid; gap: var(--s-4); }

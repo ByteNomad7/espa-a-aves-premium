@@ -355,9 +355,6 @@ export const sobreNosotros = () => ({
 
     <h2>Qué puedes esperar de nosotros</h2>
     <p>Respuestas concretas, plazos realistas y explicaciones comprensibles sobre documentación, transporte y cuidados. Y una recomendación sincera cuando la mejor decisión sea esperar o elegir otra especie.</p>
-
-    <h2>Opiniones de clientes</h2>
-    <p class="muted">No publicaremos testimonios hasta disponer de opiniones reales y verificables aportadas por personas que hayan completado el proceso.</p>
   </div>
 </section>
 ${ctaBand({ title: "¿Hablamos?", secondary: { href: "/preguntas-frecuentes/", label: "Ver preguntas frecuentes" } })}`,
@@ -793,15 +790,30 @@ export function home() {
 
 <section class="section section--alt">
   <div class="container">
-    <div class="section-head section-head--center">
-      <p class="eyebrow">Opiniones</p>
-      <h2>Qué dicen quienes ya conviven con sus aves</h2>
-      <p class="lead">Esta sección se publicará con testimonios reales y verificables. Los textos siguientes son ejemplos de maquetación, no opiniones de clientes.</p>
+    <div class="section-head">
+      <p class="eyebrow">Antes de elegir</p>
+      <h2>¿Qué loro puede encajar en tu hogar?</h2>
+      <p class="lead">La especie adecuada no se elige sólo por su aspecto. Estas tres preguntas ayudan a comparar necesidades reales antes de consultar disponibilidad.</p>
     </div>
     <div class="grid grid--3">
-      <figure class="testimonial"><blockquote>[EJEMPLO DE MAQUETACIÓN — pendiente de testimonio real]</blockquote><figcaption>Espacio reservado para una opinión verificada</figcaption></figure>
-      <figure class="testimonial"><blockquote>[EJEMPLO DE MAQUETACIÓN — pendiente de testimonio real]</blockquote><figcaption>Espacio reservado para una opinión verificada</figcaption></figure>
-      <figure class="testimonial"><blockquote>[EJEMPLO DE MAQUETACIÓN — pendiente de testimonio real]</blockquote><figcaption>Espacio reservado para una opinión verificada</figcaption></figure>
+      <article class="card card--pad">
+        <p class="eyebrow">01 · Vivienda</p>
+        <h3>¿Cuánto ruido admite tu casa?</h3>
+        <p>Las llamadas de un <a href="/aves/guacamayo-azul-amarillo/">guacamayo azul y amarillo</a> o un <a href="/aves/conuro-del-sol/">conuro del sol</a> pueden ser difíciles de conciliar con vecinos próximos. El tamaño del ave no predice el volumen de su voz.</p>
+        <a href="/blog/como-elegir-un-loro-adecuado/">Cómo elegir un loro para tu hogar →</a>
+      </article>
+      <article class="card card--pad">
+        <p class="eyebrow">02 · Rutina</p>
+        <h3>¿Puedes dedicarle tiempo cada día?</h3>
+        <p>Las psitácidas necesitan interacción, actividad fuera de la jaula en un espacio seguro y oportunidades de forrajeo. Piensa también en vacaciones, cambios de horario y en quién se ocupará del ave a largo plazo.</p>
+        <a href="/blog/cuanto-vive-un-loro/">Cuánto vive un loro →</a>
+      </article>
+      <article class="card card--pad">
+        <p class="eyebrow">03 · Preparación</p>
+        <h3>¿Está listo el entorno?</h3>
+        <p>Antes de recibirla, prepara un alojamiento adecuado, identifica un veterinario de aves y revisa riesgos como humo, aerosoles y cables. Confirma qué documentación corresponde a la especie y al ejemplar.</p>
+        <a href="/blog/que-preparar-antes-de-recibir-un-loro/">Qué preparar antes de su llegada →</a>
+      </article>
     </div>
   </div>
 </section>
