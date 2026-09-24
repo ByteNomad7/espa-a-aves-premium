@@ -1,0 +1,1 @@
+- [Netlify publish output](netlify-publish-output.md) — TanStack autodetection can choose the wrong publish directory for Nitro's Netlify preset; trust generated output.

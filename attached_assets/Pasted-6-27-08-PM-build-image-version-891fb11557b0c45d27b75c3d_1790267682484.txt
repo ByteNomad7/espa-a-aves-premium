@@ -1,0 +1,240 @@
+6:27:08 PM: build-image version: 891fb11557b0c45d27b75c3d193472db7ebd066a (noble-new-builds)
+6:27:08 PM: buildbot version: 29b5215f2b4d8a0ef040aac46b18102d3794a6b0
+6:27:08 PM: Fetching cached dependencies
+6:27:08 PM: Failed to fetch cache, continuing with build
+6:27:08 PM: Starting to prepare the repo for build
+6:27:08 PM: No cached dependencies found. Cloning fresh repo
+6:27:08 PM: git clone --filter=blob:none https://github.com/ByteNomad7/espa-a-aves-premium
+6:27:09 PM: Preparing Git Reference refs/heads/main
+6:27:11 PM: Installing dependencies
+6:27:11 PM: mise by @jdx – installing 1 tool
+6:27:11 PM: mise ⇢ python@3.14.3  551ms · already installed
+6:27:11 PM: mise ████████████████ 1/1 · installed 0 tools · 1 already installed in 553ms
+6:27:11 PM: mise ~/.config/mise/config.toml tools: python@3.14.3
+6:27:11 PM: mise by @jdx – installing 1 tool
+6:27:11 PM: mise ⇢ ruby@3.4.8  34ms · already installed
+6:27:11 PM: mise ████████████████ 1/1 · installed 0 tools · 1 already installed in 35ms
+6:27:11 PM: mise ~/.config/mise/config.toml tools: ruby@3.4.8
+6:27:12 PM: mise by @jdx – installing 1 tool
+6:27:12 PM: mise ⇢ go@1.26.2  29ms · already installed
+6:27:12 PM: mise ████████████████ 1/1 · installed 0 tools · 1 already installed in 30ms
+6:27:12 PM: mise ~/.config/mise/config.toml tools: go@1.26.2
+6:27:12 PM: v24.21.0 is already installed.
+6:27:12 PM: Now using node v24.21.0 (npm v11.19.0)
+6:27:12 PM: Enabling Node.js Corepack
+6:27:12 PM: Installing pnpm version 10.30.3
+6:27:12 PM: mise by @jdx – installing 1 tool
+6:27:12 PM: mise ⇢ pnpm@10.30.3  34ms · already installed
+6:27:12 PM: mise ████████████████ 1/1 · installed 0 tools · 1 already installed in 35ms
+6:27:13 PM: No pnpm workspaces detected
+6:27:13 PM: Installing npm packages using pnpm version 10.30.3
+6:27:13 PM: Lockfile is up to date, resolution step is skipped
+6:27:13 PM: Progress: resolved 1, reused 0, downloaded 0, added 0
+6:27:13 PM: Packages: +411
+6:27:13 PM: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+6:27:14 PM: Progress: resolved 411, reused 0, downloaded 105, added 44
+6:27:15 PM: Progress: resolved 411, reused 0, downloaded 200, added 77
+6:27:16 PM: Progress: resolved 411, reused 0, downloaded 411, added 201
+6:27:16 PM: Progress: resolved 411, reused 0, downloaded 411, added 411, done
+6:27:17 PM: dependencies:
+6:27:17 PM: + @hookform/resolvers 5.9.1
+6:27:17 PM: + @radix-ui/react-accordion 1.2.20
+6:27:17 PM: + @radix-ui/react-alert-dialog 1.1.23
+6:27:17 PM: + @radix-ui/react-aspect-ratio 1.1.15
+6:27:17 PM: + @radix-ui/react-avatar 1.2.6
+6:27:17 PM: + @radix-ui/react-checkbox 1.3.11
+6:27:17 PM: + @radix-ui/react-collapsible 1.1.20
+6:27:17 PM: + @radix-ui/react-context-menu 2.3.7
+6:27:17 PM: + @radix-ui/react-dialog 1.1.23
+6:27:17 PM: + @radix-ui/react-dropdown-menu 2.1.24
+6:27:17 PM: + @radix-ui/react-hover-card 1.1.23
+6:27:17 PM: + @radix-ui/react-label 2.1.15
+6:27:17 PM: + @radix-ui/react-menubar 1.1.24
+6:27:17 PM: + @radix-ui/react-navigation-menu 1.2.22
+6:27:17 PM: + @radix-ui/react-popover 1.1.23
+6:27:17 PM: + @radix-ui/react-progress 1.1.16
+6:27:17 PM: + @radix-ui/react-radio-group 1.4.7
+6:27:17 PM: + @radix-ui/react-scroll-area 1.2.18
+6:27:17 PM: + @radix-ui/react-select 2.3.7
+6:27:17 PM: + @radix-ui/react-separator 1.1.15
+6:27:17 PM: + @radix-ui/react-slider 1.4.7
+6:27:17 PM: + @radix-ui/react-slot 1.3.3
+6:27:17 PM: + @radix-ui/react-switch 1.3.7
+6:27:17 PM: + @radix-ui/react-tabs 1.1.21
+6:27:17 PM: + @radix-ui/react-toggle 1.1.18
+6:27:17 PM: + @radix-ui/react-toggle-group 1.1.19
+6:27:17 PM: + @radix-ui/react-tooltip 1.2.16
+6:27:17 PM: + @tailwindcss/vite 4.3.3
+6:27:17 PM: + @tanstack/react-query 5.103.2
+6:27:17 PM: + @tanstack/react-router 1.170.18
+6:27:17 PM: + @tanstack/react-start 1.168.32
+6:27:17 PM: + @tanstack/router-plugin 1.168.23
+6:27:17 PM: + class-variance-authority 0.7.1
+6:27:17 PM: + clsx 2.1.1
+6:27:17 PM: + cmdk 1.1.1
+6:27:17 PM: + date-fns 4.4.0
+6:27:17 PM: + embla-carousel-react 8.6.0
+6:27:17 PM: + input-otp 1.5.0
+6:27:17 PM: + lucide-react 0.575.0
+6:27:17 PM: + react 19.3.0
+6:27:17 PM: + react-day-picker 9.14.0
+6:27:17 PM: + react-dom 19.3.0
+6:27:17 PM: + react-hook-form 7.88.0
+6:27:17 PM: + react-resizable-panels 4.13.3
+6:27:17 PM: + recharts 2.15.4
+6:27:17 PM: + sonner 2.0.8
+6:27:17 PM: + tailwind-merge 3.7.0
+6:27:17 PM: + tailwindcss 4.3.3
+6:27:17 PM: + tw-animate-css 1.4.0
+6:27:17 PM: + vaul 1.1.2
+6:27:17 PM: + vite-tsconfig-paths 6.1.1
+6:27:17 PM: + zod 3.25.76
+6:27:17 PM: devDependencies:
+6:27:17 PM: + @eslint/js 9.39.5
+6:27:17 PM: + @lovable.dev/vite-tanstack-config 2.25.1
+6:27:17 PM: + @types/node 22.20.4
+6:27:17 PM: + @types/react 19.3.0
+6:27:17 PM: + @types/react-dom 19.3.0
+6:27:17 PM: + @vitejs/plugin-react 5.2.0
+6:27:17 PM: + eslint 9.39.5
+6:27:17 PM: + eslint-config-prettier 10.1.8
+6:27:17 PM: + eslint-plugin-prettier 5.5.6
+6:27:17 PM: + eslint-plugin-react-hooks 5.2.0
+6:27:17 PM: + eslint-plugin-react-refresh 0.4.26
+6:27:17 PM: + globals 15.15.0
+6:27:17 PM: + nitro 3.0.260603-beta
+6:27:17 PM: + prettier 3.9.9
+6:27:17 PM: + typescript 5.9.3
+6:27:17 PM: + typescript-eslint 8.70.1
+6:27:17 PM: + vite 8.1.5
+6:27:17 PM: Done in 3.7s using pnpm v10.30.3
+6:27:17 PM: npm packages installed using pnpm
+6:27:17 PM: Successfully installed dependencies
+6:27:17 PM: Detected 1 framework(s)
+6:27:17 PM: "tanstack-start" at version "1.168.32"
+6:27:17 PM: Starting build script
+6:27:18 PM: Section completed: initializing
+6:27:19 PM: ​
+6:27:19 PM: Netlify Build                                                 
+6:27:19 PM: ────────────────────────────────────────────────────────────────
+6:27:19 PM: ​
+6:27:19 PM: ❯ Version
+6:27:19 PM:   @netlify/build 37.0.0
+6:27:19 PM: ​
+6:27:19 PM: ❯ Flags
+6:27:19 PM:   accountId: 6894e25198f2f6a4dc004ea1
+6:27:19 PM:   baseRelDir: true
+6:27:19 PM:   buildId: 6ab54f59f2f1112dcf8df7b6
+6:27:19 PM:   deployId: 6ab54f59f2f1112dcf8df7b8
+6:27:19 PM: ​
+6:27:19 PM: ❯ Current directory
+6:27:19 PM:   /opt/build/repo
+6:27:19 PM: ​
+6:27:19 PM: ❯ Config file
+6:27:19 PM:   No config file was defined: using default values.
+6:27:19 PM: ​
+6:27:19 PM: ❯ Context
+6:27:19 PM:   production
+6:27:19 PM: ​
+6:27:19 PM: ❯ Installing extensions
+6:27:19 PM:    - neon
+6:27:19 PM:    - user-agent-blocker
+6:27:32 PM: ​
+6:27:32 PM: ❯ Loading extensions
+6:27:32 PM:    - neon
+6:27:32 PM:    - user-agent-blocker
+6:27:33 PM: ​
+6:27:33 PM: Build command from Netlify app                                
+6:27:33 PM: ────────────────────────────────────────────────────────────────
+6:27:33 PM: ​
+6:27:33 PM: $ bun run build
+6:27:33 PM: $ vite build
+6:27:33 PM: The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+6:27:34 PM: vite v8.1.5 building client environment for production...
+6:27:34 PM: 
+6:27:34 PM: transforming...✓ 183 modules transformed.
+6:27:34 PM: rendering chunks...
+6:27:34 PM: computing gzip size...
+6:27:34 PM: dist/assets/styles-C78guQWu.css   71.13 kB │ gzip:  11.99 kB
+6:27:34 PM: dist/assets/index-B5Y4PFxY.js    374.38 kB │ gzip: 116.61 kB
+6:27:34 PM: ✓ built in 412ms
+6:27:34 PM: vite v8.1.5 building ssr environment for production...
+6:27:34 PM: 
+6:27:34 PM: transforming...✓ 166 modules transformed.
+6:27:34 PM: rendering chunks...
+6:27:34 PM: computing gzip size...
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/assets/styles-C78guQWu.css                      71.13 kB │ gzip:  11.99 kB
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/assets/empty-plugin-adapters-BhFjPuMv.js         0.31 kB │ gzip:   0.20 kB
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-BceEbCb-.js    0.37 kB │ gzip:   0.27 kB
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/assets/start-B1m3pHUI.js                         1.63 kB │ gzip:   0.73 kB
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/assets/createCsrfMiddleware-DZCfLBgi.js          3.31 kB │ gzip:   1.03 kB
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/index.js                                         4.61 kB │ gzip:   1.92 kB
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/assets/server-CFCJUnFM.js                      214.14 kB │ gzip:  48.52 kB
+6:27:34 PM: node_modules/.nitro/vite/services/ssr/assets/router-BnA_5riv.js                      825.69 kB │ gzip: 105.23 kB
+6:27:34 PM: ✓ built in 343ms
+6:27:34 PM: [start] [nitro] Building [Nitro] (preset: `netlify`, compatibility: `2026-09-24`)
+6:27:34 PM: [success] [nitro] Generated public dist
+6:27:34 PM: vite v8.1.5 building nitro environment for production...
+6:27:34 PM: 
+6:27:34 PM: transforming...✓ 214 modules transformed.
+6:27:34 PM: rendering chunks...
+6:27:35 PM: computing gzip size...
+6:27:35 PM: .netlify/functions-internal/server/_ssr/empty-plugin-adapters-BhFjPuMv.mjs    0.23 kB │ gzip:   0.16 kB
+6:27:35 PM: .netlify/functions-internal/server/_tanstack-start-manifest_v-BceEbCb-.mjs    0.43 kB │ gzip:   0.31 kB
+6:27:35 PM: .netlify/functions-internal/server/_chunks/ssr-renderer.mjs                   0.79 kB │ gzip:   0.42 kB
+6:27:35 PM: .netlify/functions-internal/server/_runtime.mjs                               1.27 kB │ gzip:   0.64 kB
+6:27:35 PM: .netlify/functions-internal/server/_ssr/start-B1m3pHUI.mjs                    1.53 kB │ gzip:   0.70 kB
+6:27:35 PM: .netlify/functions-internal/server/_ssr/createCsrfMiddleware-DZCfLBgi.mjs     3.11 kB │ gzip:   1.01 kB
+6:27:35 PM: .netlify/functions-internal/server/_ssr/ssr.mjs                               4.55 kB │ gzip:   1.92 kB
+6:27:35 PM: .netlify/functions-internal/server/_libs/srvx.mjs                             5.12 kB │ gzip:   1.49 kB
+6:27:35 PM: .netlify/functions-internal/server/main.mjs                                   7.11 kB │ gzip:   2.49 kB
+6:27:35 PM: .netlify/functions-internal/server/_libs/tanstack__history.mjs               10.71 kB │ gzip:   3.13 kB
+6:27:35 PM: .netlify/functions-internal/server/_libs/react+tanstack__react-query.mjs     19.41 kB │ gzip:   5.18 kB
+6:27:35 PM: .netlify/functions-internal/server/_libs/h3+rou3+srvx.mjs                    27.47 kB │ gzip:   7.22 kB
+6:27:35 PM: .netlify/functions-internal/server/_libs/tanstack__query-core.mjs            87.22 kB │ gzip:  20.55 kB
+6:27:35 PM: .netlify/functions-internal/server/_ssr/server-CFCJUnFM.mjs                 207.45 kB │ gzip:  47.53 kB
+6:27:35 PM: .netlify/functions-internal/server/_libs/@tanstack/react-router+[...].mjs   708.88 kB │ gzip: 146.97 kB
+6:27:35 PM: .netlify/functions-internal/server/_ssr/router-BnA_5riv.mjs                 826.11 kB │ gzip: 105.27 kB
+6:27:35 PM: ✓ built in 229ms
+6:27:35 PM: [info] Generated .netlify/functions-internal/nitro.json
+6:27:35 PM: [success] [nitro] You can preview this build using `npx vite preview`
+6:27:35 PM: ​
+6:27:35 PM: (build.command completed in 1.9s)
+6:27:35 PM: ​
+6:27:35 PM: Functions bundling                                            
+6:27:35 PM: ────────────────────────────────────────────────────────────────
+6:27:35 PM: ​
+6:27:35 PM: Packaging Functions from .netlify/functions-internal directory:
+6:27:35 PM:  - server/server.mjs
+6:27:35 PM: ​
+6:27:35 PM: ​
+6:27:35 PM: (Functions bundling completed in 98ms)
+6:27:35 PM: ​
+6:27:35 PM: Scanning for secrets in code and build output.                
+6:27:35 PM: ────────────────────────────────────────────────────────────────
+6:27:35 PM: ​
+6:27:35 PM: Secrets scanning complete. 318 file(s) scanned. No secrets detected in build output or repo code!
+6:27:35 PM: ​
+6:27:35 PM: (Secrets scanning completed in 623ms)
+6:27:35 PM: ​
+6:27:35 PM: Deploy site                                                   
+6:27:35 PM: ────────────────────────────────────────────────────────────────
+6:27:35 PM: ​
+6:27:35 PM: Section completed: deploying
+6:27:35 PM: ​
+6:27:35 PM: Configuration error                                           
+6:27:35 PM: ────────────────────────────────────────────────────────────────
+6:27:35 PM: ​
+6:27:35 PM:   Error message
+6:27:35 PM:   Deploy did not succeed: Deploy directory 'dist/client' does not exist
+6:27:35 PM: ​
+6:27:35 PM:   Resolved config
+6:27:35 PM:   build:
+6:27:35 PM:     command: bun run build
+6:27:35 PM:     commandOrigin: ui
+6:27:35 PM:     publish: /opt/build/repo/dist/client
+6:27:35 PM:     publishOrigin: ui
+6:27:36 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+6:27:36 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+6:27:36 PM: Failing build: Failed to build site
+6:27:37 PM: Finished processing build request in 28.925s
