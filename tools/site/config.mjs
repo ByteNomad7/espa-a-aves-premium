@@ -10,7 +10,6 @@ export const BRAND = {
   nif: "[PENDIENTE: NIF/CIF]",
   email: "info@avesdelsur.com",
   phone: "[PENDIENTE: teléfono / WhatsApp]",
-  hours: "[PENDIENTE: horario de atención]",
   coverage: "Envíos a toda España y Europa",
   address: "Granadilla de Abona, Tenerife",
   social: {

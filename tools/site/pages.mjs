@@ -385,7 +385,6 @@ export const contacto = () => ({
         <ul style="list-style:none;padding:0;font-size:var(--fs-sm)">
           <li><strong>Email:</strong> <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
           <li><strong>Teléfono / WhatsApp:</strong> ${esc(BRAND.phone)}</li>
-          <li><strong>Horario:</strong> ${esc(BRAND.hours)}</li>
           <li><strong>Ubicación:</strong> ${esc(BRAND.address)}</li>
           <li><strong>Cobertura:</strong> ${esc(BRAND.coverage)}</li>
         </ul>
