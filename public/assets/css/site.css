@@ -522,8 +522,6 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 /* ---------- Galería ---------- */
 .gallery { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 .gallery img, .gallery .gallery__ph { border-radius: var(--radius); aspect-ratio: 4/3; object-fit: cover; width: 100%; }
-.gallery figure { margin: 0; }
-.gallery figcaption { margin-top: var(--s-2); color: var(--c-ink-soft); font-size: var(--fs-xs); }
 .gallery__ph { background: var(--c-surface-2); display: grid; place-items: center; color: var(--c-ink-soft); font-size: var(--fs-xs); text-align: center; padding: var(--s-3); }
 .topic-links a { display: grid; gap: var(--s-2); color: var(--c-ink); text-decoration: none; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
 .topic-links a:hover { transform: translateY(-2px); border-color: var(--c-accent); box-shadow: var(--shadow-sm); }

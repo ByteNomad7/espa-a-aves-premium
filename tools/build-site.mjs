@@ -88,6 +88,8 @@ function catalogPage() {
 function speciesPage(s) {
   const S = s.sections;
   const related = (s.related || []).map(bySlug).filter(Boolean);
+  const photos = s.photos || [s.image];
+  const hasIllustrativeImages = photos.some((photo) => photo.includes("-breeder."));
   const factRows = [
     ["Nombre científico", `<em>${esc(s.sci)}</em>`],
     ["Origen", esc(s.facts.origen)],
@@ -127,13 +129,12 @@ function speciesPage(s) {
       </div>
     </div>
 
+    ${hasIllustrativeImages ? '<p class="muted" style="margin-top:var(--s-6)">Esta página incluye imágenes ilustrativas; no muestran ejemplares disponibles.</p>' : ""}
     <div class="gallery" style="margin-top:var(--s-6)" aria-label="Galería de ${esc(s.name)}">
-      ${(s.photos || [s.image])
+      ${photos
         .map(
-          (photo, index) => {
-            const illustrative = photo.includes("-breeder.");
-            return `<figure><img src="${photo}" alt="${esc(s.name)} (${esc(s.sci)}) en una percha, vista ${index + 1}" width="600" height="450" loading="lazy" decoding="async"><figcaption>${illustrative ? "Imagen ilustrativa de " : ""}${esc(s.name)}: vista ${index + 1} de ${s.photos.length}</figcaption></figure>`;
-          },
+          (photo, index) =>
+            `<img src="${photo}" alt="${esc(s.name)} (${esc(s.sci)}), imagen ${index + 1}" width="600" height="450" loading="lazy" decoding="async">`,
         )
         .join("")}
     </div>
