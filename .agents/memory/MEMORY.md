@@ -1,2 +1,3 @@
 - [Netlify publish output](netlify-publish-output.md) — TanStack autodetection can choose the wrong publish directory for Nitro's Netlify preset; trust generated output.
 - [Footer content](footer-content.md) — keep the footer conventional; do not restore the removed pre-publication, tagline, or image-recreation notices without a new request.
+- [SEO audit triage](seo-audit-triage.md) — treat crawler word-count and filter-canonical notices as heuristics, not reasons to pad policy pages or index duplicate filters.

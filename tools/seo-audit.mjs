@@ -213,6 +213,7 @@ function addPageIssue(page, code, severity, title, detail, effort = "low", statu
 }
 for (const p of pages) {
   if (p.titleCount !== 1 || !p.title) addPageIssue(p, "title_missing_or_multiple", "high", "Missing or duplicated title", "Every HTML page should expose exactly one non-empty title.", "low");
+  if (p.indexable && [...p.title].length > 65) addPageIssue(p, "title_length", "medium", "Page title may be truncated", "Keep the title concise and descriptive; 65 characters is a rough audit guard, not a Google ranking limit.", "low");
   if (p.descriptionCount !== 1 || !p.description) addPageIssue(p, "description_missing_or_multiple", "medium", "Missing or duplicated meta description", "Provide exactly one non-empty meta description for each page.", "low");
   if (p.h1Count !== 1) addPageIssue(p, p.h1Count ? "multiple_h1" : "h1_missing", "medium", p.h1Count ? "Multiple H1 headings" : "Missing H1 heading", "Use one primary H1 that identifies the page's main subject.", "low");
   if (p.canonicalCount !== 1 || !p.canonical) addPageIssue(p, "canonical_missing_or_multiple", "high", "Missing or duplicated canonical", "Provide exactly one canonical link for the page.", "low");

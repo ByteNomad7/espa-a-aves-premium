@@ -1,6 +1,6 @@
 # Technical SEO audit
 
-Generated offline: 2026-09-24T17:23:34.562Z
+Generated offline: 2026-09-24T19:29:37.994Z
 
 ## Counts
 

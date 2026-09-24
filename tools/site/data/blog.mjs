@@ -199,6 +199,7 @@ export const POSTS = [
   {
     slug: "que-es-cites-y-como-afecta-a-los-propietarios",
     title: "Qué es CITES y cómo afecta a los propietarios de aves",
+    seoTitle: "Qué es CITES para propietarios de aves",
     description:
       "Explicación divulgativa de CITES, por qué se regulan ciertas especies de aves y qué implica para quien convive con ellas.",
     published: "2026-02-11",

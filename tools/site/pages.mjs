@@ -125,7 +125,7 @@ export const comoComprar = () => ({
 /* ------------------------------------------------------------------ */
 export const transporte = () => ({
   path: "/transporte-de-aves/",
-  title: "Transporte de aves en España y Europa: cómo se organiza",
+  title: "Transporte de aves: opciones y cuidados",
   description:
     "Cómo planificamos la recogida o la entrega de aves en España y Europa: transportín, clima, ruta, documentación y confirmación de entrega.",
   breadcrumbs: [crumbHome, { href: "/transporte-de-aves/", label: "Transporte" }],
@@ -353,10 +353,17 @@ export const contacto = () => ({
   )}
 <section class="section">
   <div class="container layout-aside">
-    <div>
+    <div class="prose">
       <h2>Escríbenos directamente</h2>
       <p>Para consultar sobre una especie, indica cuál te interesa, tu provincia y cualquier duda sobre su cuidado. Escríbenos a <a href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">${esc(BRAND.email)}</a>.</p>
       <a class="btn btn--primary" href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">Enviar email</a>
+      <h2>Qué incluir en tu consulta</h2>
+      <ul>
+        <li>La especie que te interesa, o las especies entre las que dudas.</li>
+        <li>Tu provincia, para valorar si sería viable una recogida o un traslado.</li>
+        <li>Tu experiencia con aves y las dudas sobre espacio, cuidados o convivencia.</li>
+      </ul>
+      <p>No envíes documentos de identidad ni datos bancarios para hacer una primera consulta. El <a href="/aves/">catálogo</a> describe las especies, pero la disponibilidad y el precio sólo se confirman para un ejemplar concreto. Puedes revisar también <a href="/como-comprar/">cómo funciona el proceso</a> antes de escribir.</p>
     </div>
     <aside class="aside-sticky">
       <div class="aside-card">
@@ -448,7 +455,7 @@ const FAQ_GROUPS = [
 
 export const faq = () => ({
   path: "/preguntas-frecuentes/",
-  title: "Preguntas frecuentes sobre compra y cuidado de aves",
+  title: "Preguntas frecuentes sobre aves",
   description:
     "Respuestas sobre disponibilidad, reservas, pagos, documentación CITES, transporte, cuidados e idoneidad de las aves exóticas en España.",
   breadcrumbs: [crumbHome, { href: "/preguntas-frecuentes/", label: "Preguntas frecuentes" }],
@@ -610,7 +617,7 @@ export function home() {
 
   return {
     path: "/",
-    title: `Aves exóticas criadas con responsabilidad en España | ${BRAND.name}`,
+    title: `${BRAND.name} | Aves exóticas y tenencia responsable`,
     description:
       "Información transparente sobre especies de loros, disponibilidad, documentación y transporte responsable en España. Consulta sin compromiso.",
     image: "/assets/images/hero-macaw-sanctuary.jpg",

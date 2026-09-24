@@ -91,6 +91,12 @@ function catalogPage() {
 }
 
 /* ---------------- Ficha de especie ---------------- */
+const SPECIES_TITLE_OVERRIDES = {
+  "yaco-cola-roja": "Yaco de cola roja: carácter y cuidados",
+  "guacamayo-azul-amarillo": "Guacamayo azul y amarillo: cuidados",
+  "cacatua-cresta-amarilla": "Cacatúa de cresta amarilla: cuidados",
+};
+
 function speciesPage(s) {
   const S = s.sections;
   const related = (s.related || []).map(bySlug).filter(Boolean);
@@ -110,7 +116,7 @@ function speciesPage(s) {
 
   return {
     path: `/aves/${s.slug}/`,
-    title: `${s.name}: carácter, cuidados y convivencia`,
+    title: SPECIES_TITLE_OVERRIDES[s.slug] ?? `${s.name}: carácter, cuidados y convivencia`,
     description: `Guía del ${s.name.toLowerCase()}: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.`,
     image: s.image,
     ogType: "article",
@@ -305,7 +311,7 @@ function blogPostPage(p) {
   const species = (p.species || []).map(bySlug).filter(Boolean);
   return {
     path: `/blog/${p.slug}/`,
-    title: `${p.title} | Blog`,
+    title: p.seoTitle ?? p.title,
     description: p.description,
     ogType: "article",
     active: "/blog/",
@@ -363,7 +369,7 @@ function locationPage(l) {
   const enquiryHref = `mailto:${esc(BRAND.email)}?subject=${encodeURIComponent(`Consulta desde ${l.city}`)}`;
   return {
     path: `/aves/${l.slug}/`,
-    title: `Aves exóticas en ${l.city}: cuidados y traslado desde Tenerife`,
+    title: `Aves exóticas en ${l.city}: guía`,
     description: `Guía para convivir con loros en ${l.city}: vivienda, clima y elección de especie. Consulta las opciones de traslado desde Tenerife antes de decidir.`,
     active: "/aves/",
     breadcrumbs: [crumbHome, crumbAves, { href: `/aves/${l.slug}/`, label: l.city }],
