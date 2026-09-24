@@ -129,6 +129,7 @@ function footer() {
 export function page(o) {
   const canonical = url(o.path);
   const ogImage = o.image ? url(o.image) : url("/assets/images/og-default.jpg");
+  const documentTitle = o.title.includes(BRAND.name) ? o.title : `${o.title} | ${BRAND.name}`;
   const analytics = BRAND.gaId
     ? `<script defer src="/assets/js/analytics.js" data-ga-id="${esc(BRAND.gaId)}"></script>`
     : "";
@@ -140,25 +141,29 @@ export function page(o) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(o.title)}</title>
+<title>${esc(documentTitle)}</title>
 <meta name="description" content="${esc(o.description)}">
+<meta name="theme-color" content="#1f4436">
 <link rel="canonical" href="${canonical}">
 ${o.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">'}
 ${verify}
 <meta property="og:type" content="${o.ogType || "website"}">
 <meta property="og:locale" content="es_ES">
 <meta property="og:site_name" content="${esc(BRAND.name)}">
-<meta property="og:title" content="${esc(o.ogTitle || o.title)}">
+<meta property="og:title" content="${esc(o.ogTitle || documentTitle)}">
 <meta property="og:description" content="${esc(o.description)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${ogImage}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="${esc(o.ogTitle || o.title)}">
+<meta name="twitter:title" content="${esc(o.ogTitle || documentTitle)}">
 <meta name="twitter:description" content="${esc(o.description)}">
 <meta name="twitter:image" content="${ogImage}">
 <link rel="icon" href="/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap"></noscript>
 <link rel="stylesheet" href="/assets/css/site.css">
 ${(o.head || []).join("\n")}
 </head>

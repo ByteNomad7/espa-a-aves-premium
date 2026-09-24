@@ -39,9 +39,9 @@ function catalogPage() {
 
   return {
     path: "/aves/",
-    title: "Catálogo de aves exóticas: especies y fichas",
+    title: "Aves exóticas: especies, carácter y cuidados",
     description:
-      "Fichas de loros y psitácidas: carácter, tamaño, longevidad, nivel de ruido, cuidados y nivel de experiencia recomendado.",
+      "Compara 12 especies de loros y psitácidas por carácter, tamaño, longevidad, ruido, cuidados y experiencia antes de elegir la más adecuada.",
     breadcrumbs: [crumbHome, crumbAves],
     body: `<section class="page-hero"><div class="container">
       <h1>Catálogo de aves</h1>
@@ -65,7 +65,7 @@ function catalogPage() {
         <h2>Antes de elegir</h2>
         <p>Si dudas entre varias especies, empieza por la <a href="/blog/como-elegir-un-loro-adecuado/">guía de elección</a> y la <a href="/tenencia-responsable/">tenencia responsable</a>. También puedes comparar tres de las más consultadas en el artículo sobre las <a href="/blog/diferencias-yaco-amazona-eclectus/">diferencias entre yaco, amazona y eclectus</a>.</p>
 
-        <h2>Zonas con información específica</h2>
+        <h2 id="zonas">Zonas con información específica</h2>
         <ul>${LOCATIONS.map((l) => `<li><a href="/aves/${l.slug}/">Aves en ${esc(l.city)}</a></li>`).join("")}</ul>
       </div>
     </section>
@@ -102,8 +102,8 @@ function speciesPage(s) {
 
   return {
     path: `/aves/${s.slug}/`,
-    title: `${s.name} (${s.sci}): carácter, cuidados y disponibilidad`,
-    description: `Ficha completa del ${s.name.toLowerCase()}: temperamento, cuidados, alimentación, alojamiento, salud, documentación y disponibilidad en España.`,
+    title: `${s.name}: carácter, cuidados y convivencia`,
+    description: `Guía del ${s.name.toLowerCase()}: carácter, ruido, longevidad, alimentación, alojamiento, salud, documentación y disponibilidad en España.`,
     image: s.image,
     ogType: "article",
     active: "/aves/",
@@ -130,8 +130,10 @@ function speciesPage(s) {
     <div class="gallery" style="margin-top:var(--s-6)" aria-label="Galería de ${esc(s.name)}">
       ${(s.photos || [s.image])
         .map(
-          (photo, index) =>
-            `<img src="${photo}" alt="${esc(s.name)}, fotografía real ${index + 1}" width="600" height="450" loading="lazy" decoding="async">`,
+          (photo, index) => {
+            const illustrative = photo.includes("-breeder.");
+            return `<figure><img src="${photo}" alt="${esc(s.name)} (${esc(s.sci)}) en una percha, vista ${index + 1}" width="600" height="450" loading="lazy" decoding="async"><figcaption>${illustrative ? "Imagen ilustrativa de " : ""}${esc(s.name)}: vista ${index + 1} de ${s.photos.length}</figcaption></figure>`;
+          },
         )
         .join("")}
     </div>
@@ -167,11 +169,13 @@ function speciesPage(s) {
       <h2 id="faq">Preguntas frecuentes sobre el ${esc(s.name.toLowerCase())}</h2>
       ${faqList(s.faq, { schema: true })}
 
-      <h2>Guías relacionadas</h2>
+      <h2>Guías para decidir y cuidar</h2>
       <ul>
         <li><a href="/blog/como-elegir-un-loro-adecuado/">Cómo elegir un loro adecuado para tu hogar</a></li>
         <li><a href="/blog/alimentacion-equilibrada-para-loros/">Alimentación equilibrada para loros</a></li>
         <li><a href="/blog/importancia-del-enriquecimiento-ambiental/">La importancia del enriquecimiento ambiental</a></li>
+        <li><a href="/blog/que-preparar-antes-de-recibir-un-loro/">Qué preparar antes de recibir un loro</a></li>
+        <li><a href="/blog/cuanto-vive-un-loro/">Cuánto vive un loro y cómo planificar a largo plazo</a></li>
         <li><a href="/tenencia-responsable/">Tenencia responsable</a></li>
       </ul>
     </div>
@@ -207,6 +211,21 @@ ${
     : ""
 }
 ${ctaBand({ title: `¿Te interesa el ${s.name.toLowerCase()}?`, secondary: { href: "/tenencia-responsable/", label: "Leer sobre tenencia responsable" } })}`,
+    scripts: jsonld({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `${s.name}: carácter, cuidados y convivencia`,
+      description: s.intro,
+      image: (s.photos || [s.image]).map(url),
+      inLanguage: "es-ES",
+      mainEntityOfPage: url(`/aves/${s.slug}/`),
+      about: {
+        "@type": "Taxon",
+        name: s.name,
+        scientificName: s.sci,
+      },
+      publisher: { "@type": "Organization", name: BRAND.name },
+    }),
   };
 }
 
@@ -214,7 +233,7 @@ ${ctaBand({ title: `¿Te interesa el ${s.name.toLowerCase()}?`, secondary: { hre
 function blogIndexPage() {
   return {
     path: "/blog/",
-    title: "Blog sobre loros: guías de cuidado, elección y normativa",
+    title: "Guías sobre loros: cuidados, elección y CITES",
     description:
       "Artículos prácticos sobre elección de especie, alimentación, enriquecimiento, transporte, documentación CITES y bienestar de las psitácidas.",
     breadcrumbs: [crumbHome, { href: "/blog/", label: "Blog" }],
@@ -240,6 +259,19 @@ function blogIndexPage() {
       </div>
     </div></section>
     <section class="section"><div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Rutas de lectura</p>
+        <h2>Encuentra la guía que necesitas</h2>
+        <p>Empieza por tu situación: elegir especie, preparar la llegada, mejorar los cuidados o resolver documentación y transporte.</p>
+      </div>
+      <div class="grid grid--4 topic-links">
+        <a class="aside-card" href="/blog/como-elegir-un-loro-adecuado/"><strong>Elegir especie</strong><span>Ruido, tiempo, espacio y experiencia</span></a>
+        <a class="aside-card" href="/blog/que-preparar-antes-de-recibir-un-loro/"><strong>Preparar la llegada</strong><span>Jaula, seguridad, dieta y veterinario</span></a>
+        <a class="aside-card" href="/blog/alimentacion-equilibrada-para-loros/"><strong>Cuidados diarios</strong><span>Alimentación, bienestar y enriquecimiento</span></a>
+        <a class="aside-card" href="/blog/que-es-cites-y-como-afecta-a-los-propietarios/"><strong>Documentación</strong><span>CITES, procedencia legal y traslados</span></a>
+      </div>
+    </div></section>
+    <section class="section section--alt"><div class="container">
       <h2>Para seguir leyendo</h2>
       <p>Los artículos remiten con frecuencia a dos secciones del sitio. Si estás valorando una especie concreta o quieres entender la parte documental antes de dar el paso, empieza por aquí.</p>
       <ul>
@@ -318,10 +350,12 @@ ${ctaBand({ title: "¿Quieres una recomendación personalizada?", secondary: { h
 
 /* ---------------- Páginas de zona ---------------- */
 function locationPage(l) {
+  const locationIndex = LOCATIONS.findIndex((item) => item.slug === l.slug);
+  const nearby = [LOCATIONS[(locationIndex + 1) % LOCATIONS.length], LOCATIONS[(locationIndex + 2) % LOCATIONS.length]];
   return {
     path: `/aves/${l.slug}/`,
-    title: `Aves exóticas en ${l.city}: entrega, clima y elección de especie`,
-    description: `Información práctica para quien busca un loro en ${l.city}: vivienda, ruido, clima, planificación del traslado y consulta de disponibilidad.`,
+    title: `Aves exóticas en ${l.city}: cuidados y traslado`,
+    description: `Guía para convivir con loros en ${l.city}: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.`,
     active: "/aves/",
     breadcrumbs: [crumbHome, crumbAves, { href: `/aves/${l.slug}/`, label: l.city }],
     body: `<section class="page-hero"><div class="container">
@@ -333,6 +367,8 @@ function locationPage(l) {
         <h2>Antes de consultar desde ${esc(l.city)}</h2>
         <p>Revisa el <a href="/aves/">catálogo de especies</a> y la <a href="/disponibilidad/">disponibilidad</a>, y consulta el <a href="/como-comprar/">proceso completo</a>. Si tienes dudas sobre el traslado, la página de <a href="/transporte-de-aves/">transporte de aves</a> explica cómo se planifica cada entrega.</p>
         <p>Provincia y región de referencia: ${esc(l.region)}.</p>
+        <h2>Información para otras zonas</h2>
+        <p>Consulta también las guías para <a href="/aves/${nearby[0].slug}/">aves exóticas en ${esc(nearby[0].city)}</a> y <a href="/aves/${nearby[1].slug}/">aves exóticas en ${esc(nearby[1].city)}</a>, o revisa todas las <a href="/aves/#zonas">zonas con información específica</a>.</p>
       </div>
       <aside class="aside-sticky"><div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Consulta desde ${esc(l.city)}</h2>
@@ -370,7 +406,7 @@ const defs = [
 await rm(OUT, { recursive: true, force: true });
 
 for (const d of defs) {
-  const extra = (d.scripts || "") + cookieBar() + (d.path === "/" ? orgSchema(SITE_URL) : "");
+  const extra = (d.scripts || "") + cookieBar() + orgSchema(SITE_URL);
   const html = page({ ...d, scripts: extra });
   await emit(d.path, html, { index: !d.noindex });
 }
