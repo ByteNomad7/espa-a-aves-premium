@@ -30,15 +30,22 @@
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="logo" href="/" aria-label="Aves del Sur — inicio">
-      <img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true">
-      <span class="logo__text">Aves del Sur</span>
+      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true"></span>
+      <span class="logo__copy">
+        <span class="logo__text">Aves del Sur</span>
+        <span class="logo__descriptor">Cría responsable · España</span>
+      </span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">
       <span class="nav-toggle__bars" aria-hidden="true"></span>
       <span class="nav-toggle__label">Menú</span>
     </button>
     <nav id="nav-principal" class="site-nav" aria-label="Navegación principal">
-      <ul><li><a href="/">Inicio</a></li><li><a href="/aves/">Aves</a></li><li><a href="/disponibilidad/">Disponibilidad</a></li><li><a href="/como-comprar/">Cómo comprar</a></li><li><a href="/transporte-de-aves/">Transporte</a></li><li><a href="/sobre-nosotros/">Sobre nosotros</a></li><li><a href="/blog/" aria-current="page">Blog</a></li><li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li><li><a href="/contacto/">Contacto</a></li></ul>
+      <ul class="site-nav__primary"><li><a href="/">Inicio</a></li><li><a href="/aves/">Aves</a></li><li><a href="/disponibilidad/">Disponibilidad</a></li><li><a href="/como-comprar/">Cómo comprar</a></li><li><a href="/transporte-de-aves/">Transporte</a></li></ul>
+      <details class="site-nav__more" open>
+        <summary aria-current="page">Más</summary>
+        <ul><li><a href="/sobre-nosotros/">Sobre nosotros</a></li><li><a href="/blog/" aria-current="page">Blog</a></li><li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li><li><a href="/contacto/">Contacto</a></li></ul>
+      </details>
       <a class="btn btn--primary btn--sm site-nav__cta" href="/contacto/">Consultar disponibilidad</a>
     </nav>
   </div>
@@ -155,14 +162,16 @@
 </section>
 </main>
 <footer class="site-footer">
+  <div class="site-footer__accent" aria-hidden="true"></div>
   <div class="container site-footer__grid">
-    <div>
+    <div class="site-footer__intro">
       <p class="site-footer__brand">Aves del Sur</p>
+      <p class="site-footer__kicker">Una relación cuidada desde el primer contacto</p>
       <p class="muted">Cría y asesoramiento responsable de aves exóticas en España. Información transparente antes, durante y después de la entrega.</p>
       
     </div>
     <nav aria-label="Enlaces del sitio">
-      <h2 class="site-footer__title">Secciones</h2>
+      <h2 class="site-footer__title">Explorar</h2>
       <ul><li><a href="/aves/">Aves</a></li><li><a href="/disponibilidad/">Disponibilidad</a></li><li><a href="/como-comprar/">Cómo comprar</a></li><li><a href="/transporte-de-aves/">Transporte</a></li><li><a href="/documentacion-cites/">CITES y documentación</a></li><li><a href="/tenencia-responsable/">Tenencia responsable</a></li><li><a href="/blog/">Blog</a></li><li><a href="/preguntas-frecuentes/">Preguntas frecuentes</a></li><li><a href="/contacto/">Contacto</a></li></ul>
     </nav>
     <nav aria-label="Información legal">
@@ -177,10 +186,12 @@
         <li>Horario: [PENDIENTE: horario de atención]</li>
         <li>Cobertura: España peninsular (consultar islas y otros destinos)</li>
       </ul>
+      <a class="site-footer__cta" href="/contacto/">Consultar disponibilidad <span aria-hidden="true">→</span></a>
     </div>
   </div>
   <div class="container site-footer__bottom">
     <p>© <span data-year>2026</span> Aves del Sur. Los datos legales de la empresa se completarán antes de la publicación.</p>
+    <p class="site-footer__note">Cuidamos cada origen. Acompañamos cada llegada.</p>
   </div>
 </footer>
 <script defer src="/assets/js/site.js"></script>

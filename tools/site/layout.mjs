@@ -36,23 +36,40 @@ export function statusBadge(key) {
 }
 
 function header(active) {
-  const links = NAV.map(
+  const primaryLinks = NAV.slice(0, 5)
+    .map(
     (n) =>
       `<li><a href="${n.href}"${active === n.href ? ' aria-current="page"' : ""}>${esc(n.label)}</a></li>`,
-  ).join("");
+    )
+    .join("");
+  const moreLinks = NAV.slice(5);
+  const moreActive = moreLinks.some((n) => active === n.href);
+  const secondaryLinks = moreLinks
+    .map(
+      (n) =>
+        `<li><a href="${n.href}"${active === n.href ? ' aria-current="page"' : ""}>${esc(n.label)}</a></li>`,
+    )
+    .join("");
   return `<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="logo" href="/" aria-label="${esc(BRAND.name)} — inicio">
-      <img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true">
-      <span class="logo__text">${esc(BRAND.name)}</span>
+      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true"></span>
+      <span class="logo__copy">
+        <span class="logo__text">${esc(BRAND.name)}</span>
+        <span class="logo__descriptor">Cría responsable · España</span>
+      </span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">
       <span class="nav-toggle__bars" aria-hidden="true"></span>
       <span class="nav-toggle__label">Menú</span>
     </button>
     <nav id="nav-principal" class="site-nav" aria-label="Navegación principal">
-      <ul>${links}</ul>
+      <ul class="site-nav__primary">${primaryLinks}</ul>
+      <details class="site-nav__more"${moreActive ? " open" : ""}>
+        <summary${moreActive ? ' aria-current="page"' : ""}>Más</summary>
+        <ul>${secondaryLinks}</ul>
+      </details>
       <a class="btn btn--primary btn--sm site-nav__cta" href="/contacto/">Consultar disponibilidad</a>
     </nav>
   </div>
@@ -70,14 +87,16 @@ function footer() {
     )
     .join("");
   return `<footer class="site-footer">
+  <div class="site-footer__accent" aria-hidden="true"></div>
   <div class="container site-footer__grid">
-    <div>
+    <div class="site-footer__intro">
       <p class="site-footer__brand">${esc(BRAND.name)}</p>
+      <p class="site-footer__kicker">Una relación cuidada desde el primer contacto</p>
       <p class="muted">Cría y asesoramiento responsable de aves exóticas en España. Información transparente antes, durante y después de la entrega.</p>
       ${social ? `<ul class="site-footer__social">${social}</ul>` : ""}
     </div>
     <nav aria-label="Enlaces del sitio">
-      <h2 class="site-footer__title">Secciones</h2>
+      <h2 class="site-footer__title">Explorar</h2>
       <ul>${nav}</ul>
     </nav>
     <nav aria-label="Información legal">
@@ -92,10 +111,12 @@ function footer() {
         <li>Horario: ${esc(BRAND.hours)}</li>
         <li>Cobertura: ${esc(BRAND.coverage)}</li>
       </ul>
+      <a class="site-footer__cta" href="/contacto/">Consultar disponibilidad <span aria-hidden="true">→</span></a>
     </div>
   </div>
   <div class="container site-footer__bottom">
     <p>© <span data-year>2026</span> ${esc(BRAND.name)}. Los datos legales de la empresa se completarán antes de la publicación.</p>
+    <p class="site-footer__note">Cuidamos cada origen. Acompañamos cada llegada.</p>
   </div>
 </footer>`;
 }
