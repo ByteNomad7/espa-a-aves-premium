@@ -435,17 +435,6 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 .hero .eyebrow { color: #855018; }
 .hero h1 { font-size: clamp(2.8rem, 5.3vw, 5.1rem); max-width: 12ch; margin-bottom: var(--s-5); }
 .hero .lead { color: #334638; max-width: 53ch; }
-.hero__image-note {
-  position: absolute;
-  z-index: 1;
-  bottom: var(--s-4);
-  right: max(var(--s-4), calc((100vw - var(--container)) / 2));
-  padding: .35rem .65rem;
-  background: rgba(30, 49, 37, .78);
-  color: #fff;
-  border-radius: 999px;
-  font-size: var(--fs-xs);
-}
 @media (max-width: 899px) {
   .hero__inner { min-height: 760px; align-items: flex-start; padding-block: var(--s-7); }
   .hero__media img { object-position: 70% 55%; }
@@ -457,11 +446,9 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
   .hero__inner { min-height: 800px; }
   .hero .lead { font-size: var(--fs-base); }
   .hero__media img { object-position: 100% 65%; }
-  .hero__image-note { font-size: .7rem; }
 }
 .sanctuary-photo { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); }
 .sanctuary-photo img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 42%; }
-.sanctuary-photo span { position: absolute; right: var(--s-3); bottom: var(--s-3); color: #fff; background: rgba(30,49,37,.82); border-radius: 999px; padding: .3rem .6rem; font-size: var(--fs-xs); }
 .page-hero { background: var(--c-surface); border-bottom: 1px solid var(--c-line); padding-block: var(--s-7); }
 .page-hero p.lead { margin-bottom: 0; max-width: 70ch; }
 
@@ -646,6 +633,7 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 }
 .site-footer__bottom p { margin: 0; }
 .site-footer__note { color: #cad5ce; font-family: var(--f-display); font-size: var(--fs-sm); }
+.site-footer__photo-note { position: relative; margin-top: 0; margin-bottom: 0; padding-bottom: var(--s-4); color: #a9bbb0; font-size: var(--fs-xs); }
 .site-footer__social { display: flex; gap: var(--s-3); text-transform: capitalize; }
 
 @media (max-width: 900px) {

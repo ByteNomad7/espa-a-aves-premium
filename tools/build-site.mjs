@@ -89,7 +89,6 @@ function speciesPage(s) {
   const S = s.sections;
   const related = (s.related || []).map(bySlug).filter(Boolean);
   const photos = s.photos || [s.image];
-  const hasIllustrativeImages = photos.some((photo) => photo.includes("-breeder."));
   const factRows = [
     ["Nombre científico", `<em>${esc(s.sci)}</em>`],
     ["Origen", esc(s.facts.origen)],
@@ -129,7 +128,6 @@ function speciesPage(s) {
       </div>
     </div>
 
-    ${hasIllustrativeImages ? '<p class="muted" style="margin-top:var(--s-6)">Esta página incluye imágenes ilustrativas; no muestran ejemplares disponibles.</p>' : ""}
     <div class="gallery" style="margin-top:var(--s-6)" aria-label="Galería de ${esc(s.name)}">
       ${photos
         .map(

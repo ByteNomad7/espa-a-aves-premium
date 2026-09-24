@@ -672,7 +672,6 @@ export function home() {
       <p class="muted" style="font-size:var(--fs-sm);margin-top:var(--s-4)">Sin carrito, sin urgencias artificiales: la disponibilidad se confirma de forma manual en cada consulta.</p>
     </div>
   </div>
-  <span class="hero__image-note">Imagen ilustrativa · Guacamayo azul y amarillo</span>
 </section>
 
 <section class="trustbar">
@@ -757,8 +756,7 @@ export function home() {
     </div>
     <div class="sanctuary-photo">
       <img src="/assets/images/bienestar-macaw-sanctuary.jpg" width="1024" height="1024" loading="lazy" decoding="async"
-        alt="Imagen ilustrativa de un guacamayo azul y amarillo sobre una percha natural en un aviario soleado">
-      <span>Imagen ilustrativa</span>
+        alt="Guacamayo azul y amarillo sobre una percha natural en un aviario soleado">
     </div>
   </div>
 </section>

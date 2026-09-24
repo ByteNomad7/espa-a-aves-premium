@@ -118,6 +118,7 @@ function footer() {
     <p>© <span data-year>2026</span> ${esc(BRAND.name)}. Los datos legales de la empresa se completarán antes de la publicación.</p>
     <p class="site-footer__note">Cuidamos cada origen. Acompañamos cada llegada.</p>
   </div>
+  <p class="container site-footer__photo-note">Algunas imágenes son recreaciones digitales; no documentan ejemplares concretos ni instalaciones.</p>
 </footer>`;
 }
 
