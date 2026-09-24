@@ -623,17 +623,12 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
 }
 .site-footer__bottom {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  gap: var(--s-4);
   border-top: 1px solid rgba(255, 255, 255, 0.14);
   padding-block: var(--s-4);
   color: #92a79d;
   font-size: var(--fs-xs);
 }
 .site-footer__bottom p { margin: 0; }
-.site-footer__note { color: #cad5ce; font-family: var(--f-display); font-size: var(--fs-sm); }
-.site-footer__photo-note { position: relative; margin-top: 0; margin-bottom: 0; padding-bottom: var(--s-4); color: #a9bbb0; font-size: var(--fs-xs); }
 .site-footer__social { display: flex; gap: var(--s-3); text-transform: capitalize; }
 
 @media (max-width: 900px) {
@@ -649,8 +644,6 @@ hr { border: 0; border-top: 1px solid var(--c-line); margin: var(--s-6) 0; }
   .site-footer__grid { grid-template-columns: 1fr; padding-block: var(--s-7); }
   .site-footer__intro,
   .site-footer__grid > div:last-child { grid-column: auto; }
-  .site-footer__bottom { display: block; }
-  .site-footer__note { margin-top: var(--s-2); }
 }
 
 /* ---------- Cookies ---------- */

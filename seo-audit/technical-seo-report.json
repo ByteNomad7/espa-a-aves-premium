@@ -1,7 +1,7 @@
 {
   "title": "Technical SEO audit",
   "summary": {
-    "generatedAt": "2026-09-24T16:16:40.493Z",
+    "generatedAt": "2026-09-24T16:45:09.818Z",
     "mode": "offline static generated HTML",
     "siteUrlConfigured": true,
     "siteUrl": "https://avesdelsur.com",
@@ -19,7 +19,7 @@
     "imagesMissingDeclaredDimensions": 0,
     "imagesWithLocallyVerifiedAssets": 176,
     "invalidJsonLdBlocks": 0,
-    "visiblePlaceholderCount": 124,
+    "visiblePlaceholderCount": 28,
     "issueCount": 3,
     "issueCountsBySeverity": {
       "CRITICAL": 0,
@@ -432,54 +432,14 @@
       "title": "Unresolved business placeholders appear in rendered HTML",
       "detail": "Contact and legal fields include unresolved placeholders; see per-page counts in the CSV. These need verified business details before publication.",
       "pages": [
-        "/404/",
-        "/aves/a-coruna/",
-        "/aves/agapornis/",
-        "/aves/alicante/",
-        "/aves/amazona/",
-        "/aves/barcelona/",
-        "/aves/bilbao/",
-        "/aves/cacatua-cresta-amarilla/",
-        "/aves/cacatua-galah/",
-        "/aves/caique/",
-        "/aves/conuro-del-sol/",
-        "/aves/eclectus/",
-        "/aves/guacamayo-azul-amarillo/",
-        "/aves/guacamayo-rojo/",
-        "/aves/",
-        "/aves/loro-senegal/",
-        "/aves/madrid/",
-        "/aves/malaga/",
-        "/aves/murcia/",
-        "/aves/ninfa/",
-        "/aves/sevilla/",
-        "/aves/valencia/",
-        "/aves/yaco-cola-roja/",
-        "/aves/zaragoza/",
         "/aviso-legal/",
-        "/blog/alimentacion-equilibrada-para-loros/",
-        "/blog/como-elegir-un-loro-adecuado/",
-        "/blog/cuanto-vive-un-loro/",
-        "/blog/diferencias-yaco-amazona-eclectus/",
-        "/blog/errores-comunes-al-comprar-un-loro/",
-        "/blog/importancia-del-enriquecimiento-ambiental/",
-        "/blog/",
-        "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
-        "/blog/que-preparar-antes-de-recibir-un-loro/",
-        "/blog/senales-de-estres-en-un-loro/",
-        "/blog/transportar-un-loro-de-forma-segura/",
         "/como-comprar/",
         "/contacto/",
-        "/disponibilidad/",
-        "/documentacion-cites/",
-        "/",
         "/politica-de-cookies/",
         "/politica-de-privacidad/",
         "/preguntas-frecuentes/",
         "/sobre-nosotros/",
-        "/tenencia-responsable/",
-        "/terminos-y-condiciones/",
-        "/transporte-de-aves/"
+        "/terminos-y-condiciones/"
       ]
     },
     {
@@ -574,11 +534,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 1,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/a-coruna/",
@@ -609,11 +567,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/agapornis/",
@@ -644,11 +600,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/alicante/",
@@ -679,11 +633,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/amazona/",
@@ -714,11 +666,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/barcelona/",
@@ -749,11 +699,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/bilbao/",
@@ -784,11 +732,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/cacatua-cresta-amarilla/",
@@ -819,11 +765,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/cacatua-galah/",
@@ -854,11 +798,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/caique/",
@@ -889,11 +831,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/conuro-del-sol/",
@@ -924,11 +864,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/eclectus/",
@@ -959,11 +897,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/guacamayo-azul-amarillo/",
@@ -994,11 +930,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/guacamayo-rojo/",
@@ -1029,11 +963,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/",
@@ -1064,11 +996,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 13,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/loro-senegal/",
@@ -1099,11 +1029,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/madrid/",
@@ -1134,11 +1062,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/malaga/",
@@ -1169,11 +1095,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/murcia/",
@@ -1204,11 +1128,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/ninfa/",
@@ -1239,11 +1161,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/sevilla/",
@@ -1274,11 +1194,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/valencia/",
@@ -1309,11 +1227,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/yaco-cola-roja/",
@@ -1344,11 +1260,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 8,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 4,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aves/zaragoza/",
@@ -1379,11 +1293,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/aviso-legal/",
@@ -1414,7 +1326,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 9,
+      "placeholderCount": 7,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder"
@@ -1449,11 +1361,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 4,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/como-elegir-un-loro-adecuado/",
@@ -1484,11 +1394,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 4,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/cuanto-vive-un-loro/",
@@ -1519,11 +1427,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/diferencias-yaco-amazona-eclectus/",
@@ -1554,11 +1460,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 4,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/errores-comunes-al-comprar-un-loro/",
@@ -1589,11 +1493,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/importancia-del-enriquecimiento-ambiental/",
@@ -1624,11 +1526,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/",
@@ -1659,11 +1559,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/que-es-cites-y-como-afecta-a-los-propietarios/",
@@ -1694,11 +1592,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/que-preparar-antes-de-recibir-un-loro/",
@@ -1729,11 +1625,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/senales-de-estres-en-un-loro/",
@@ -1764,11 +1658,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/blog/transportar-un-loro-de-forma-segura/",
@@ -1799,11 +1691,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 3,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/como-comprar/",
@@ -1834,7 +1724,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 1,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder"
@@ -1869,7 +1759,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 5,
+      "placeholderCount": 3,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder",
@@ -1905,11 +1795,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/documentacion-cites/",
@@ -1940,11 +1828,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/",
@@ -1975,11 +1861,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 10,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/politica-de-cookies/",
@@ -2010,7 +1894,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 1,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder"
@@ -2045,7 +1929,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 7,
+      "placeholderCount": 5,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder"
@@ -2080,7 +1964,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 3,
+      "placeholderCount": 1,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder"
@@ -2115,7 +1999,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 8,
+      "placeholderCount": 6,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder"
@@ -2150,11 +2034,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 2,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     },
     {
       "route": "/terminos-y-condiciones/",
@@ -2185,7 +2067,7 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 6,
+      "placeholderCount": 4,
       "schemaBlockCount": 2,
       "problems": [
         "visible_placeholder"
@@ -2220,11 +2102,9 @@
       "imagesMissingDimensions": 0,
       "imagesWithoutLazyFlag": 1,
       "imagesWithLocalFileData": 1,
-      "placeholderCount": 2,
+      "placeholderCount": 0,
       "schemaBlockCount": 3,
-      "problems": [
-        "visible_placeholder"
-      ]
+      "problems": []
     }
   ]
 }

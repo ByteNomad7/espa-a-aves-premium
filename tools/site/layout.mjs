@@ -107,18 +107,14 @@ function footer() {
       <h2 class="site-footer__title">Contacto</h2>
       <ul class="site-footer__contact">
         <li>Email: <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
-        <li>Teléfono / WhatsApp: ${esc(BRAND.phone)}</li>
-        <li>Horario: ${esc(BRAND.hours)}</li>
         <li>Cobertura: ${esc(BRAND.coverage)}</li>
       </ul>
       <a class="site-footer__cta" href="/contacto/">Consultar disponibilidad <span aria-hidden="true">→</span></a>
     </div>
   </div>
   <div class="container site-footer__bottom">
-    <p>© <span data-year>2026</span> ${esc(BRAND.name)}. Los datos legales de la empresa se completarán antes de la publicación.</p>
-    <p class="site-footer__note">Cuidamos cada origen. Acompañamos cada llegada.</p>
+    <p>© <span data-year>2026</span> ${esc(BRAND.name)}. Todos los derechos reservados.</p>
   </div>
-  <p class="container site-footer__photo-note">Algunas imágenes son recreaciones digitales; no documentan ejemplares concretos ni instalaciones.</p>
 </footer>`;
 }
 
