@@ -654,12 +654,15 @@ export function home() {
     title: `Aves exóticas criadas con responsabilidad en España | ${BRAND.name}`,
     description:
       "Información transparente sobre especies de loros, disponibilidad, documentación y transporte responsable en España. Consulta sin compromiso.",
-    image: "/assets/images/hero-aves.jpg",
+    image: "/assets/images/hero-macaw-sanctuary.jpg",
     body: `
 <section class="hero">
+  <div class="hero__media" aria-hidden="true">
+    <img src="/assets/images/hero-macaw-sanctuary.jpg" width="1024" height="1024" fetchpriority="high" decoding="async" alt="">
+  </div>
   <div class="container hero__inner">
-    <div>
-      <p class="eyebrow">Cría y asesoramiento responsable</p>
+    <div class="hero__content">
+      <p class="eyebrow">Aves del Sur · España</p>
       <h1>Aves exóticas criadas con responsabilidad</h1>
       <p class="lead">Acompañamos cada decisión con información honesta sobre la especie, su bienestar, la documentación que corresponda y el traslado hasta tu hogar en España, siempre que pueda hacerse en condiciones adecuadas.</p>
       <div class="btn-row">
@@ -668,11 +671,8 @@ export function home() {
       </div>
       <p class="muted" style="font-size:var(--fs-sm);margin-top:var(--s-4)">Sin carrito, sin urgencias artificiales: la disponibilidad se confirma de forma manual en cada consulta.</p>
     </div>
-    <div class="hero__media">
-      <img src="/assets/images/hero-aves.jpg" width="1200" height="900" fetchpriority="high" decoding="async"
-        alt="Guacamayo y loro gris posados sobre ramas naturales en un aviario luminoso">
-    </div>
   </div>
+  <span class="hero__image-note">Imagen ilustrativa · Guacamayo azul y amarillo</span>
 </section>
 
 <section class="trustbar">
@@ -755,10 +755,10 @@ export function home() {
       </ul>
       <a class="btn btn--light" href="/tenencia-responsable/">Leer la guía de tenencia responsable</a>
     </div>
-    <div>
-      <img src="/assets/images/bienestar-aviario.jpg" width="900" height="700" loading="lazy" decoding="async"
-        style="border-radius:var(--radius-lg)"
-        alt="Interior de un aviario con perchas de madera natural, comederos y juguetes de forrajeo">
+    <div class="sanctuary-photo">
+      <img src="/assets/images/bienestar-macaw-sanctuary.jpg" width="1024" height="1024" loading="lazy" decoding="async"
+        alt="Imagen ilustrativa de un guacamayo azul y amarillo sobre una percha natural en un aviario soleado">
+      <span>Imagen ilustrativa</span>
     </div>
   </div>
 </section>
