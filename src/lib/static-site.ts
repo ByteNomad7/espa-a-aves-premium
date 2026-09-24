@@ -28,11 +28,26 @@ export function getPage(pathname: string) {
   return pages.get(normalize(pathname)) ?? null;
 }
 
-export function htmlResponse(pathname: string) {
+export function htmlResponse(pathname: string, search = "") {
   const html = getPage(pathname);
-  if (html) return new Response(html, { status: 200, headers: HEADERS });
+  if (html) {
+    const canonicalPath = normalize(pathname);
+    if (pathname !== canonicalPath) {
+      return new Response(null, {
+        status: 308,
+        headers: { location: canonicalPath + search },
+      });
+    }
+    return new Response(html, {
+      status: canonicalPath === "/404/" ? 404 : 200,
+      headers: canonicalPath === "/404/" ? { ...HEADERS, "x-robots-tag": "noindex" } : HEADERS,
+    });
+  }
   const notFound = pages.get("/404/");
-  return new Response(notFound ?? "<h1>404</h1>", { status: 404, headers: HEADERS });
+  return new Response(notFound ?? "<h1>404</h1>", {
+    status: 404,
+    headers: { ...HEADERS, "x-robots-tag": "noindex" },
+  });
 }
 
 export const allRoutes = () => Array.from(pages.keys());

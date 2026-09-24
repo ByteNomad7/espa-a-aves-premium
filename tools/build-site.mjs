@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 
 import { SITE_URL, BRAND, LEGAL_NAV } from "./site/config.mjs";
 import { page, esc, jsonld, url } from "./site/layout.mjs";
-import { speciesCard, faqList, ctaBand, cookieBar, orgSchema, enquiryForm } from "./site/components.mjs";
+import { speciesCard, faqList, ctaBand, cookieBar, orgSchema } from "./site/components.mjs";
 import { SPECIES, FAMILIES, familyLabel, bySlug } from "./site/data/species.mjs";
 import { POSTS, AUTHOR } from "./site/data/blog.mjs";
 import { LOCATIONS } from "./site/data/locations.mjs";
@@ -52,7 +52,9 @@ function catalogPage() {
         ${filters}
         <p class="muted" style="font-size:var(--fs-sm)">Mostrando <span data-count>${SPECIES.length}</span> especies.</p>
         <div class="grid grid--3">${cards}</div>
-        <p class="catalog-empty" data-empty hidden>No hay especies en esta categoría en este momento. <a href="/contacto/">Escríbenos</a> y te informamos.</p>
+        <p class="catalog-empty" data-empty hidden>No hay especies en esta categoría en este momento. <a href="mailto:${esc(BRAND.email)}?subject=${encodeURIComponent("Consulta sobre disponibilidad de aves")}">Escríbenos por correo</a> y te informamos.</p>
+
+        <p>¿Ya tienes alguna especie en mente? Consulta los <a href="/disponibilidad/">estados de disponibilidad</a> y lee <a href="/como-comprar/">cómo funciona el proceso de compra</a>. Para preguntar por una especie o resolver dudas antes de decidir, <a href="mailto:${esc(BRAND.email)}?subject=${encodeURIComponent("Consulta sobre disponibilidad de aves")}">escríbenos directamente</a>; la disponibilidad y el precio se confirman de forma individual.</p>
 
         <h2 style="margin-top:var(--s-8)">Categorías</h2>
         <ul>
@@ -69,7 +71,11 @@ function catalogPage() {
         <ul>${LOCATIONS.map((l) => `<li><a href="/aves/${l.slug}/">Aves en ${esc(l.city)}</a></li>`).join("")}</ul>
       </div>
     </section>
-    ${ctaBand({ title: "¿No sabes por dónde empezar?", secondary: { href: "/disponibilidad/", label: "Ver disponibilidad" } })}`,
+    ${ctaBand({
+      title: "¿No sabes por dónde empezar?",
+      primary: { href: `mailto:${esc(BRAND.email)}?subject=${encodeURIComponent("Consulta sobre disponibilidad de aves")}`, label: "Consultar por correo" },
+      secondary: { href: "/disponibilidad/", label: "Ver disponibilidad" },
+    })}`,
     scripts: jsonld({
       "@context": "https://schema.org",
       "@type": "ItemList",
@@ -89,6 +95,7 @@ function speciesPage(s) {
   const S = s.sections;
   const related = (s.related || []).map(bySlug).filter(Boolean);
   const photos = s.photos || [s.image];
+  const enquiryHref = `mailto:${esc(BRAND.email)}?subject=${encodeURIComponent(`Consulta sobre ${s.name}`)}`;
   const factRows = [
     ["Nombre científico", `<em>${esc(s.sci)}</em>`],
     ["Origen", esc(s.facts.origen)],
@@ -118,7 +125,7 @@ function speciesPage(s) {
         <p class="card__sci" style="font-size:var(--fs-base)">${esc(s.sci)}</p>
         <p class="lead">${esc(s.intro)}</p>
         <div class="btn-row">
-          <a class="btn btn--primary" href="/contacto/">Consultar disponibilidad</a>
+          <a class="btn btn--primary" href="${enquiryHref}">Consultar disponibilidad por correo</a>
           <a class="btn btn--ghost" href="/como-comprar/">Cómo funciona el proceso</a>
         </div>
       </div>
@@ -163,7 +170,7 @@ function speciesPage(s) {
       <h2 id="disponibilidad">Disponibilidad</h2>
       <p>Estado actual de la especie: <strong>${
         { disponible: "Disponible", proximamente: "Próximamente", reservado: "Reservado", consultar: "Consultar disponibilidad", no_disponible: "No disponible actualmente" }[s.status]
-      }</strong>. Los estados se gestionan desde un único origen de datos y se explican en la <a href="/disponibilidad/">página de disponibilidad</a>. Precio: ${esc(s.price || "consultar precio")}.</p>
+      }</strong>. Los estados se gestionan desde un único origen de datos y se explican en la <a href="/disponibilidad/">página de disponibilidad</a>. Precio: ${esc(s.price || "consultar precio")}. La disponibilidad y el precio se confirman de forma individual; si quieres avanzar, consulta <a href="/como-comprar/">los pasos del proceso de compra</a> o <a href="${enquiryHref}">pregunta por correo sobre ${esc(s.name)}</a>.</p>
 
       <h2 id="faq">Preguntas frecuentes sobre el ${esc(s.name.toLowerCase())}</h2>
       ${faqList(s.faq, { schema: true })}
@@ -183,7 +190,7 @@ function speciesPage(s) {
       <div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Consultar esta especie</h2>
         <p class="muted" style="font-size:var(--fs-sm)">Te responderemos con la disponibilidad real y con una valoración honesta de si encaja en tu hogar.</p>
-        <a class="btn btn--primary btn--block" href="/contacto/">Enviar consulta</a>
+        <a class="btn btn--primary btn--block" href="${enquiryHref}">Consultar por correo</a>
         <p class="muted" style="font-size:var(--fs-xs);margin-top:var(--s-3)">Enviar una consulta no supone una compra confirmada.</p>
         <hr>
         <h3 style="font-size:var(--fs-base)">En esta ficha</h3>
@@ -209,7 +216,11 @@ ${
 </section>`
     : ""
 }
-${ctaBand({ title: `¿Te interesa el ${s.name.toLowerCase()}?`, secondary: { href: "/tenencia-responsable/", label: "Leer sobre tenencia responsable" } })}`,
+${ctaBand({
+  title: `¿Te interesa el ${s.name.toLowerCase()}?`,
+  primary: { href: enquiryHref, label: "Consultar por correo" },
+  secondary: { href: "/tenencia-responsable/", label: "Leer sobre tenencia responsable" },
+})}`,
     scripts: jsonld({
       "@context": "https://schema.org",
       "@type": "Article",
@@ -349,12 +360,11 @@ ${ctaBand({ title: "¿Quieres una recomendación personalizada?", secondary: { h
 
 /* ---------------- Páginas de zona ---------------- */
 function locationPage(l) {
-  const locationIndex = LOCATIONS.findIndex((item) => item.slug === l.slug);
-  const nearby = [LOCATIONS[(locationIndex + 1) % LOCATIONS.length], LOCATIONS[(locationIndex + 2) % LOCATIONS.length]];
+  const enquiryHref = `mailto:${esc(BRAND.email)}?subject=${encodeURIComponent(`Consulta desde ${l.city}`)}`;
   return {
     path: `/aves/${l.slug}/`,
-    title: `Aves exóticas en ${l.city}: cuidados y traslado`,
-    description: `Guía para convivir con loros en ${l.city}: vivienda, ruido, clima, elección de especie, preparación del hogar y planificación del traslado.`,
+    title: `Aves exóticas en ${l.city}: cuidados y traslado desde Tenerife`,
+    description: `Guía para convivir con loros en ${l.city}: vivienda, clima y elección de especie. Consulta las opciones de traslado desde Tenerife antes de decidir.`,
     active: "/aves/",
     breadcrumbs: [crumbHome, crumbAves, { href: `/aves/${l.slug}/`, label: l.city }],
     body: `<section class="page-hero"><div class="container">
@@ -364,18 +374,21 @@ function locationPage(l) {
     <section class="section"><div class="container layout-aside">
       <div class="prose">${l.body}
         <h2>Antes de consultar desde ${esc(l.city)}</h2>
-        <p>Revisa el <a href="/aves/">catálogo de especies</a> y la <a href="/disponibilidad/">disponibilidad</a>, y consulta el <a href="/como-comprar/">proceso completo</a>. Si tienes dudas sobre el traslado, la página de <a href="/transporte-de-aves/">transporte de aves</a> explica cómo se planifica cada entrega.</p>
-        <p>Provincia y región de referencia: ${esc(l.region)}.</p>
-        <h2>Información para otras zonas</h2>
-        <p>Consulta también las guías para <a href="/aves/${nearby[0].slug}/">aves exóticas en ${esc(nearby[0].city)}</a> y <a href="/aves/${nearby[1].slug}/">aves exóticas en ${esc(nearby[1].city)}</a>, o revisa todas las <a href="/aves/#zonas">zonas con información específica</a>.</p>
+        <p>Compara las necesidades de cada especie en el <a href="/aves/">catálogo</a> y consulta sus estados en <a href="/disponibilidad/">disponibilidad</a>. Para valorar cómo puede encajar un ave en tu hogar, te pueden ayudar la <a href="/blog/como-elegir-un-loro-adecuado/">guía para elegir especie</a> y la lista de <a href="/blog/que-preparar-antes-de-recibir-un-loro/">preparativos para la vivienda</a>. Si quieres avanzar, revisa <a href="/como-comprar/">cómo funciona el proceso</a> y la información sobre <a href="/transporte-de-aves/">transporte de aves</a>.</p>
+        <h2>Consulta y traslado a ${esc(l.city)}</h2>
+        <p>La ubicación indicada de Aves del Sur es ${esc(BRAND.address)}. Esta guía trata de recibir un ave en ${esc(l.city)} (${esc(l.region)}); no indica un establecimiento local. La cobertura general es ${esc(BRAND.coverage).toLowerCase()}, pero la disponibilidad, la documentación aplicable y la viabilidad del traslado se confirman caso por caso.</p>
       </div>
       <aside class="aside-sticky"><div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Consulta desde ${esc(l.city)}</h2>
-        <p class="muted" style="font-size:var(--fs-sm)">Indícanos tu código postal para poder valorar el traslado de forma realista.</p>
-        <a class="btn btn--primary btn--block" href="/contacto/">Enviar consulta</a>
+        <p class="muted" style="font-size:var(--fs-sm)">Escríbenos tu localidad y código postal para valorar la disponibilidad y el traslado de forma realista. La cobertura general no garantiza una ruta concreta.</p>
+        <a class="btn btn--primary btn--block" href="${enquiryHref}">Consultar por correo</a>
       </div></aside>
     </div></section>
-    ${ctaBand({ title: `¿Buscas un ave en ${l.city}?`, secondary: { href: "/transporte-de-aves/", label: "Ver cómo organizamos el transporte" } })}`,
+    ${ctaBand({
+      title: `¿Buscas un ave en ${l.city}?`,
+      primary: { href: enquiryHref, label: "Consultar por correo" },
+      secondary: { href: "/transporte-de-aves/", label: "Ver cómo organizamos el transporte" },
+    })}`,
   };
 }
 
@@ -434,4 +447,4 @@ await writeFile(
 
 console.log(`Generadas ${written.length} páginas HTML (+ sitemap.xml y robots.txt) en /site`);
 console.log(written.map((w) => `  ${w.index ? " " : "N"} ${w.pathname}`).join("\n"));
-void { LEGAL_NAV, enquiryForm };
+void LEGAL_NAV;

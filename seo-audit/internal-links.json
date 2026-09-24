@@ -99,11 +99,11 @@
     },
     {
       "from": "/aves/a-coruna/",
-      "to": "/aves/madrid/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/a-coruna/",
-      "to": "/aves/barcelona/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/a-coruna/",
@@ -267,11 +267,11 @@
     },
     {
       "from": "/aves/alicante/",
-      "to": "/aves/murcia/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/alicante/",
-      "to": "/aves/zaragoza/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/alicante/",
@@ -435,11 +435,7 @@
     },
     {
       "from": "/aves/barcelona/",
-      "to": "/aves/valencia/"
-    },
-    {
-      "from": "/aves/barcelona/",
-      "to": "/aves/sevilla/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/barcelona/",
@@ -503,11 +499,11 @@
     },
     {
       "from": "/aves/bilbao/",
-      "to": "/aves/a-coruna/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/bilbao/",
-      "to": "/aves/madrid/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/bilbao/",
@@ -1479,11 +1475,11 @@
     },
     {
       "from": "/aves/madrid/",
-      "to": "/aves/barcelona/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/madrid/",
-      "to": "/aves/valencia/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/madrid/",
@@ -1551,11 +1547,11 @@
     },
     {
       "from": "/aves/malaga/",
-      "to": "/aves/alicante/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/malaga/",
-      "to": "/aves/murcia/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/malaga/",
@@ -1615,11 +1611,11 @@
     },
     {
       "from": "/aves/murcia/",
-      "to": "/aves/zaragoza/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/murcia/",
-      "to": "/aves/bilbao/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/murcia/",
@@ -1775,11 +1771,11 @@
     },
     {
       "from": "/aves/sevilla/",
-      "to": "/aves/malaga/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/sevilla/",
-      "to": "/aves/alicante/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/sevilla/",
@@ -1851,11 +1847,11 @@
     },
     {
       "from": "/aves/valencia/",
-      "to": "/aves/sevilla/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/valencia/",
-      "to": "/aves/malaga/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/valencia/",
@@ -2011,11 +2007,11 @@
     },
     {
       "from": "/aves/zaragoza/",
-      "to": "/aves/bilbao/"
+      "to": "/blog/como-elegir-un-loro-adecuado/"
     },
     {
       "from": "/aves/zaragoza/",
-      "to": "/aves/a-coruna/"
+      "to": "/blog/que-preparar-antes-de-recibir-un-loro/"
     },
     {
       "from": "/aves/zaragoza/",
@@ -3063,15 +3059,15 @@
     },
     {
       "from": "/como-comprar/",
-      "to": "/politica-de-privacidad/"
-    },
-    {
-      "from": "/como-comprar/",
       "to": "/tenencia-responsable/"
     },
     {
       "from": "/como-comprar/",
       "to": "/aviso-legal/"
+    },
+    {
+      "from": "/como-comprar/",
+      "to": "/politica-de-privacidad/"
     },
     {
       "from": "/como-comprar/",
@@ -3119,10 +3115,6 @@
     },
     {
       "from": "/contacto/",
-      "to": "/politica-de-privacidad/"
-    },
-    {
-      "from": "/contacto/",
       "to": "/documentacion-cites/"
     },
     {
@@ -3132,6 +3124,10 @@
     {
       "from": "/contacto/",
       "to": "/aviso-legal/"
+    },
+    {
+      "from": "/contacto/",
+      "to": "/politica-de-privacidad/"
     },
     {
       "from": "/contacto/",
@@ -3892,12 +3888,12 @@
   ],
   "inboundCounts": {
     "/404/": 0,
-    "/aves/a-coruna/": 4,
+    "/aves/a-coruna/": 2,
     "/aves/agapornis/": 5,
-    "/aves/alicante/": 4,
+    "/aves/alicante/": 2,
     "/aves/amazona/": 9,
-    "/aves/barcelona/": 4,
-    "/aves/bilbao/": 4,
+    "/aves/barcelona/": 2,
+    "/aves/bilbao/": 2,
     "/aves/cacatua-cresta-amarilla/": 8,
     "/aves/cacatua-galah/": 7,
     "/aves/caique/": 9,
@@ -3907,24 +3903,24 @@
     "/aves/guacamayo-rojo/": 4,
     "/aves/": 48,
     "/aves/loro-senegal/": 9,
-    "/aves/madrid/": 4,
-    "/aves/malaga/": 4,
-    "/aves/murcia/": 4,
+    "/aves/madrid/": 2,
+    "/aves/malaga/": 2,
+    "/aves/murcia/": 2,
     "/aves/ninfa/": 10,
-    "/aves/sevilla/": 4,
-    "/aves/valencia/": 4,
+    "/aves/sevilla/": 2,
+    "/aves/valencia/": 2,
     "/aves/yaco-cola-roja/": 13,
-    "/aves/zaragoza/": 4,
+    "/aves/zaragoza/": 2,
     "/aviso-legal/": 48,
     "/blog/alimentacion-equilibrada-para-loros/": 19,
-    "/blog/como-elegir-un-loro-adecuado/": 22,
+    "/blog/como-elegir-un-loro-adecuado/": 32,
     "/blog/cuanto-vive-un-loro/": 18,
     "/blog/diferencias-yaco-amazona-eclectus/": 3,
     "/blog/errores-comunes-al-comprar-un-loro/": 5,
     "/blog/importancia-del-enriquecimiento-ambiental/": 15,
     "/blog/": 48,
     "/blog/que-es-cites-y-como-afecta-a-los-propietarios/": 3,
-    "/blog/que-preparar-antes-de-recibir-un-loro/": 21,
+    "/blog/que-preparar-antes-de-recibir-un-loro/": 30,
     "/blog/senales-de-estres-en-un-loro/": 4,
     "/blog/transportar-un-loro-de-forma-segura/": 3,
     "/como-comprar/": 48,

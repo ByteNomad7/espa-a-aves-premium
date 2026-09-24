@@ -6,7 +6,10 @@ import { htmlResponse } from "@/lib/static-site";
 export const Route = createFileRoute("/$")({
   server: {
     handlers: {
-      GET: ({ request }) => htmlResponse(new URL(request.url).pathname),
+      GET: ({ request }) => {
+        const url = new URL(request.url);
+        return htmlResponse(url.pathname, url.search);
+      },
     },
   },
 });

@@ -1,6 +1,6 @@
 import { SPECIES } from "./data/species.mjs";
 import { HOME_GALLERY } from "./data/gallery.mjs";
-import { enquiryForm, faqList, statusLegend, ctaBand, speciesCard } from "./components.mjs";
+import { faqList, ctaBand, speciesCard } from "./components.mjs";
 import { BRAND } from "./config.mjs";
 import { esc } from "./layout.mjs";
 
@@ -30,24 +30,20 @@ export const disponibilidad = () => ({
   <div class="container layout-aside">
     <div class="prose">
       <h2>Cómo funciona</h2>
-      <p>No publicamos fichas de ejemplares concretos con datos que no podamos acreditar. En su lugar, cada especie tiene un estado general que indica en qué punto se encuentra, y la confirmación real se realiza al responder a tu consulta.</p>
-      <p>Este planteamiento evita dos problemas habituales: la información desactualizada repartida por decenas de páginas y la presión comercial sobre decisiones que afectan a un animal que vivirá décadas.</p>
+      <p>No publicamos fichas de ejemplares concretos con datos que no podamos acreditar. La información general del catálogo no acredita que haya ejemplares disponibles: la situación real se confirma de forma individual al responder a tu consulta.</p>
+      <p>Así evitamos presentar como actual información que puede cambiar y damos espacio a decisiones meditadas sobre animales que vivirán décadas.</p>
 
-      <h2>Significado de cada estado</h2>
-      ${statusLegend()}
-
-      <h2>Estado por especie</h2>
-      <p>Los estados se gestionan desde un único origen de datos, de modo que la información mostrada aquí y en cada ficha siempre coincide.</p>
+      <h2>Existencias y precios</h2>
+      <p>No disponemos aquí de un registro verificado de existencias ni de precios vigentes. Por eso no presentamos los estados generales del catálogo como confirmación de que haya ejemplares disponibles ni publicamos precios que no estén confirmados. La disponibilidad y el precio se comprueban para cada consulta y se comunican por escrito.</p>
+      <p>Explora las especies en el <a href="/aves/">catálogo de aves</a> y consulta directamente por email para conocer la situación actual.</p>
       <div class="table-wrap">
         <table class="facts">
-          <caption class="visually-hidden">Estado de disponibilidad por especie</caption>
-          <thead><tr><th scope="col">Especie</th><th scope="col">Estado</th><th scope="col">Precio</th></tr></thead>
+          <caption class="visually-hidden">Especies del catálogo</caption>
+          <thead><tr><th scope="col">Especie</th><th scope="col">Información</th></tr></thead>
           <tbody>
           ${SPECIES.map(
             (s) =>
-              `<tr><th scope="row"><a href="/aves/${s.slug}/">${esc(s.name)}</a></th><td data-status="${s.status}">${
-                { disponible: "Disponible", proximamente: "Próximamente", reservado: "Reservado", consultar: "Consultar disponibilidad", no_disponible: "No disponible actualmente" }[s.status]
-              }</td><td>${esc(s.price || "Consultar precio")}</td></tr>`,
+              `<tr><th scope="row"><a href="/aves/${s.slug}/">${esc(s.name)}</a></th><td>Consulta de disponibilidad y precio</td></tr>`,
           ).join("")}
           </tbody>
         </table>
@@ -57,13 +53,14 @@ export const disponibilidad = () => ({
       <p>Cuando existe un ejemplar concreto y ambas partes están conformes, puede acordarse una reserva. Las condiciones se explican por escrito antes de cualquier pago, incluyendo qué ocurre si el ave no puede entregarse por motivos de salud o de documentación.</p>
 
       <h2>¿Y si la especie que busco no aparece?</h2>
-      <p>Escríbenos igualmente. Si no podemos ayudarte, te lo diremos con claridad en lugar de mantener una consulta abierta indefinidamente.</p>
+      <p>Escríbenos igualmente a <a href="mailto:${esc(BRAND.email)}?subject=Consulta%20de%20disponibilidad">${esc(BRAND.email)}</a>. Si no podemos ayudarte, te lo diremos con claridad en lugar de mantener una consulta abierta indefinidamente.</p>
     </div>
     <aside class="aside-sticky">
       <div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Consultar disponibilidad</h2>
-        <p class="muted" style="font-size:var(--fs-sm)">Indícanos la especie, tu provincia y tu experiencia previa. Te responderemos con la situación real.</p>
-        <a class="btn btn--primary btn--block" href="/contacto/">Enviar consulta</a>
+        <p class="muted" style="font-size:var(--fs-sm)">No hay existencias ni precios vigentes verificados en esta página. Escríbenos con la especie, tu provincia y tu experiencia para confirmar la situación real.</p>
+        <a class="btn btn--primary btn--block" href="mailto:${esc(BRAND.email)}?subject=Consulta%20de%20disponibilidad">Consultar por email</a>
+        <p class="muted" style="font-size:var(--fs-xs);margin-top:var(--s-3)">¿Prefieres otra vía? <a href="/contacto/">Ver opciones de contacto</a>.</p>
         <p class="muted" style="font-size:var(--fs-xs);margin-top:var(--s-3)">Enviar una consulta no supone una compra confirmada.</p>
       </div>
     </aside>
@@ -95,7 +92,7 @@ export const comoComprar = () => ({
     <h2>El proceso, paso a paso</h2>
     <ol class="steps">
       <li><h3>Elección de especie</h3><p>Revisa las fichas del <a href="/aves/">catálogo</a> y compara necesidades de espacio, ruido, dieta y tiempo. Si dudas entre varias, dínoslo en la consulta.</p></li>
-      <li><h3>Envío de la consulta</h3><p>Rellena el formulario con tu provincia, tu experiencia previa y tu situación. Cuanta más información, más útil será la respuesta.</p></li>
+      <li><h3>Envío de la consulta</h3><p>Escríbenos a <a href="mailto:${esc(BRAND.email)}?subject=Consulta%20de%20compra">${esc(BRAND.email)}</a> e indica tu provincia, tu experiencia previa y tu situación. Cuanta más información compartas, más útil será la respuesta.</p></li>
       <li><h3>Confirmación manual de disponibilidad</h3><p>Comprobamos la situación real de la especie solicitada y te informamos con honestidad, incluso si la respuesta es que no hay ejemplares.</p></li>
       <li><h3>Valoración de idoneidad</h3><p>Hablamos sobre tu vivienda, tu rutina y tus expectativas. Si consideramos que la especie no encaja, te lo diremos y propondremos alternativas.</p></li>
       <li><h3>Condiciones y precio</h3><p>Se confirman por escrito el precio, lo que incluye, la forma de pago y las condiciones de una eventual reserva antes de que realices ningún abono.</p></li>
@@ -114,11 +111,11 @@ export const comoComprar = () => ({
     </ul>
 
     <h2>Pagos</h2>
-    <p>Las condiciones de pago se acuerdan por escrito en cada caso. No solicitamos pagos antes de confirmar la disponibilidad real ni utilizamos plazos artificiales para forzar decisiones. <strong>[PENDIENTE: métodos de pago aceptados y condiciones de reserva]</strong>.</p>
+    <p>Las condiciones de pago y de cualquier reserva se acuerdan por escrito en cada caso. Antes de realizar un pago, confirma con nosotros la disponibilidad real, el precio, las condiciones aplicables y qué ocurre si no pudiera completarse la entrega. No se solicita ningún abono antes de que esos detalles estén claros.</p>
 
-    <h2>Formulario de consulta</h2>
-    <p class="lead">Responderemos con información concreta sobre disponibilidad, idoneidad y siguientes pasos.</p>
-    ${enquiryForm(SPECIES, { id: "compra" })}
+    <h2>Consulta por email</h2>
+    <p class="lead">Escríbenos a <a href="mailto:${esc(BRAND.email)}?subject=Consulta%20sobre%20un%20ave">${esc(BRAND.email)}</a> con la especie de interés, tu provincia y tu experiencia previa.</p>
+    <a class="btn btn--primary" href="mailto:${esc(BRAND.email)}?subject=Consulta%20sobre%20un%20ave">Escribir por email</a>
   </div>
 </section>`,
 });
@@ -377,19 +374,19 @@ export const contacto = () => ({
 <section class="section">
   <div class="container layout-aside">
     <div>
-      <h2>Formulario de consulta</h2>
-      ${enquiryForm(SPECIES, { id: "contacto" })}
+      <h2>Escríbenos directamente</h2>
+      <p>Para consultar sobre una especie, indica cuál te interesa, tu provincia y cualquier duda sobre su cuidado. Escríbenos a <a href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">${esc(BRAND.email)}</a>.</p>
+      <a class="btn btn--primary" href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">Enviar email</a>
     </div>
     <aside class="aside-sticky">
       <div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Datos de contacto</h2>
         <ul style="list-style:none;padding:0;font-size:var(--fs-sm)">
-          <li><strong>Email:</strong> <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>
-          <li><strong>Teléfono / WhatsApp:</strong> ${esc(BRAND.phone)}</li>
+          <li><strong>Email:</strong> <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a></li>${BRAND.phone && !BRAND.phone.includes("[PENDIENTE") ? `
+          <li><strong>Teléfono / WhatsApp:</strong> ${esc(BRAND.phone)}</li>` : ""}
           <li><strong>Ubicación:</strong> ${esc(BRAND.address)}</li>
           <li><strong>Cobertura:</strong> ${esc(BRAND.coverage)}</li>
         </ul>
-        <p class="muted" style="font-size:var(--fs-xs)">Los datos marcados como pendientes se completarán con información real antes de la publicación.</p>
         <hr>
         <h3 style="font-size:var(--fs-base)">Antes de escribir</h3>
         <p class="muted" style="font-size:var(--fs-sm)">Puede que tu duda ya esté resuelta en las <a href="/preguntas-frecuentes/">preguntas frecuentes</a> o en la página de <a href="/como-comprar/">cómo comprar</a>.</p>
@@ -422,7 +419,7 @@ const FAQ_GROUPS = [
   [
     "Pagos",
     [
-      ["¿Qué métodos de pago aceptáis?", "<strong>[PENDIENTE: métodos de pago aceptados]</strong>. Se detallan por escrito antes de cualquier abono."],
+      ["¿Qué métodos de pago aceptáis?", "No publicamos métodos de pago vigentes en esta página. Antes de cualquier abono, confirma por escrito con nosotros el método acordado, el precio, las condiciones de reserva y qué ocurre si no pudiera completarse la entrega."],
       ["¿Se paga algo por hacer una consulta?", "No. La consulta y el asesoramiento previo no tienen coste."],
       ["¿Por qué no aparecen precios en las fichas?", "No publicamos importes que no estén confirmados. Cuando exista un precio real para un ejemplar, se comunica de forma clara."],
     ],
@@ -548,7 +545,7 @@ ${legalNotice}
 export const privacidad = () => ({
   path: "/politica-de-privacidad/",
   title: "Política de privacidad",
-  description: "Cómo se tratan los datos personales facilitados a través de los formularios de este sitio web.",
+  description: "Cómo se tratan los datos personales enviados por correo electrónico para consultas sobre aves.",
   breadcrumbs: [crumbHome, { href: "/politica-de-privacidad/", label: "Política de privacidad" }],
   body: `${pageHero("Política de privacidad", "Información sobre el tratamiento de los datos personales facilitados en el sitio.")}
 <section class="section"><div class="container container--narrow prose">
@@ -556,17 +553,17 @@ ${legalNotice}
 <h2>Responsable del tratamiento</h2>
 <p>${esc(BRAND.legalName)} — NIF ${esc(BRAND.nif)} — <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>.</p>
 <h2>Finalidad</h2>
-<p>Los datos facilitados en el formulario de consulta se utilizan exclusivamente para responder a la solicitud, valorar la idoneidad y, en su caso, gestionar el proceso posterior. Si se marca la casilla correspondiente, también para el envío de contenidos informativos.</p>
+<p>Los datos facilitados por correo electrónico se utilizan para responder a la solicitud, valorar la idoneidad y, en su caso, gestionar el proceso posterior. Este sitio no ofrece una suscripción a contenidos informativos.</p>
 <h2>Base jurídica</h2>
 <p>El consentimiento de la persona interesada y, en su caso, la aplicación de medidas precontractuales solicitadas por ella.</p>
 <h2>Conservación</h2>
 <p>Los datos se conservan mientras dure la relación y, posteriormente, durante los plazos legales de prescripción aplicables. [PENDIENTE: plazos concretos].</p>
 <h2>Destinatarios</h2>
-<p>No se ceden datos a terceros con fines publicitarios. [PENDIENTE: proveedores de correo, alojamiento o gestión de formularios que actúen como encargados del tratamiento].</p>
+<p>No se ceden datos a terceros con fines publicitarios. [PENDIENTE: proveedores de correo y alojamiento que actúen como encargados del tratamiento].</p>
 <h2>Derechos</h2>
 <p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>, así como presentar una reclamación ante la autoridad de control competente.</p>
 <h2>Seguridad</h2>
-<p>Este formulario no transmite datos hasta que se configure un servicio de correo. Para consultas puedes escribir directamente al email indicado. Este sitio no almacena credenciales ni claves en el navegador.</p>
+<p>Este sitio no ofrece un formulario de envío. Para consultas puedes escribir directamente al email indicado. No se solicitan contraseñas ni datos bancarios por correo.</p>
 </div></section>`,
 });
 

@@ -54,7 +54,7 @@ function header(active) {
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="logo" href="/" aria-label="${esc(BRAND.name)} — inicio">
-      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true"></span>
+      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark-96.webp" width="42" height="42" alt="" aria-hidden="true"></span>
       <span class="logo__copy">
         <span class="logo__text">${esc(BRAND.name)}</span>
         <span class="logo__descriptor">Cría responsable · España</span>

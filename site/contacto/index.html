@@ -34,7 +34,7 @@
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="logo" href="/" aria-label="Aves del Sur — inicio">
-      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true"></span>
+      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark-96.webp" width="42" height="42" alt="" aria-hidden="true"></span>
       <span class="logo__copy">
         <span class="logo__text">Aves del Sur</span>
         <span class="logo__descriptor">Cría responsable · España</span>
@@ -65,126 +65,18 @@
 <section class="section">
   <div class="container layout-aside">
     <div>
-      <h2>Formulario de consulta</h2>
-      <form class="form" id="contacto" data-enquiry-form novalidate
-  action="/como-comprar/" method="post" data-endpoint="">
-  <p class="muted" style="font-size:var(--fs-sm)">Los campos marcados con * son obligatorios. Enviar una consulta no supone una compra confirmada.</p>
-  <p class="muted" style="font-size:var(--fs-sm)">El envío automático todavía no está configurado. Puedes escribirnos directamente a <a href="mailto:info@avesdelsur.com">info@avesdelsur.com</a>.</p>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="contacto-nombre">Nombre y apellidos *</label>
-      <input id="contacto-nombre" name="nombre" type="text" autocomplete="name" required minlength="3">
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="contacto-email">Email *</label>
-      <input id="contacto-email" name="email" type="email" autocomplete="email" required>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="contacto-tel">Teléfono / WhatsApp *</label>
-      <input id="contacto-tel" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required pattern="[0-9+ ()\-]{9,20}">
-      <p class="hint">Formato español o internacional, con prefijo si procede.</p>
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="contacto-provincia">Provincia *</label>
-      <input id="contacto-provincia" name="provincia" type="text" autocomplete="address-level1" required>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="contacto-cp">Código postal *</label>
-      <input id="contacto-cp" name="codigo_postal" type="text" autocomplete="postal-code" inputmode="numeric" required pattern="[0-9]{5}">
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="contacto-especie">Especie de interés *</label>
-      <select id="contacto-especie" name="especie" required>
-        <option value="">Selecciona una especie</option>
-        <option value="Yaco de cola roja">Yaco de cola roja</option><option value="Guacamayo azul y amarillo">Guacamayo azul y amarillo</option><option value="Guacamayo rojo">Guacamayo rojo</option><option value="Cacatúa Galah">Cacatúa Galah</option><option value="Cacatúa de cresta amarilla">Cacatúa de cresta amarilla</option><option value="Amazona">Amazona</option><option value="Eclectus">Eclectus</option><option value="Caique">Caique</option><option value="Conuro del sol">Conuro del sol</option><option value="Loro Senegal">Loro Senegal</option><option value="Ninfa (carolina)">Ninfa (carolina)</option><option value="Agapornis">Agapornis</option>
-        <option value="No lo tengo claro">Aún no lo tengo claro</option>
-      </select>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="contacto-experiencia">Experiencia previa con aves *</label>
-      <select id="contacto-experiencia" name="experiencia" required>
-        <option value="">Selecciona una opción</option>
-        <option value="ninguna">Ninguna</option>
-        <option value="pequenas">He convivido con aves pequeñas</option>
-        <option value="psitacidas-medianas">He convivido con psitácidas medianas</option>
-        <option value="psitacidas-grandes">He convivido con psitácidas grandes</option>
-      </select>
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="contacto-contacto">Método preferido de contacto *</label>
-      <select id="contacto-contacto" name="contacto_preferido" required>
-        <option value="">Selecciona una opción</option>
-        <option value="email">Email</option>
-        <option value="telefono">Llamada telefónica</option>
-        <option value="whatsapp">WhatsApp</option>
-      </select>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="field">
-    <label for="contacto-mensaje">Mensaje *</label>
-    <textarea id="contacto-mensaje" name="mensaje" required minlength="20"
-      placeholder="Cuéntanos tu situación: tipo de vivienda, tiempo disponible, otras mascotas y qué dudas tienes."></textarea>
-    <p class="error" aria-live="polite"></p>
-  </div>
-
-  <div class="field checkbox-field">
-    <div class="checkbox">
-      <input id="contacto-privacidad" name="privacidad" type="checkbox" required>
-      <label for="contacto-privacidad">He leído y acepto la <a href="/politica-de-privacidad/">política de privacidad</a> y el tratamiento de mis datos para responder a esta consulta. *</label>
-    </div>
-    <p class="error" aria-live="polite"></p>
-  </div>
-
-  <div class="checkbox">
-    <input id="contacto-newsletter" name="newsletter" type="checkbox">
-    <label for="contacto-newsletter">Quiero recibir, de forma opcional, contenidos sobre cuidado de aves. Puedo darme de baja cuando quiera.</label>
-  </div>
-
-  <div class="honeypot" aria-hidden="true">
-    <label for="contacto-website">No rellenar</label>
-    <input id="contacto-website" name="website" type="text" tabindex="-1" autocomplete="off">
-  </div>
-
-  <div>
-    <button class="btn btn--primary" type="submit">Enviar consulta</button>
-  </div>
-
-  <p class="form__status" data-form-status hidden role="status" aria-live="polite"></p>
-  <p class="muted" style="font-size:var(--fs-xs)">
-    Ningún dato se comparte con terceros con fines publicitarios. Este formulario no envía datos
-    hasta que se configure un servicio de correo; esta página no contiene claves ni credenciales.
-  </p>
-</form>
+      <h2>Escríbenos directamente</h2>
+      <p>Para consultar sobre una especie, indica cuál te interesa, tu provincia y cualquier duda sobre su cuidado. Escríbenos a <a href="mailto:info@avesdelsur.com?subject=Consulta%20a%20Aves%20del%20Sur">info@avesdelsur.com</a>.</p>
+      <a class="btn btn--primary" href="mailto:info@avesdelsur.com?subject=Consulta%20a%20Aves%20del%20Sur">Enviar email</a>
     </div>
     <aside class="aside-sticky">
       <div class="aside-card">
         <h2 style="font-size:var(--fs-lg)">Datos de contacto</h2>
         <ul style="list-style:none;padding:0;font-size:var(--fs-sm)">
           <li><strong>Email:</strong> <a href="mailto:info@avesdelsur.com">info@avesdelsur.com</a></li>
-          <li><strong>Teléfono / WhatsApp:</strong> [PENDIENTE: teléfono / WhatsApp]</li>
           <li><strong>Ubicación:</strong> Granadilla de Abona, Tenerife</li>
           <li><strong>Cobertura:</strong> Envíos a toda España y Europa</li>
         </ul>
-        <p class="muted" style="font-size:var(--fs-xs)">Los datos marcados como pendientes se completarán con información real antes de la publicación.</p>
         <hr>
         <h3 style="font-size:var(--fs-base)">Antes de escribir</h3>
         <p class="muted" style="font-size:var(--fs-sm)">Puede que tu duda ya esté resuelta en las <a href="/preguntas-frecuentes/">preguntas frecuentes</a> o en la página de <a href="/como-comprar/">cómo comprar</a>.</p>

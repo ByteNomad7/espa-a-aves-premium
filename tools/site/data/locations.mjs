@@ -14,7 +14,7 @@ export const LOCATIONS = [
 <p>La mayor parte de los hogares madrileños son pisos en bloques con patios interiores que amplifican el sonido. En este contexto, las llamadas de un <a href="/aves/guacamayo-azul-amarillo/">guacamayo</a> o de una <a href="/aves/cacatua-cresta-amarilla/">cacatúa de cresta amarilla</a> generan conflictos vecinales con frecuencia. Para quien vive en el centro o en barrios de edificación densa, especies de volumen contenido como el <a href="/aves/loro-senegal/">loro Senegal</a> o la <a href="/aves/ninfa/">ninfa</a> encajan mucho mejor. En viviendas unifamiliares del área metropolitana el margen es mayor.</p>
 
 <h2>Calor y planificación del traslado</h2>
-<p>Entre junio y septiembre las temperaturas en la ciudad superan con holgura los treinta grados durante gran parte del día. Las entregas se planifican a primera hora de la mañana o al final de la tarde, evitando esperas en vehículos estacionados y trayectos por vías con retenciones prolongadas.</p>
+<p>Entre junio y septiembre las temperaturas en la ciudad pueden superar los treinta grados. Cualquier entrega debe valorarse según la previsión meteorológica y, si es viable, evitar las horas centrales, las esperas en vehículos estacionados y los trayectos con retenciones prolongadas.</p>
 
 <h2>Accesos y logística</h2>
 <p>La posición central de Madrid facilita el enlace con las principales autovías radiales, lo que simplifica los traslados terrestres desde buena parte de la Península. Dentro de la ciudad conviene tener en cuenta las zonas de bajas emisiones y las restricciones de acceso al centro al acordar el punto y la hora de entrega.</p>
@@ -37,7 +37,7 @@ export const LOCATIONS = [
 <p>La normativa municipal sobre tenencia de animales y las ordenanzas de convivencia hacen recomendable comprobar el reglamento de la comunidad de propietarios antes de incorporar un ave de volumen alto. Verifica siempre la normativa vigente con el ayuntamiento y con tu comunidad.</p>
 
 <h2>Entregas y accesos</h2>
-<p>La entrada en la ciudad está condicionada por la zona de bajas emisiones y por la dificultad de estacionamiento en muchos barrios. Fijamos un punto de encuentro accesible y una franja horaria concreta para reducir al mínimo el tiempo del ave en el transportín.</p>
+<p>La entrada en la ciudad está condicionada por la zona de bajas emisiones y por la dificultad de estacionamiento en muchos barrios. Si se acuerda una entrega, conviene elegir un punto de encuentro accesible y una franja horaria que reduzca el tiempo del ave en el transportín.</p>
 
 <h2>Antes de la llegada</h2>
 <p>En viviendas con balcones y terrazas, muy habituales en la ciudad, conviene revisar puertas y ventanas: las escapadas se producen casi siempre en los primeros días. Revisa la lista completa de <a href="/blog/que-preparar-antes-de-recibir-un-loro/">preparativos previos</a>.</p>
@@ -54,13 +54,13 @@ export const LOCATIONS = [
 <p>Las horas de luz son un factor a favor del bienestar, siempre que la jaula no reciba sol directo continuado. En verano conviene revisar la ubicación a lo largo del día, porque la incidencia solar cambia y una jaula bien situada en invierno puede quedar expuesta en agosto.</p>
 
 <h2>Calor húmedo</h2>
-<p>La combinación de temperatura y humedad estival aumenta el estrés térmico durante los traslados. Programamos las entregas fuera de las horas centrales y valoramos aplazarlas si la previsión meteorológica es desfavorable.</p>
+<p>La combinación de temperatura y humedad estival aumenta el riesgo de estrés térmico durante los traslados. Conviene evitar las horas centrales y aplazar el viaje si la previsión meteorológica es desfavorable.</p>
 
 <h2>Vivienda</h2>
 <p>La mezcla de pisos urbanos y viviendas con patio en el área metropolitana amplía las opciones: en casas con espacio exterior protegido es viable un voladero, siempre con protección frente al sol, la lluvia y otros animales.</p>
 
 <h2>Especies frecuentes en consulta</h2>
-<p>En esta zona recibimos muchas consultas sobre <a href="/aves/conuro-del-sol/">conuro del sol</a> y <a href="/aves/caique/">caique</a>. Ambas son aves muy activas y agudas: conviene valorar el aislamiento acústico de la vivienda antes de decidir.</p>
+<p>Si te interesan el <a href="/aves/conuro-del-sol/">conuro del sol</a> o el <a href="/aves/caique/">caique</a>, valora el aislamiento acústico de tu vivienda antes de decidir: ambas son aves muy activas y vocales.</p>
 `,
   },
   {
@@ -71,7 +71,7 @@ export const LOCATIONS = [
       "El verano sevillano es el condicionante principal: temperaturas extremas que obligan a planificar cualquier traslado con criterios estrictos.",
     body: `
 <h2>Temperaturas extremas</h2>
-<p>Con máximas que superan con frecuencia los cuarenta grados, los traslados en julio y agosto se limitan a primeras horas de la mañana o se posponen. Ningún ejemplar viaja en las horas centrales durante una ola de calor.</p>
+<p>Con máximas que pueden superar los cuarenta grados, los traslados en julio y agosto requieren especial precaución: las horas centrales y las olas de calor pueden hacer necesario aplazar la entrega.</p>
 
 <h2>Ubicación de la jaula en casa</h2>
 <p>Evita colocarla cerca de ventanas orientadas al sur y sin protección, y no la sitúes bajo la salida directa del aire acondicionado. El objetivo es una temperatura estable, sin corrientes frías bruscas.</p>
@@ -111,7 +111,7 @@ export const LOCATIONS = [
       "Clima seco y suave, con una mezcla de vivienda urbana y residencial que amplía las opciones de alojamiento del ave.",
     body: `
 <h2>Ambiente seco</h2>
-<p>La baja humedad relativa de buena parte del año hace recomendable aumentar la frecuencia de baños o pulverizaciones, especialmente en especies que agradecen la humedad, como el <a href="/aves/eclectus/">eclectus</a> o el <a href="/aves/yaco-cola-roja/">yaco</a>. Un plumaje seco y quebradizo suele mejorar con esta rutina.</p>
+<p>La baja humedad relativa de buena parte del año puede hacer recomendable revisar las rutinas de baño, especialmente para el <a href="/aves/eclectus/">eclectus</a> o el <a href="/aves/yaco-cola-roja/">yaco</a>. Si el plumaje presenta cambios, consulta con un veterinario de aves antes de atribuirlos al clima.</p>
 
 <h2>Viviendas con exterior</h2>
 <p>En chalés y adosados del área residencial es viable un voladero exterior con sombra, protección frente a la lluvia y malla de seguridad. En pisos del centro, el criterio vuelve a ser el volumen sonoro de la especie.</p>
@@ -200,7 +200,7 @@ export const LOCATIONS = [
 <p>La distancia por carretera hasta el centro peninsular hace que los traslados requieran más planificación: horarios, paradas y, en su caso, transporte especializado. Cuando el trayecto no puede realizarse en condiciones adecuadas, preferimos posponerlo o proponer la recogida.</p>
 
 <h2>Antes de consultar</h2>
-<p>Indícanos tu localidad y código postal en el <a href="/contacto/">formulario de consulta</a> para poder valorar el traslado de forma realista desde el primer mensaje.</p>
+<p>Indícanos tu localidad y código postal por <a href="/contacto/">correo electrónico</a> para poder valorar el traslado de forma realista desde el primer mensaje.</p>
 `,
   },
 ];

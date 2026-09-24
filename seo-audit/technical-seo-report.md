@@ -1,21 +1,19 @@
 # Technical SEO audit
 
-Generated offline: 2026-09-24T16:59:58.373Z
+Generated offline: 2026-09-24T17:17:53.370Z
 
 ## Counts
 
 - Generated HTML pages: 48 (47 indexable, 1 noindex)
-- Sitemap URLs: 47; internal link edges: 972
+- Sitemap URLs: 47; internal link edges: 971
 - Broken internal references: 0; orphan routes: 1; unreachable from home: 1; maximum linked depth: 2
 - Images: 193; missing alt attributes: 0; missing declared dimensions: 0; local file data verified: 193
-- Invalid JSON-LD blocks: 0; visible placeholder markers: 25
-- Issue groups by severity: CRITICAL 0, HIGH 2, MEDIUM 1, LOW 0
+- Invalid JSON-LD blocks: 0; visible placeholder markers: 22
+- Issue groups by severity: CRITICAL 0, HIGH 1, MEDIUM 0, LOW 0
 
 ## Prioritized findings
 
-- **P1 · HIGH · VERIFIED — Contact form has no configured submission endpoint** (unconfigured_enquiry_form; impact HIGH; effort MEDIUM). The rendered contact form has data-endpoint=""; public/assets/js/site.js shows an error rather than sending when this is empty. Affected pages: 1; see JSON for routes.
-- **P1 · HIGH · VERIFIED — Unresolved business placeholders appear in rendered HTML** (visible_placeholder; impact HIGH; effort MEDIUM). Contact and legal fields include unresolved placeholders; see per-page counts in the CSV. These need verified business details before publication. Affected pages: 8; see JSON for routes.
-- **P2 · MEDIUM · VERIFIED — Large logo asset used on every page** (oversized_logo; impact MEDIUM; effort LOW). logo-mark.png is 1024×1024 and 678,150 bytes but is declared 42×42 in the shared header; potential payload/LCP impact requires measurement. Affected pages: 48; see JSON for routes.
+- **P1 · HIGH · VERIFIED — Unresolved business placeholders appear in rendered HTML** (visible_placeholder; impact HIGH; effort MEDIUM). Contact and legal fields include unresolved placeholders; see per-page counts in the CSV. These need verified business details before publication. Affected pages: 5; see JSON for routes.
 
 ## Sitemap and robots
 

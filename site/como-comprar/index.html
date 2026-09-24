@@ -34,7 +34,7 @@
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="logo" href="/" aria-label="Aves del Sur — inicio">
-      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark.png" width="42" height="42" alt="" aria-hidden="true"></span>
+      <span class="logo__seal"><img class="logo__mark" src="/assets/images/logo-mark-96.webp" width="42" height="42" alt="" aria-hidden="true"></span>
       <span class="logo__copy">
         <span class="logo__text">Aves del Sur</span>
         <span class="logo__descriptor">Cría responsable · España</span>
@@ -72,7 +72,7 @@
     <h2>El proceso, paso a paso</h2>
     <ol class="steps">
       <li><h3>Elección de especie</h3><p>Revisa las fichas del <a href="/aves/">catálogo</a> y compara necesidades de espacio, ruido, dieta y tiempo. Si dudas entre varias, dínoslo en la consulta.</p></li>
-      <li><h3>Envío de la consulta</h3><p>Rellena el formulario con tu provincia, tu experiencia previa y tu situación. Cuanta más información, más útil será la respuesta.</p></li>
+      <li><h3>Envío de la consulta</h3><p>Escríbenos a <a href="mailto:info@avesdelsur.com?subject=Consulta%20de%20compra">info@avesdelsur.com</a> e indica tu provincia, tu experiencia previa y tu situación. Cuanta más información compartas, más útil será la respuesta.</p></li>
       <li><h3>Confirmación manual de disponibilidad</h3><p>Comprobamos la situación real de la especie solicitada y te informamos con honestidad, incluso si la respuesta es que no hay ejemplares.</p></li>
       <li><h3>Valoración de idoneidad</h3><p>Hablamos sobre tu vivienda, tu rutina y tus expectativas. Si consideramos que la especie no encaja, te lo diremos y propondremos alternativas.</p></li>
       <li><h3>Condiciones y precio</h3><p>Se confirman por escrito el precio, lo que incluye, la forma de pago y las condiciones de una eventual reserva antes de que realices ningún abono.</p></li>
@@ -91,118 +91,11 @@
     </ul>
 
     <h2>Pagos</h2>
-    <p>Las condiciones de pago se acuerdan por escrito en cada caso. No solicitamos pagos antes de confirmar la disponibilidad real ni utilizamos plazos artificiales para forzar decisiones. <strong>[PENDIENTE: métodos de pago aceptados y condiciones de reserva]</strong>.</p>
+    <p>Las condiciones de pago y de cualquier reserva se acuerdan por escrito en cada caso. Antes de realizar un pago, confirma con nosotros la disponibilidad real, el precio, las condiciones aplicables y qué ocurre si no pudiera completarse la entrega. No se solicita ningún abono antes de que esos detalles estén claros.</p>
 
-    <h2>Formulario de consulta</h2>
-    <p class="lead">Responderemos con información concreta sobre disponibilidad, idoneidad y siguientes pasos.</p>
-    <form class="form" id="compra" data-enquiry-form novalidate
-  action="/como-comprar/" method="post" data-endpoint="">
-  <p class="muted" style="font-size:var(--fs-sm)">Los campos marcados con * son obligatorios. Enviar una consulta no supone una compra confirmada.</p>
-  <p class="muted" style="font-size:var(--fs-sm)">El envío automático todavía no está configurado. Puedes escribirnos directamente a <a href="mailto:info@avesdelsur.com">info@avesdelsur.com</a>.</p>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="compra-nombre">Nombre y apellidos *</label>
-      <input id="compra-nombre" name="nombre" type="text" autocomplete="name" required minlength="3">
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="compra-email">Email *</label>
-      <input id="compra-email" name="email" type="email" autocomplete="email" required>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="compra-tel">Teléfono / WhatsApp *</label>
-      <input id="compra-tel" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required pattern="[0-9+ ()\-]{9,20}">
-      <p class="hint">Formato español o internacional, con prefijo si procede.</p>
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="compra-provincia">Provincia *</label>
-      <input id="compra-provincia" name="provincia" type="text" autocomplete="address-level1" required>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="compra-cp">Código postal *</label>
-      <input id="compra-cp" name="codigo_postal" type="text" autocomplete="postal-code" inputmode="numeric" required pattern="[0-9]{5}">
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="compra-especie">Especie de interés *</label>
-      <select id="compra-especie" name="especie" required>
-        <option value="">Selecciona una especie</option>
-        <option value="Yaco de cola roja">Yaco de cola roja</option><option value="Guacamayo azul y amarillo">Guacamayo azul y amarillo</option><option value="Guacamayo rojo">Guacamayo rojo</option><option value="Cacatúa Galah">Cacatúa Galah</option><option value="Cacatúa de cresta amarilla">Cacatúa de cresta amarilla</option><option value="Amazona">Amazona</option><option value="Eclectus">Eclectus</option><option value="Caique">Caique</option><option value="Conuro del sol">Conuro del sol</option><option value="Loro Senegal">Loro Senegal</option><option value="Ninfa (carolina)">Ninfa (carolina)</option><option value="Agapornis">Agapornis</option>
-        <option value="No lo tengo claro">Aún no lo tengo claro</option>
-      </select>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="form__row form__row--2">
-    <div class="field">
-      <label for="compra-experiencia">Experiencia previa con aves *</label>
-      <select id="compra-experiencia" name="experiencia" required>
-        <option value="">Selecciona una opción</option>
-        <option value="ninguna">Ninguna</option>
-        <option value="pequenas">He convivido con aves pequeñas</option>
-        <option value="psitacidas-medianas">He convivido con psitácidas medianas</option>
-        <option value="psitacidas-grandes">He convivido con psitácidas grandes</option>
-      </select>
-      <p class="error" aria-live="polite"></p>
-    </div>
-    <div class="field">
-      <label for="compra-contacto">Método preferido de contacto *</label>
-      <select id="compra-contacto" name="contacto_preferido" required>
-        <option value="">Selecciona una opción</option>
-        <option value="email">Email</option>
-        <option value="telefono">Llamada telefónica</option>
-        <option value="whatsapp">WhatsApp</option>
-      </select>
-      <p class="error" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="field">
-    <label for="compra-mensaje">Mensaje *</label>
-    <textarea id="compra-mensaje" name="mensaje" required minlength="20"
-      placeholder="Cuéntanos tu situación: tipo de vivienda, tiempo disponible, otras mascotas y qué dudas tienes."></textarea>
-    <p class="error" aria-live="polite"></p>
-  </div>
-
-  <div class="field checkbox-field">
-    <div class="checkbox">
-      <input id="compra-privacidad" name="privacidad" type="checkbox" required>
-      <label for="compra-privacidad">He leído y acepto la <a href="/politica-de-privacidad/">política de privacidad</a> y el tratamiento de mis datos para responder a esta consulta. *</label>
-    </div>
-    <p class="error" aria-live="polite"></p>
-  </div>
-
-  <div class="checkbox">
-    <input id="compra-newsletter" name="newsletter" type="checkbox">
-    <label for="compra-newsletter">Quiero recibir, de forma opcional, contenidos sobre cuidado de aves. Puedo darme de baja cuando quiera.</label>
-  </div>
-
-  <div class="honeypot" aria-hidden="true">
-    <label for="compra-website">No rellenar</label>
-    <input id="compra-website" name="website" type="text" tabindex="-1" autocomplete="off">
-  </div>
-
-  <div>
-    <button class="btn btn--primary" type="submit">Enviar consulta</button>
-  </div>
-
-  <p class="form__status" data-form-status hidden role="status" aria-live="polite"></p>
-  <p class="muted" style="font-size:var(--fs-xs)">
-    Ningún dato se comparte con terceros con fines publicitarios. Este formulario no envía datos
-    hasta que se configure un servicio de correo; esta página no contiene claves ni credenciales.
-  </p>
-</form>
+    <h2>Consulta por email</h2>
+    <p class="lead">Escríbenos a <a href="mailto:info@avesdelsur.com?subject=Consulta%20sobre%20un%20ave">info@avesdelsur.com</a> con la especie de interés, tu provincia y tu experiencia previa.</p>
+    <a class="btn btn--primary" href="mailto:info@avesdelsur.com?subject=Consulta%20sobre%20un%20ave">Escribir por email</a>
   </div>
 </section>
 </main>
