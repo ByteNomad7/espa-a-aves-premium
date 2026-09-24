@@ -722,7 +722,6 @@ export function home() {
     <div class="section-head">
       <p class="eyebrow">Galería</p>
       <h2 id="home-gallery-title">Aves en imágenes</h2>
-      <p class="lead">Explora una selección de ${HOME_GALLERY.length} fotografías de aves.</p>
     </div>
     <div class="home-gallery__grid">
       ${homeGalleryItems(HOME_GALLERY.slice(0, 8))}
