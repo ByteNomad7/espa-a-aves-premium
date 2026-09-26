@@ -140,7 +140,7 @@ export function page(o) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(documentTitle)}</title>
 <meta name="description" content="${esc(o.description)}">
-<meta name="theme-color" content="#31543a">
+<meta name="theme-color" content="#443044">
 <link rel="canonical" href="${canonical}">
 ${o.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">'}
 ${verify}
