@@ -354,9 +354,45 @@ export const contacto = () => ({
 <section class="section">
   <div class="container layout-aside">
     <div class="prose">
+      <h2>Formulario de consulta</h2>
+      <p>Rellena este formulario y te responderemos por email. Indica la especie que te interesa, tu provincia y cualquier duda sobre su cuidado.</p>
+      <form name="contacto" method="POST" action="/contacto/" data-netlify="true" netlify-honeypot="website" data-enquiry-form data-endpoint="/" novalidate>
+        <input type="hidden" name="form-name" value="contacto">
+        <p style="position:absolute;left:-9999px" aria-hidden="true">
+          <label>No rellenes este campo: <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        </p>
+        <div class="field">
+          <label for="cf-nombre">Nombre</label>
+          <input id="cf-nombre" name="nombre" type="text" required maxlength="100" autocomplete="name">
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input id="cf-email" name="email" type="email" required maxlength="255" autocomplete="email">
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="cf-provincia">Provincia</label>
+          <input id="cf-provincia" name="provincia" type="text" required maxlength="100" autocomplete="address-level1">
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="cf-especie">Especie que te interesa <span class="hint">(opcional)</span></label>
+          <input id="cf-especie" name="especie" type="text" maxlength="100">
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="cf-mensaje">Tu consulta</label>
+          <textarea id="cf-mensaje" name="mensaje" required minlength="20" maxlength="2000"></textarea>
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <p class="muted" style="font-size:var(--fs-xs)">Al enviar aceptas que usemos tus datos únicamente para responder a tu consulta, según la <a href="/politica-de-privacidad/">política de privacidad</a>. Enviar una consulta no supone una compra confirmada.</p>
+        <button class="btn btn--primary" type="submit">Enviar consulta</button>
+        <p data-form-status hidden role="status" style="margin-top:var(--s-3)"></p>
+      </form>
       <h2>Escríbenos directamente</h2>
-      <p>Para consultar sobre una especie, indica cuál te interesa, tu provincia y cualquier duda sobre su cuidado. Escríbenos a <a href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">${esc(BRAND.email)}</a>.</p>
-      <a class="btn btn--primary" href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">Enviar email</a>
+      <p>Si lo prefieres, también puedes escribirnos a <a href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">${esc(BRAND.email)}</a>.</p>
+      <a class="btn btn--ghost" href="mailto:${esc(BRAND.email)}?subject=Consulta%20a%20Aves%20del%20Sur">Enviar email</a>
       <h2>Qué incluir en tu consulta</h2>
       <ul>
         <li>La especie que te interesa, o las especies entre las que dudas.</li>
